@@ -1,0 +1,31 @@
+.about-card {
+    align-items: center;
+    /* margin-top: 10px; */
+    display: flex;
+    align-items: center;
+    /* padding: 30px; */
+    /* border-radius: 8px; */
+    background-color: white;
+    box-shadow: 3px 6px 9px 1px rgba(0, 0, 0, 0.2);
+    padding: 70px;
+    margin: auto;
+
+  }
+  
+  .user-avatar {
+    margin: auto;
+    width: 50%;
+    height: 85%;
+    /* margin-right: 0; */
+    background-color: #f9a825;
+    /* float: unset; */
+    box-shadow: 7px 11px 11px 1px rgba(0, 0, 0, 0.2);
+}
+
+  
+  .about-content {
+    color: #333;
+    margin-bottom: 8px;
+    margin:auto;
+  }
+  

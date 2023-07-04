@@ -1,0 +1,49 @@
+/* LandingPage.css */
+
+/* Image Container */
+.image-container {
+  width: 100%;
+  padding: 3vw;
+}
+
+/* Slider Image */
+.slider-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Content Container */
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  height: 100%;
+  padding: 20px;
+}
+
+/* Heading */
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+/* Description */
+p {
+  font-size: 16px;
+  color: #888;
+}
+
+.slick-prev:before, .slick-next:before{
+  color:#000053;
+}
+
+
+
+
+.slick-slide img {
+  object-fit: cover; /* Stretch the images to fill the slide container */
+  height: 100%; /* Ensure the images occupy the full height of the slide */
+  width: 100%; /* Ensure the images occupy the full width of the slide */
+}

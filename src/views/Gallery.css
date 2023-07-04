@@ -1,0 +1,11 @@
+.zoom-card {
+  transition: transform 0.2s; /* Add transition effect for smooth zoom */
+}
+
+.zoom-card:hover {
+  transform: scale(1.1); /* Apply zoom effect on hover */
+}
+
+.zoom-image {
+  object-fit: cover; /* Ensure the image covers the CardMedia component */
+}
