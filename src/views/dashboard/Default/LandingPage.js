@@ -53,7 +53,7 @@ const LandingPage = () => {
         <Grid container spacing={2} alignItems="center" justify="center">
           <Grid item xs={6} sm={8}>
             <div className="content-container">
-              <Typography variant="h1" style={{ fontSize: '46px', color: '#990000' }}>
+              <Typography variant="h1" style={{ fontSize: '46px', color: '#800000' }}>
                 Welcome to Our Lab
               </Typography>
               <Typography variant="p" style={{ fontSize: '17px' }}>
@@ -68,7 +68,7 @@ const LandingPage = () => {
                 variant="contained"
                 component={Link}
                 to="/research#Reaserch1"
-                style={{ color: '#ffffff', border: '1px solid #990000', background: '#990000' }}
+                style={{ color: '#ffffff', border: '1px solid #000328', background: '#000328' }}
               >
                 Research 1
               </Button>
@@ -78,7 +78,7 @@ const LandingPage = () => {
                 variant="contained"
                 component={Link}
                 to="/research#Reaserch2"
-                style={{ color: '#ffffff', border: '1px solid #990000', background: '#990000' }}
+                style={{ color: '#ffffff', border: '1px solid #000328', background: '#000328' }}
               >
                 Research 2
               </Button>
@@ -88,7 +88,7 @@ const LandingPage = () => {
                 variant="contained"
                 component={Link}
                 to="/research#Reaserch3"
-                style={{ color: '#ffffff', border: '1px solid #990000', background: '#990000' }}
+                style={{ color: '#ffffff', border: '1px solid #000328', background: '#000328' }}
               >
                 Research 3
               </Button>
@@ -98,7 +98,7 @@ const LandingPage = () => {
                 variant="contained"
                 component={Link}
                 to="/research#Reaserch4"
-                style={{ color: '#ffffff', border: '1px solid #990000', background: '#990000' }}
+                style={{ color: '#ffffff', border: '1px solid #000328', background: '#000328' }}
               >
                 Research 4
               </Button>

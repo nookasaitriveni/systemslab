@@ -8,7 +8,7 @@ import DEP from './DoSCB_logo1.png';
 import MOE from './Min_Ed.png';
 const styles = {
   footer: {
-    backgroundColor: '#000053',
+    backgroundColor: '#000328',
     padding: '16px',
     position: 'fixed',
     bottom: 0,
@@ -39,16 +39,16 @@ const FooterPage = () => {
         </Grid>
         <Grid item xs={4}>
           <Typography variant="body1" color="#ffffff" style={{ fontWeight: 'bold' }}>
-            Dr. Pramod R.S. MTech, PhD
+            Dr. Pramod R.S. PhD, FRSPH
           </Typography>
           <Typography variant="body2" color="#ffffff">
-            Asst. Professor & PI, SysTEMs Laboratory
+            Asst. Professor and Principal Investigator
           </Typography>
           <Typography variant="body2" color="#ffffff">
-            Systems Medicine & Therapeutic Engineering
+            Department of Systems and Computational Biology 
           </Typography>
           <Typography variant="body2" color="#ffffff">
-            Department of Systems and Computational Biology - UoH
+            School of Life Sciences, University of Hyderabad - An Institue of Eminence
           </Typography>
         </Grid>
         <Grid item xs={4}>
