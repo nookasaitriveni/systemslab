@@ -6,6 +6,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './LandingPage.css';
 import image2 from './2.jpeg';
+
 import image3 from './3.webp';
 import image4 from './4.webp';
 
@@ -18,7 +19,7 @@ const LandingPage = () => {
     slidesToScroll: 1,
     autoplay: true,
     // centerMode: true,
-    autoplaySpeed: 1000
+    autoplaySpeed: 5000
     // centerPadding: '20px',
     // responsive: [
     //   {
@@ -45,6 +46,9 @@ const LandingPage = () => {
             </div>
             <div>
               <img src={image4} alt="Image 4" className="slider-image" />
+            </div>
+            <div>
+              <img src={image3} alt="Image 1" className="slider-image" />
             </div>
           </Slider>
         </div>

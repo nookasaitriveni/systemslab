@@ -21,7 +21,7 @@ import { Link as RouterLink } from 'react-router-dom';
 import Fab from '@mui/material/Fab';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import Fade from '@mui/material/Fade';
-import SystemLab from './Syslab7.png';
+import SystemLab from './Syslab72.png';
 
 import Container from '@mui/material/Container';
 const drawerWidth = 240;
@@ -220,8 +220,8 @@ function Header(props) {
               <Box component="span" sx={{ flexGrow: 1, display: 'flex', alignItems: 'center' }}>
                 <Link component={RouterLink} to="/" underline="none" sx={{ mx: 1, display: 'flex', alignItems: 'center' }}>
                   <img src={SystemLab} alt="SystemLab" style={{ height: '85px', transform: 'scale(1.3)' }} />
-                  <Typography variant="h1" component="div" sx={{ ml: 3, fontSize: '1.1rem', fontWeight: 'bold', color: 'white' }}>
-                    <span style={{ whiteSpace: 'nowrap', color: 'white', fontSize: '3.5rem' }}>SysTEMs Lab</span>
+                  <Typography variant="h1" component="div" sx={{ ml: 3, fontSize: '1.3rem', fontWeight: 'bold', color: 'white' }}>
+                    <span style={{ whiteSpace: 'nowrap', color: 'white', fontSize: '2.3rem' }}>SysTEMs Lab 123</span>
                     <br />
                     <span style={{ whiteSpace: 'nowrap', color: 'white' }}>Systems Medicine and Therapeutic Engineering</span>
                   </Typography>
@@ -245,70 +245,70 @@ function Header(props) {
               <br /> */}
               <Button>
                 <Link component={RouterLink} to="/" underline="none" sx={{ mx: 1 }}>
-                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold' }}>
+                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold', fontSize: '1.1rem' }}>
                     Home
                   </Typography>
                 </Link>
               </Button>
               <Button>
                 <Link component={RouterLink} to="/about" underline="none" sx={{ mx: 1 }}>
-                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold' }}>
+                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold', fontSize: '1.1rem' }}>
                     About PI
                   </Typography>
                 </Link>
               </Button>
               <Button>
                 <Link component={RouterLink} to="/research" color="inherit" underline="none" sx={{ mx: 1 }}>
-                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold' }}>
+                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold', fontSize: '1.1rem' }}>
                     Research
                   </Typography>
                 </Link>
               </Button>
               <Button>
                 <Link component={RouterLink} to="/team" color="inherit" underline="none" sx={{ mx: 1 }}>
-                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold' }}>
+                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold', fontSize: '1.1rem' }}>
                     Team
                   </Typography>
                 </Link>
               </Button>
               <Button>
                 <Link component={RouterLink} to="/teaching" color="inherit" underline="none" sx={{ mx: 1 }}>
-                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold' }}>
+                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold', fontSize: '1.1rem' }}>
                     Teaching
                   </Typography>
                 </Link>
               </Button>
               <Button>
                 <Link component={RouterLink} to="/publications" color="inherit" underline="none" sx={{ mx: 1 }}>
-                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold' }}>
+                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold', fontSize: '1.1rem' }}>
                     Publications
                   </Typography>
                 </Link>
               </Button>
               <Button>
                 <Link component={RouterLink} to="/collaborations" color="inherit" underline="none" sx={{ mx: 1 }}>
-                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold' }}>
+                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold', fontSize: '1.1rem' }}>
                     Collaborations
                   </Typography>
                 </Link>
               </Button>
               <Button>
                 <Link component={RouterLink} to="/gallery" color="inherit" underline="none" sx={{ mx: 1 }}>
-                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold' }}>
+                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold', fontSize: '1.1rem' }}>
                     Gallery
                   </Typography>
                 </Link>
               </Button>
               <Button>
                 <Link component={RouterLink} to="/opportunity" color="inherit" underline="none" sx={{ mx: 1 }}>
-                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold' }}>
+                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold', fontSize: '1.1rem' }}>
                     Opportunity
                   </Typography>
                 </Link>
               </Button>
               <Button>
                 <Link component={RouterLink} to="/contact" color="inherit" underline="none" sx={{ mx: 1 }}>
-                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold' }}>
+                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold', fontSize: '1.1rem' }}>
                     Contact
                   </Typography>
                 </Link>
