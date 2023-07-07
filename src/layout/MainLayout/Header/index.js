@@ -221,7 +221,7 @@ function Header(props) {
                 <Link component={RouterLink} to="/" underline="none" sx={{ mx: 1, display: 'flex', alignItems: 'center' }}>
                   <img src={SystemLab} alt="SystemLab" style={{ height: '85px', transform: 'scale(1.3)' }} />
                   <Typography variant="h1" component="div" sx={{ ml: 3, fontSize: '1.1rem', fontWeight: 'bold', color: 'white' }}>
-                    <span style={{ whiteSpace: 'nowrap', color: 'white', fontSize: '2.3rem' }}>SysTEMs Lab</span>
+                    <span style={{ whiteSpace: 'nowrap', color: 'white', fontSize: '3rem' }}>SysTEMs Lab</span>
                     <br />
                     <span style={{ whiteSpace: 'nowrap', color: 'white' }}>Systems Medicine and Therapeutic Engineering</span>
                   </Typography>
