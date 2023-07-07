@@ -2,10 +2,10 @@ import React from 'react';
 import { Typography, Link, Grid } from '@mui/material';
 import { Link as RouterLink } from 'react-router-dom';
 import { fontWeight } from '@mui/system';
-import IOE from './IoE_logo2.png';
-import UOH from './UoH_logo2.png';
+import IOE from './IoE_logo3.png';
+import UOH from './UoH_logo3.png';
 import DEP from './DoSCB_logo2.png';
-import MOE from './Min_Ed1.png';
+import MOE from './Min_Ed5.png';
 const styles = {
   footer: {
     backgroundColor: '#000328',
@@ -38,19 +38,20 @@ const FooterPage = () => {
           </Link>
         </Grid>
         <Grid item xs={4}>
+          <br/>
           <Typography variant="body1" color="#ffffff" style={{ fontWeight: 'bold' }}>
-            Dr. Pramod R.S. PhD, FRSPH
+            Dr. Pramod Rajaram S.
+          </Typography>
+          <Typography variant="body2" color="#ffffff">
+            MTech, PhD, FISC, FRSPH
           </Typography>
           <Typography variant="body2" color="#ffffff">
             Asst. Professor and Principal Investigator
           </Typography>
           <Typography variant="body2" color="#ffffff">
-            Department of Systems and Computational Biology 
+            Department of Systems and Computational Biology
           </Typography>
-          <Typography variant="body2" color="#ffffff">
-            School of Life Sciences, University of Hyderabad - An Institue of Eminence
-          </Typography>
-        </Grid>
+                  </Grid>
         <Grid item xs={4} style={{ display: 'flex', justifyContent: 'flex-end' }}>
           <Link component={RouterLink} to="/ioe" underline="none" sx={{ mx: 1 }}>
             <img src={IOE} alt="IOE" style={{ height: '100px' }} />
