@@ -220,13 +220,8 @@ function Header(props) {
               <Box component="span" sx={{ flexGrow: 1, display: 'flex', alignItems: 'center' }}>
                 <Link component={RouterLink} to="/" underline="none" sx={{ mx: 1, display: 'flex', alignItems: 'center' }}>
                   <img src={SystemLab} alt="SystemLab" style={{ height: '85px', transform: 'scale(1.3)' }} />
-<<<<<<< HEAD
                   <Typography variant="h1" component="div" sx={{ ml: 3, fontSize: '1.1rem', fontWeight: 'bold', color: 'white' }}>
                     <span style={{ whiteSpace: 'nowrap', color: 'white', fontSize: '2.5rem' }}>SysTEMs Lab</span>
-=======
-                  <Typography variant="h1" component="div" sx={{ ml: 3, fontSize: '1.3rem', fontWeight: 'bold', color: 'white' }}>
-                    <span style={{ whiteSpace: 'nowrap', color: 'white', fontSize: '2.3rem' }}>SysTEMs Lab 123</span>
->>>>>>> b585c722dcf18e26f916e6827f248e12a5d5976b
                     <br />
                     <span style={{ whiteSpace: 'nowrap', color: 'white', fontSize: '1.5rem' }}>Systems Medicine and Therapeutic Engineering</span>
                   </Typography>
