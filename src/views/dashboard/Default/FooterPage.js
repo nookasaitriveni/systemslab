@@ -4,7 +4,7 @@ import { Link as RouterLink } from 'react-router-dom';
 import { fontWeight } from '@mui/system';
 import IOE from './Min_Ed4.png';
 import UOH from './UoH_logo3.png';
-import DEP from './DoSCB_logo2.png';
+import DEP from './DoSCB_logo21.png';
 import MOE from './IoE_logo3.png';
 const styles = {
   footer: {
