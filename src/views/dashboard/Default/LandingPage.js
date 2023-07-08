@@ -37,7 +37,7 @@ const LandingPage = () => {
 
   return (
     <Grid container spacing={2}>
-      <Grid item xs={12} sm={6}>
+      <Grid item xs={10} sm={5}>
         <div className="image-container">
           <Slider {...settings} className="custom-slider">
             <div>
@@ -55,15 +55,20 @@ const LandingPage = () => {
           </Slider>
         </div>
       </Grid>
-      <Grid item xs={12} sm={6} style={{ margin: 'auto' }}>
+      <Grid item xs={14} sm={6} style={{ margin: 'auto' }}>
         <Grid container spacing={2} alignItems="center" justify="center">
-          <Grid item xs={6} sm={8}>
+          <Grid item xs={14} sm={8}>
             <div className="content-container">
               <Typography variant="h1" style={{ fontSize: '46px', color: '#800000' }}>
                 Welcome to Our Lab
               </Typography>
               <Typography variant="p" style={{ fontSize: '17px' }}>
                 We are a team of passionate scientists dedicated to advancing knowledge and pushing the boundaries of scientific discovery.
+                Our mission is to make groundbreaking contributions in various fields and improve the world we live in.We are a team of passionate scientists dedicated to advancing knowledge and pushing the boundaries of scientific discovery.
+                Our mission is to make groundbreaking contributions in various fields and improve the world we live in.We are a team of passionate scientists dedicated to advancing knowledge and pushing the boundaries of scientific discovery.
+                Our mission is to make groundbreaking contributions in various fields and improve the world we live in.We are a team of passionate scientists dedicated to advancing knowledge and pushing the boundaries of scientific discovery.
+                Our mission is to make groundbreaking contributions in various fields and improve the world we live in.We are a team of passionate scientists dedicated to advancing knowledge and pushing the boundaries of scientific discovery.
+                Our mission is to make groundbreaking contributions in various fields and improve the world we live in.We are a team of passionate scientists dedicated to advancing knowledge and pushing the boundaries of scientific discovery.
                 Our mission is to make groundbreaking contributions in various fields and improve the world we live in.
               </Typography>
             </div>
@@ -76,7 +81,7 @@ const LandingPage = () => {
                 to="/research#Reaserch1"
                 style={{ color: '#ffffff', border: '1px solid #000328', background: '#000328' }}
               >
-                HuMEnS Project
+                HuMEnS .. Project
               </Button>
             </Box>
             <Box mb={1}>
@@ -86,7 +91,7 @@ const LandingPage = () => {
                 to="/research#Reaserch2"
                 style={{ color: '#ffffff', border: '1px solid #000328', background: '#000328' }}
               >
-                Chrono Project
+                ChronoMed Study
               </Button>
             </Box>
             <Box mb={1}>
@@ -96,7 +101,7 @@ const LandingPage = () => {
                 to="/research#Reaserch3"
                 style={{ color: '#ffffff', border: '1px solid #000328', background: '#000328' }}
               >
-                StreCH Study
+                The StreCH Study  
               </Button>
             </Box>
             <Box mb={1}>
