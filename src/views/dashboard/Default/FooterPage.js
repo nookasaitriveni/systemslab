@@ -2,10 +2,10 @@ import React from 'react';
 import { Typography, Link, Grid } from '@mui/material';
 import { Link as RouterLink } from 'react-router-dom';
 import { fontWeight } from '@mui/system';
-import IOE from './IoE_logo3.png';
+import IOE from './Min_Ed4.png';
 import UOH from './UoH_logo3.png';
 import DEP from './DoSCB_logo2.png';
-import MOE from './Min_Ed5.png';
+import MOE from './IoE_logo3.png';
 const styles = {
   footer: {
     backgroundColor: '#000328',

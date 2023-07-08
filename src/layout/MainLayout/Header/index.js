@@ -21,7 +21,7 @@ import { Link as RouterLink } from 'react-router-dom';
 import Fab from '@mui/material/Fab';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import Fade from '@mui/material/Fade';
-import SystemLab from './Syslab72.png';
+import SystemLab from './Syslab721.png';
 
 import Container from '@mui/material/Container';
 const drawerWidth = 240;
@@ -220,11 +220,11 @@ function Header(props) {
               <Box component="span" sx={{ flexGrow: 1, display: 'flex', alignItems: 'center' }}>
                 <Link component={RouterLink} to="/" underline="none" sx={{ mx: 1, display: 'flex', alignItems: 'center' }}>
                   <img src={SystemLab} alt="SystemLab" style={{ height: '85px', transform: 'scale(1.3)' }} />
-                  <Typography variant="h1" component="div" sx={{ ml: 3, fontSize: '1.1rem', fontWeight: 'bold', color: 'white' }}>
-                    <span style={{ whiteSpace: 'nowrap', color: 'white', fontSize: '2.5rem' }}>SysTEMs Lab</span>
-                    <br />
-                    <span style={{ whiteSpace: 'nowrap', color: 'white', fontSize: '1.5rem' }}>Systems Medicine and Therapeutic Engineering</span>
-                  </Typography>
+                  {/* <Typography variant="h1" component="div" sx={{ ml: 3, fontSize: '1.1rem', fontWeight: 'bold', color: 'white' }}> */}
+                    {/* <span style={{ whiteSpace: 'nowrap', color: 'white', fontSize: '2.5rem' }}>SysTEMs Lab</span> */}
+                    {/* <br /> */}
+                    {/* <span style={{ whiteSpace: 'nowrap', color: 'white', fontSize: '1.5rem' }}>Systems Medicine and Therapeutic Engineering</span> */}
+                  {/* </Typography> */}
                 </Link>
               </Box>
             </Box>
