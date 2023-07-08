@@ -5,10 +5,12 @@ import { Grid, Typography, Button, Box } from '@mui/material';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './LandingPage.css';
-import image2 from './2.jpeg';
+import image2 from './LP1.png';
 
-import image3 from './3.webp';
-import image4 from './4.webp';
+import image3 from './LP2.png';
+import image4 from './LP3.png';
+import image1 from './LP4.png';
+
 
 const LandingPage = () => {
   const settings = {
@@ -48,7 +50,7 @@ const LandingPage = () => {
               <img src={image4} alt="Image 4" className="slider-image" />
             </div>
             <div>
-              <img src={image3} alt="Image 1" className="slider-image" />
+              <img src={image1} alt="Image 1" className="slider-image" />
             </div>
           </Slider>
         </div>
@@ -74,7 +76,7 @@ const LandingPage = () => {
                 to="/research#Reaserch1"
                 style={{ color: '#ffffff', border: '1px solid #000328', background: '#000328' }}
               >
-                Research 1
+                HuMEnS Project
               </Button>
             </Box>
             <Box mb={1}>
@@ -84,7 +86,7 @@ const LandingPage = () => {
                 to="/research#Reaserch2"
                 style={{ color: '#ffffff', border: '1px solid #000328', background: '#000328' }}
               >
-                Research 2
+                Chrono Project
               </Button>
             </Box>
             <Box mb={1}>
@@ -94,7 +96,7 @@ const LandingPage = () => {
                 to="/research#Reaserch3"
                 style={{ color: '#ffffff', border: '1px solid #000328', background: '#000328' }}
               >
-                Research 3
+                StreCH Study
               </Button>
             </Box>
             <Box mb={1}>
@@ -104,7 +106,7 @@ const LandingPage = () => {
                 to="/research#Reaserch4"
                 style={{ color: '#ffffff', border: '1px solid #000328', background: '#000328' }}
               >
-                Research 4
+                LifeSys Research
               </Button>
             </Box>
           </Grid>
