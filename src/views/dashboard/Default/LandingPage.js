@@ -9,7 +9,7 @@ import image2 from './LP1.png';
 
 import image3 from './LP2.png';
 import image4 from './LP3.png';
-import image1 from './LP4.png';
+import image1 from './AI4.png';
 
 
 const LandingPage = () => {
