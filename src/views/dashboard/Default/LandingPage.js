@@ -62,14 +62,13 @@ const LandingPage = () => {
               <Typography variant="h1" style={{ fontSize: '46px', color: '#800000' }}>
                 Welcome to Our Lab
               </Typography>
-              <Typography variant="p" style={{ fontSize: '17px' }}>
+              <br/>
+                           <Typography variant="p" style={{ fontSize: '17px' }}>
                 We are a team of passionate scientists dedicated to advancing knowledge and pushing the boundaries of scientific discovery.
                 Our mission is to make groundbreaking contributions in various fields and improve the world we live in.We are a team of passionate scientists dedicated to advancing knowledge and pushing the boundaries of scientific discovery.
                 Our mission is to make groundbreaking contributions in various fields and improve the world we live in.We are a team of passionate scientists dedicated to advancing knowledge and pushing the boundaries of scientific discovery.
                 Our mission is to make groundbreaking contributions in various fields and improve the world we live in.We are a team of passionate scientists dedicated to advancing knowledge and pushing the boundaries of scientific discovery.
-                Our mission is to make groundbreaking contributions in various fields and improve the world we live in.We are a team of passionate scientists dedicated to advancing knowledge and pushing the boundaries of scientific discovery.
-                Our mission is to make groundbreaking contributions in various fields and improve the world we live in.We are a team of passionate scientists dedicated to advancing knowledge and pushing the boundaries of scientific discovery.
-                Our mission is to make groundbreaking contributions in various fields and improve the world we live in.
+                
               </Typography>
             </div>
           </Grid>
@@ -111,7 +110,7 @@ const LandingPage = () => {
                 to="/research#Reaserch4"
                 style={{ color: '#ffffff', border: '1px solid #000328', background: '#000328' }}
               >
-                LifeSys Research
+                PhytoCan Project
               </Button>
             </Box>
           </Grid>
