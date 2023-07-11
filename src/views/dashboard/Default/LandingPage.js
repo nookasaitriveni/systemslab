@@ -110,7 +110,7 @@ const LandingPage = () => {
                 to="/research#Reaserch4"
                 style={{ color: '#ffffff', border: '1px solid #000328', background: '#000328' }}
               >
-                CancerPhyt Project
+                PhytCancer Project
               </Button>
             </Box>
           </Grid>
