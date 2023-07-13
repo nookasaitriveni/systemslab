@@ -80,7 +80,7 @@ const LandingPage = () => {
                 to="/research#Reaserch1"
                 style={{ color: '#ffffff', border: '1px solid #000328', background: '#000328' }}
               >
-                HuMEn-Sim Project
+                HuMEn-Sim 
               </Button>
             </Box>
             <Box mb={1}>
@@ -90,7 +90,7 @@ const LandingPage = () => {
                 to="/research#Reaserch2"
                 style={{ color: '#ffffff', border: '1px solid #000328', background: '#000328' }}
               >
-                ChronoMed Project
+                ChronoMed 
               </Button>
             </Box>
             <Box mb={1}>
@@ -100,7 +100,7 @@ const LandingPage = () => {
                 to="/research#Reaserch3"
                 style={{ color: '#ffffff', border: '1px solid #000328', background: '#000328' }}
               >
-                The StreCH Project  
+                The StreCH   
               </Button>
             </Box>
             <Box mb={1}>
@@ -110,7 +110,17 @@ const LandingPage = () => {
                 to="/research#Reaserch4"
                 style={{ color: '#ffffff', border: '1px solid #000328', background: '#000328' }}
               >
-                PhytCancer Project
+                T3Diabetes 
+              </Button>
+            </Box>
+            <Box mb={1}>
+              <Button
+                variant="contained"
+                component={Link}
+                to="/research#Reaserch4"
+                style={{ color: '#ffffff', border: '1px solid #000328', background: '#000328' }}
+              >
+               PhytCancer 
               </Button>
             </Box>
           </Grid>
