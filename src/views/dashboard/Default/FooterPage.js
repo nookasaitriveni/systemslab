@@ -38,7 +38,7 @@ const FooterPage = () => {
           </Link>
         </Grid>
         <Grid item xs={4}>
-          <br/>
+          {/* <br/> */}
           <Typography variant="body1" color="#ffffff" style={{ fontWeight: 'bold' }}>
             Dr. Pramod Rajaram S.
           </Typography>
@@ -50,6 +50,9 @@ const FooterPage = () => {
           </Typography>
           <Typography variant="body2" color="#ffffff">
             Department of Systems and Computational Biology
+          </Typography>
+          <Typography variant="body2" color="#ffffff">
+           Adjunt Faculty, Centre for Modelling Simulation and Design
           </Typography>
                   </Grid>
         <Grid item xs={4} style={{ display: 'flex', justifyContent: 'flex-end' }}>
