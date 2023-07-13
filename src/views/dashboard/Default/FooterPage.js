@@ -52,7 +52,7 @@ const FooterPage = () => {
             Department of Systems and Computational Biology
           </Typography>
           <Typography variant="body2" color="#ffffff">
-           Adjunt Faculty, Centre for Modelling Simulation and Design
+           Associate Faculty, Centre for Modelling Simulation and Design
           </Typography>
                   </Grid>
         <Grid item xs={4} style={{ display: 'flex', justifyContent: 'flex-end' }}>
