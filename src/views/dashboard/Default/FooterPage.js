@@ -38,7 +38,6 @@ const FooterPage = () => {
           </Link>
         </Grid>
         <Grid item xs={4}>
-           <br/> 
           <Typography variant="body1" color="#ffffff" style={{ fontWeight: 'bold' }}>
             Dr. Pramod Rajaram S.
           </Typography>
