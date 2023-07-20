@@ -23,7 +23,7 @@ const Teaching = () => {
 
   return (
     <div>
-      <h1 style={{ color: '#990000', display: 'flex', justifyContent: 'center' }}>Core and Elective Courses</h1>
+      <h1 style={{ color: '#990000', display: 'flex', justifyContent: 'center' }}>Courses</h1>
       <div
         style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', justifyContent: 'center', marginTop: '20px' }}
         container

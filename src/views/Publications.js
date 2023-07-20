@@ -104,7 +104,7 @@ const Publications = () => {
 
   return (
     <div>
-      <h1 style={{ color: '#990000', display: 'flex', justifyContent: 'center' }}>Research Paper Publications</h1>
+      <h1 style={{ color: '#990000', display: 'flex', justifyContent: 'center' }}>Publications</h1>
       <div
         style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', justifyContent: 'center', marginTop: '20px' }}
         container

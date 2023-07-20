@@ -6,6 +6,12 @@ import DashboardDefault from 'views/dashboard/Default';
 import AboutGroupPI from 'views/AboutGroupPI';
 import Team from 'views/Team';
 import Research from 'views/Research';
+import HumenSim from 'views/HumenSim';
+import ChronoMed from 'views/ChronoMed';
+import TheStreCH from 'views/TheStreCH';
+import T3Diabetes from 'views/T3Diabetes';
+import PhytCancer from 'views/PhytCancer';
+import HealthSuRF from 'views/HealthSuRF';
 import Teaching from 'views/Teaching';
 import Publications from 'views/Publications';
 import Gallery from 'views/Gallery';
@@ -21,6 +27,12 @@ const ThemeRoutes = () => {
         <Route path="/" element={<DashboardDefault />} />
         <Route path="/about" element={<AboutGroupPI />} />
         <Route path="/research" element={<Research />} />
+        <Route path="/humensim" element={<HumenSim />} />
+        <Route path="/chronomed" element={<ChronoMed />} />
+        <Route path="/thestrech" element={<TheStreCH />} />
+        <Route path="/t3diabetes" element={<T3Diabetes />} />
+        <Route path="/phytcancer" element={<PhytCancer />} />
+        <Route path="/healthsurf" element={<HealthSuRF />} />
         <Route path="/team" element={<Team />} />
         <Route path="/teaching" element={<Teaching />} />
         <Route path="/publications" element={<Publications />} />
