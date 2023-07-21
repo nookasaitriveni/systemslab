@@ -153,7 +153,7 @@ const LandingPage = () => {
                   to="/healthsurf"
                   style={{ color: '#ffffff', border: '1px solid #000328', background: '#000328' }}
                 >
-                  HealthSuRF
+                  Lifesystems
                 </Button>
               </Box>
             </div>
