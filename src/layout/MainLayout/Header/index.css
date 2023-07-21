@@ -1,0 +1,253 @@
+
+  
+  @media (min-width: 1000px) {
+    .open_drawer {
+      display: none !important;
+    }
+  }
+
+
+@media (max-width: 1001px) {
+    /* Apply styles for screens smaller than or equal to medium-sized screens */
+    .logo_section {
+      width: auto !important;
+    }
+  }
+
+@media (max-width: 1000px) {
+    /* Apply styles for screens smaller than extra small (xs) */
+    .links_section {
+      display: none !important;
+    }
+  }
+  
+  @media (min-width: 1001px) and (max-width: 991px) {
+    /* Apply styles for screens between medium (md) and extra small (xs) */
+    .links_section {
+      display: block !important;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    /* Apply styles for screens smaller than extra small (xs) */
+    .drawer_content {
+      display: block !important;
+      /* background-color:#800000; */
+    }
+
+  }
+  
+  @media (min-width: 1000px) {
+    /* Apply styles for screens larger than or equal to medium (md) */
+    .drawer_content {
+      display: none;
+    }
+
+  }
+
+  @media (max-width: 500px) {
+  .logo_icon {
+    height: 9vw;
+  }
+}
+@media (min-width: 501px) and (max-width: 1000px){
+  .logo_icon {
+    height: 6vw;
+  }
+}
+
+@media (min-width: 1001px) {
+  .logo_icon {
+    height: 5vw;
+  }
+}
+
+ @media (max-width: 1000px) {
+    /* Apply styles for screens smaller than extra small (xs) */
+    #google_translate_element {
+      margin-left: 15px !important;
+    }
+  }
+  @media (min-width: 1000px) {
+    /* Apply styles for screens smaller than extra small (xs) */
+    #google_translate_element {
+      margin-top: -12px !important;
+    }
+  }
+
+
+
+#google_translate_element span > * {
+    display: none;
+  }
+
+#google_translate_element {
+    height: 35px;
+}
+.goog-te-gadget .goog-te-combo {
+    /* margin: -11px 0 !important; */
+}
+
+.links_section {
+      margin-top: -15px !important;
+    }
+
+
+.language_google span > * {
+    display: none;
+  }
+
+.language_google {
+    height: 35px;
+}
+
+.route-link{
+  color: #990000;
+    text-decoration: none;
+}
+
+/* Style for the custom select wrapper */
+.custom-select-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+/* Hide the original select dropdown */
+.custom-select-wrapper select {
+  display: none;
+}
+
+/* Style for the custom select */
+.custom-select {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+/* Style for the select icon (you can customize this as needed) */
+.select-icon {
+  margin-right: 8px;
+}
+
+/* Style for the dropdown options (optional) */
+.custom-select select option {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Style for the open dropdown */
+.custom-select.open {
+  /* Add styles to change appearance when dropdown is open */
+  border-color: #007bff; /* For example, change border color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+/* Style for the open dropdown options (optional) */
+.custom-select.open select option {
+  background-color: #f1f1f1; /* For example, change background color of options */
+}
+
+
+
+
+
+
+
+.goog-te-gadget  select {
+  /* background-color: #0563af; */
+  /* color: white; */
+  padding: 12px;
+  width: 250px;
+  border: none;
+  font-size: 20px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+
+
+      background: transparent;
+    color: transparent;
+    box-shadow: none;
+    width: 115px;
+}
+.goog-te-gadget  select option{
+
+background: white;
+    color: black;
+}
+.goog-te-combo{
+  width: 50px !important;
+}
+/* 
+.goog-te-combo option:hover{
+  background-color: #990000 !important;
+} */
+.goog-te-gadget :hover{
+  cursor: pointer !important;
+}
+
+ @media (max-width: 1000px) {
+    /* Apply styles for screens smaller than extra small (xs) */
+    .goog-te-gadget::before { 
+      top: 0px;
+          left: unset;
+    }
+  }
+  @media (min-width: 1000px) {
+    /* Apply styles for screens smaller than extra small (xs) */
+    .goog-te-gadget::before {
+          
+          top: -6px;
+  left: 7px;
+    }
+  }
+.goog-te-combo option:hover{
+  background-color: red !important;
+  color: white !important;
+}
+.goog-te-gadget::before {
+  content: "\f1ab";
+  font-family: FontAwesome;
+  position: absolute;
+  right: 0;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  font-size: 28px;
+  line-height: 45px;
+  color: white;
+  /* color: rgba(255, 255, 255, 0.5); */
+  /* background-color: rgba(255, 255, 255, 0.1); */
+  pointer-events: none;
+}
+
+.goog-te-gadget select option:hover {
+  color: rgba(255, 255, 255, 0.6); 
+  background-color: gba(255, 255, 255, 0.2);
+}
+
+.goog-te-gadget select option {
+  padding: 30px;
+}
+
+
+.goog-te-gadget {
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    /* left: 50%; */
+    transform: translate(-50%, -50%);
+}
+
+
+
+/* .goog-te-gadget {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */

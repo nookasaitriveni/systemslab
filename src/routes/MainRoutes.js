@@ -39,6 +39,30 @@ const MainRoutes = [
         element: <Research />
       },
       {
+        path: '/humensim',
+        element: <Research />
+      },
+      {
+        path: '/chronomed',
+        element: <Research />
+      },
+      {
+        path: '/thestrech',
+        element: <Research />
+      },
+      {
+        path: '/t3diabetes',
+        element: <Research />
+      },
+      {
+        path: '/phytcancer',
+        element: <Research />
+      },
+      {
+        path: '/healthsurf',
+        element: <Research />
+      },
+      {
         path: '/team',
         element: <Team />
       },

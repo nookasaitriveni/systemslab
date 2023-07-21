@@ -1,27 +1,38 @@
+import React, { useState, useEffect } from 'react';
 import { Outlet } from 'react-router-dom';
-
-// material-ui
 import { styled, useTheme } from '@mui/material/styles';
 import { AppBar, Box, CssBaseline, Toolbar, useMediaQuery } from '@mui/material';
-
 import Header from './Header';
 import FooterPage from '../../views/dashboard/Default/FooterPage';
 
-// styles
 const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })(({ theme, open }) => ({
   ...theme.typography.mainContent,
   borderBottomLeftRadius: 0,
   borderBottomRightRadius: 0
 }));
 
-// ==============================|| MAIN LAYOUT ||============================== //
-
 const MainLayout = () => {
+  const [headerHeight, setHeaderHeight] = useState(0);
+  const [footerHeight, setFooterHeight] = useState(0);
+  const mainPadding = `40px 20px ${footerHeight + 125}px 10px`;
+
+  useEffect(() => {
+    const headerElement = document.querySelector('header'); // Replace 'header' with the actual selector for your header component
+    const footerElement = document.querySelector('footer'); // Replace 'footer' with the actual selector for your footer component
+
+    if (headerElement) {
+      setHeaderHeight(headerElement.offsetHeight);
+    }
+    if (footerElement) {
+      setFooterHeight(footerElement.offsetHeight);
+    }
+  }, []);
+
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
       <Header />
-      <Main style={{ padding: '40px 10px 125px 10px' }}>
+      <Main style={{ padding: mainPadding }} id="main-section">
         <Outlet />
       </Main>
       <FooterPage />
