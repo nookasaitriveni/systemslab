@@ -9,7 +9,7 @@ import MOE from './IoE_logo3.png';
 
 import './FooterPage.css';
 const styles = {
-  Footer: {
+  footer: {
     backgroundColor: '#000328',
     // padding: '8px 5px 17px 8px',
     // position: 'fixed',
@@ -27,9 +27,9 @@ const styles = {
   }
 };
 
-const Page = () => {
+const FooterPage = () => {
   return (
-    <style={styles.}>
+    <footer style = {styles.footer}>
       <Grid container spacing={2}>
         <Grid item xs={0} md={4} lg={4} className="left- hide-mobile">
           <Link component={RouterLink} to="/uoh" underline="none" sx={{ mx: 1 }}>
@@ -98,7 +98,7 @@ const Page = () => {
           </Link>
         </Grid>
       </Grid>
-    </>
+    </footer>
   );
 };
 
