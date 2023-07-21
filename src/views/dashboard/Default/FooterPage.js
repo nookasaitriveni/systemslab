@@ -9,7 +9,7 @@ import MOE from './IoE_logo3.png';
 
 import './FooterPage.css';
 const styles = {
-  footer: {
+  Footer: {
     backgroundColor: '#000328',
     // padding: '8px 5px 17px 8px',
     // position: 'fixed',
@@ -27,11 +27,11 @@ const styles = {
   }
 };
 
-const FooterPage = () => {
+const Page = () => {
   return (
-    <footer style={styles.footer}>
+    <style={styles.}>
       <Grid container spacing={2}>
-        <Grid item xs={0} md={4} lg={4} className="left-footer hide-mobile">
+        <Grid item xs={0} md={4} lg={4} className="left- hide-mobile">
           <Link component={RouterLink} to="/uoh" underline="none" sx={{ mx: 1 }}>
             <img src={UOH} alt="UOH" style={{ height: '6.7vw' }} />
           </Link>
@@ -89,7 +89,7 @@ const FooterPage = () => {
             <img src={MOE} alt="MOE" style={{ height: '6.7vw' }} />
           </Link>
         </Grid>
-        <Grid item xs={0} md={4} lg={4} className="right-footer hide-mobile">
+        <Grid item xs={0} md={4} lg={4} className="right- hide-mobile">
           <Link component={RouterLink} to="/ioe" underline="none" sx={{ mx: 1 }}>
             <img src={IOE} alt="IOE" style={{ height: '6.7vw' }} />
           </Link>
@@ -98,8 +98,8 @@ const FooterPage = () => {
           </Link>
         </Grid>
       </Grid>
-    </footer>
+    </>
   );
 };
 
-export default FooterPage;
+export default Page;
