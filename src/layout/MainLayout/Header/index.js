@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -12,6 +12,7 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import MenuIcon from '@mui/icons-material/Menu';
+import MenuOpenIcon from '@mui/icons-material/Close';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
@@ -22,10 +23,12 @@ import Fab from '@mui/material/Fab';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import Fade from '@mui/material/Fade';
 import SystemLab from './Syslab721.png';
-
+import './index.css';
 import Container from '@mui/material/Container';
-const drawerWidth = 240;
+const drawerWidth = 300;
 const navItems = ['Home', 'About', 'Contact'];
+import ReactDOM from 'react-dom';
+
 function ScrollTop(props) {
   const { children, window } = props;
   // Note that you normally won't need to set the window ref as useScrollTrigger
@@ -38,11 +41,11 @@ function ScrollTop(props) {
   });
 
   const handleClick = (event) => {
-    const anchor = (event.target.ownerDocument || document).querySelector('#back-to-top-anchor');
+    const anchor = (event.target.ownerDocument || document).querySelector('#main-section');
 
     if (anchor) {
       anchor.scrollIntoView({
-        block: 'center'
+        block: 'top'
       });
     }
   };
@@ -98,11 +101,16 @@ function Header(props) {
   };
 
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      <Typography variant="h1" sx={{ my: 2 }}>
-        SystemsLab
-      </Typography>
+    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'right', mr: '30px' }}>
+      {/* <Link component={RouterLink} to="/" underline="none" sx={{ mx: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <img src={SystemLab} alt="SystemLab" style={{ transform: 'scale(1.3)', marginTop: '10px' }} className="logo_icon" />
+       
+      </Link>
+      <br />
       <Divider />
+      
+      <Divider /> */}
+
       <List>
         {/* {navItems.map((item) => (
           <Box sx={{ flexGrow: 1 }} key={item}>
@@ -186,6 +194,7 @@ function Header(props) {
   const theme = useTheme();
   return (
     <Box sx={{ display: 'flex' }}>
+      {/* <Toolbar id="back-to-top-anchor" style={{ padding: '0' }} /> */}
       <CssBaseline />
       <ElevationScroll {...props}>
         <AppBar
@@ -195,41 +204,31 @@ function Header(props) {
           color="inherit"
           elevation={0}
           sx={{
-            bgcolor: '#800000' //theme.palette.background.default
+            bgcolor: '#800000', //theme.palette.background.default
+            zIndex: 9999
           }}
         >
           <Toolbar>
-            <IconButton
-              color="inherit"
-              aria-label="open drawer"
-              edge="start"
-              onClick={handleDrawerToggle}
-              sx={{ mr: 2, display: { sm: 'none' } }}
-            >
-              <MenuIcon />
-            </IconButton>
             <Box
+              className="logo_section"
               sx={{
-                width: 228,
-                display: 'flex',
-                [theme.breakpoints.down('md')]: {
-                  width: 'auto'
-                }
+                width: 400,
+                display: 'flex'
               }}
             >
               <Box component="span" sx={{ flexGrow: 1, display: 'flex', alignItems: 'center' }}>
                 <Link component={RouterLink} to="/" underline="none" sx={{ mx: 1, display: 'flex', alignItems: 'center' }}>
-                  <img src={SystemLab} alt="SystemLab" style={{ height: '85px', transform: 'scale(1.3)' }} />
-                  {/* <Typography variant="h1" component="div" sx={{ ml: 3, fontSize: '1.1rem', fontWeight: 'bold', color: 'white' }}> */}
-                    {/* <span style={{ whiteSpace: 'nowrap', color: 'white', fontSize: '2.5rem' }}>SysTEMs Lab</span> */}
-                    {/* <br /> */}
-                    {/* <span style={{ whiteSpace: 'nowrap', color: 'white', fontSize: '1.5rem' }}>Systems Medicine and Therapeutic Engineering</span> */}
+                  <img src={SystemLab} alt="SystemLab" style={{ transform: 'scale(1.3)' }} className="logo_icon" />
+                  {/* <Typography variant="h1" component="div" sx={{ ml: 3, fontSize: '15px', fontWeight: 'bold', color: 'white' }}> */}
+                  {/* <span style={{ whiteSpace: 'nowrap', color: 'white', fontSize: '2.5rem' }}>SysTEMs Lab</span> */}
+                  {/* <br /> */}
+                  {/* <span style={{ whiteSpace: 'nowrap', color: 'white', fontSize: '1.5rem' }}>Systems Medicine and Therapeutic Engineering</span> */}
                   {/* </Typography> */}
                 </Link>
               </Box>
             </Box>
 
-            <Box sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block', textAlign: 'right' } }}>
+            <Box className="links_section" sx={{ flexGrow: 1, display: { textAlign: 'right' } }}>
               {/* <Link component={RouterLink} to="/ioe" underline="none" sx={{ mx: 1 }}>
                 <img src={DEP} alt="DEP" style={{ height: '50px' }} />
               </Link>
@@ -243,103 +242,125 @@ function Header(props) {
                 <img src={MOE} alt="MOE" style={{ height: '50px' }} />
               </Link>
               <br /> */}
+
+              {/* {copiedData ? <div className="language_google" dangerouslySetInnerHTML={{ __html: copiedData }} /> : <p>Loading languages</p>} */}
               <Button>
                 <Link component={RouterLink} to="/" underline="none" sx={{ mx: 1 }}>
-                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold', fontSize: '1.1rem' }}>
+                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold', fontSize: '15px' }}>
                     Home
                   </Typography>
                 </Link>
               </Button>
               <Button>
                 <Link component={RouterLink} to="/about" underline="none" sx={{ mx: 1 }}>
-                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold', fontSize: '1.1rem' }}>
+                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold', fontSize: '15px' }}>
                     About PI
                   </Typography>
                 </Link>
               </Button>
               <Button>
                 <Link component={RouterLink} to="/research" color="inherit" underline="none" sx={{ mx: 1 }}>
-                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold', fontSize: '1.1rem' }}>
+                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold', fontSize: '15px' }}>
                     Research
                   </Typography>
                 </Link>
               </Button>
               <Button>
                 <Link component={RouterLink} to="/team" color="inherit" underline="none" sx={{ mx: 1 }}>
-                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold', fontSize: '1.1rem' }}>
+                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold', fontSize: '15px' }}>
                     Team
                   </Typography>
                 </Link>
               </Button>
               <Button>
                 <Link component={RouterLink} to="/teaching" color="inherit" underline="none" sx={{ mx: 1 }}>
-                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold', fontSize: '1.1rem' }}>
+                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold', fontSize: '15px' }}>
                     Teaching
                   </Typography>
                 </Link>
               </Button>
               <Button>
                 <Link component={RouterLink} to="/publications" color="inherit" underline="none" sx={{ mx: 1 }}>
-                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold', fontSize: '1.1rem' }}>
+                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold', fontSize: '15px' }}>
                     Publications
                   </Typography>
                 </Link>
               </Button>
               <Button>
                 <Link component={RouterLink} to="/collaborations" color="inherit" underline="none" sx={{ mx: 1 }}>
-                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold', fontSize: '1.1rem' }}>
+                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold', fontSize: '15px' }}>
                     Collaborations
                   </Typography>
                 </Link>
               </Button>
               <Button>
                 <Link component={RouterLink} to="/gallery" color="inherit" underline="none" sx={{ mx: 1 }}>
-                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold', fontSize: '1.1rem' }}>
+                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold', fontSize: '15px' }}>
                     Gallery
                   </Typography>
                 </Link>
               </Button>
               <Button>
                 <Link component={RouterLink} to="/opportunity" color="inherit" underline="none" sx={{ mx: 1 }}>
-                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold', fontSize: '1.1rem' }}>
+                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold', fontSize: '15px' }}>
                     Opportunity
                   </Typography>
                 </Link>
               </Button>
               <Button>
                 <Link component={RouterLink} to="/contact" color="inherit" underline="none" sx={{ mx: 1 }}>
-                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold', fontSize: '1.1rem' }}>
+                  <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold', fontSize: '15px' }}>
                     Contact
                   </Typography>
                 </Link>
               </Button>
             </Box>
+            <Box>
+              <div id="google_translate_element" gt-trigger="selectLanguage"></div>
+            </Box>
+            <IconButton
+              color="inherit"
+              aria-label="open drawer"
+              edge="end"
+              onClick={handleDrawerToggle}
+              className="open_drawer"
+              sx={{ flexShrink: 0, zIndex: 999, color: 'white', margin: 'auto', marginRight: '0' }}
+            >
+              {/* <MenuIcon /> */}
+              {mobileOpen ? <MenuOpenIcon /> : <MenuIcon />}
+            </IconButton>
           </Toolbar>
         </AppBar>
       </ElevationScroll>
-      <Toolbar id="back-to-top-anchor" style={{ padding: '0' }} />
 
-      <ScrollTop {...props}>
-        <Fab size="small" aria-label="scroll back to top" style={{ background: '#ffffff' }}>
-          <KeyboardArrowUpIcon style={{ color: 'white ', fontSize: 30 }} />
-        </Fab>
-      </ScrollTop>
-      <Box component="nav">
+      <Box component="nav" sx={{ mt: 10 }}>
         <Drawer
-          container={container}
+          // container={container}
           variant="temporary"
           open={mobileOpen}
+          anchor="top"
           onClose={handleDrawerToggle}
-          ModalProps={{
-            keepMounted: true // Better open performance on mobile.
-          }}
+          // ModalProps={{
+          //   keepMounted: true // Better open performance on mobile.
+          // }}
+          // ModalProps={{
+          //   container: document.getElementById('root'), // Specify the root element ID
+          //   style: { position: 'absolute' } // Adjust position to bottom
+          // }}
+          className="drawer_content"
           sx={{
-            display: { xs: 'block', sm: 'none' },
-            '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth }
+            '& .MuiDrawer-paper': { boxSizing: 'border-box', width: '100%', backgroundColor: '#800000', pt: 9 },
+            zIndex: theme.zIndex.appBar + 1
           }}
         >
           {drawer}
         </Drawer>
+        {/* 
+        <ScrollTop {...props}>
+          <Fab size="small" aria-label="scroll back to top" style={{ background: '#ffffff' }}>
+            <KeyboardArrowUpIcon style={{ color: '#232434 ', fontSize: 30 }} />
+          </Fab>
+        </ScrollTop> */}
       </Box>
     </Box>
   );

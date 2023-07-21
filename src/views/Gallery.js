@@ -36,9 +36,9 @@ const Gallery = () => {
         <div key={index} style={{ marginBottom: '60px', padding: '0 30px' }}>
           <Grid container spacing={2}>
             {group.photos.map((photo, photoIndex) => (
-              <Grid item xs={12 / (group.photos.length > 1 ? group.photos.length : 2)} key={photoIndex}>
+              <Grid item md={12 / (group.photos.length > 1 ? group.photos.length : 2)} key={photoIndex}>
                 <Card className="zoom-card">
-                  <CardMedia component="img" height="200" image={photo.image} alt={photo.title} className="zoom-image" />
+                  <CardMedia component="img" height="200px" width="300px" image={photo.image} alt={photo.title} className="zoom-image" />
                 </Card>
               </Grid>
             ))}

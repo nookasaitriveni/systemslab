@@ -1,48 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>SystemsLab</title>
-    <link rel="icon" href="%PUBLIC_URL%/favicon.svg" />
+    <title>Systems Medicine and Therapeutic Engineering</title>
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon-16x16.png">
+<link rel="manifest" href="%PUBLIC_URL%/site.webmanifest">
+<link rel="mask-icon" href="%PUBLIC_URL%/safari-pinned-tab.svg" color="#800000">
+<meta name="msapplication-TileColor" content="#800000">
+
+
     <!-- Meta Tags-->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#2296f3" />
-    <meta name="title" content="SystemsLab" />
+    <meta name="theme-color" content="#800000" />
+    <meta name="title" content="SysTEMs:Systems Medicine and Therapeutic Engineering" />
     <meta
       name="description"
-      content="SystemsLab"
+      content="SysTEMs:Systems Medicine and Therapeutic Engineering Laboratory - Dr. Pramod Rajaram S., University of Hyderabad"
     />
     <meta
       name="keywords"
-      content="SystemsLab"
+      content="SysTEMs:Systems Medicine and Therapeutic Engineering, Dr. Pramod Rajaram S."
     />
-    <meta name="author" content="SystemsLab" />
+    <meta name="author" content="SysTEMs:Systems Medicine and Therapeutic Engineering" />
     <!-- Open Graph / Facebook -->
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://berrydashboard.io/" />
-    <meta property="og:site_name" content="berrydashboard.io" />
-    <meta property="article:publisher" content="https://www.facebook.com/codedthemes" />
-    <meta property="og:title" content="SystemsLab" />
+    <meta property="og:url" content="https://systemslab.co.in" />
+    <meta property="og:site_name" content="systemslab.co.in" />
+    <meta property="article:publisher" content="https://systemslab.co.in" />
+    <meta property="og:title" content="SysTEMs: Systems Medicine and Therapeutic Engineering" />
     <meta
       property="og:description"
-      content="SystemsLab"
+      content="SysTEMs: Systems Medicine and Therapeutic Engineering"
     />
-    <meta property="og:image" content="https://berrydashboard.io/og-image/og-facebook.png" />
+    <meta property="og:image" content="%PUBLIC_URL%/favicon-32x32.png" />
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://berrydashboard.io" />
-    <meta property="twitter:title" content="Berry - React Material Dashboard Template" />
+    <meta property="twitter:url" content="https://systemslab.co.in" />
+    <meta property="twitter:title" content="SysTEMs: Systems Medicine and Therapeutic Engineering" />
     <meta
       property="twitter:description"
-      content="SystemsLab"
+      content="SysTEMs:Systems Medicine and Therapeutic Engineering"
     />
-    <meta property="twitter:image" content="https://berrydashboard.io/og-image/og-twitter.png" />
+    <meta property="twitter:image" content="%PUBLIC_URL%/favicon-32x32.png" />
     <meta name="twitter:creator" content="@codedthemes" />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+      Only files inside the `public` folder can be referenced from the .
 
       Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
       work correctly both with client-side routing and a non-root public URL.
@@ -55,20 +64,48 @@
       rel="stylesheet"
     />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <style>
+      .goog-te-combo {
+  padding: 2px !important;
+}
+
+
+
+  .goog-logo-link {
+      display:none !important;
+   }
+   .goog-te-gadget {
+      font-size: 0px!important;
+    }
+    </style>
   </head>
 
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- <noscript>You need to enable JavaScript to run this app.</noscript> -->
     <div id="root"></div>
-    <!--
-          This HTML file is a template.
-          If you open it directly in the browser, you will see an empty page.
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async></script>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          {
+            pageLanguage: "en",
+            layout: window.google.translate.TranslateElement.InlineLayout.VERTICAL,
+            suppressGoogleLogo: true,
+          }, 
+          'google_translate_element'
+        );
+        // Callback function for the onRender event
+        googleTranslateElementInit.onRender = function () {
+            // Get the element containing "Select Language" text
+            var selectLanguageElement = document.querySelector('[gt-trigger="selectLanguage"]');
 
-          You can add webfonts, meta tags, or analytics to this file.
-          The build step will place the bundled scripts into the <body> tag.
+            // Update the inner to change the text
+            if (selectLanguageElement) {
+                selectLanguageElement.inner = 'Choose Language';
+            }
+        };
+      }
 
-          To begin the development, run `npm start` or `yarn start`.
-          To create a production bundle, use `npm run build` or `yarn build`.
-   -->
+    </script>
   </body>
 </html>
