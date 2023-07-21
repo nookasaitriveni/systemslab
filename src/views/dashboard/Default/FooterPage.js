@@ -29,9 +29,9 @@ const styles = {
 
 const FooterPage = () => {
   return (
-    <footer style = {styles.footer}>
+    <footer style={styles.footer}>
       <Grid container spacing={2}>
-        <Grid item xs={0} md={4} lg={4} className="left- hide-mobile">
+        <Grid item xs={0} md={4} lg={4} className="left-footer hide-mobile">
           <Link component={RouterLink} to="/uoh" underline="none" sx={{ mx: 1 }}>
             <img src={UOH} alt="UOH" style={{ height: '6.7vw' }} />
           </Link>
@@ -89,7 +89,7 @@ const FooterPage = () => {
             <img src={MOE} alt="MOE" style={{ height: '6.7vw' }} />
           </Link>
         </Grid>
-        <Grid item xs={0} md={4} lg={4} className="right- hide-mobile">
+        <Grid item xs={0} md={4} lg={4} className="right-footer hide-mobile">
           <Link component={RouterLink} to="/ioe" underline="none" sx={{ mx: 1 }}>
             <img src={IOE} alt="IOE" style={{ height: '6.7vw' }} />
           </Link>
@@ -102,4 +102,4 @@ const FooterPage = () => {
   );
 };
 
-export default Page;
+export default FooterPage;
