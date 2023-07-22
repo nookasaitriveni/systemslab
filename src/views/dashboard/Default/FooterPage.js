@@ -54,7 +54,7 @@ const FooterPage = () => {
             Department of Systems and Computational Biology
           </Typography>
           <Typography variant="body2" color="#ffffff">
-            Associate Faculty, Centre for Modelling Simulation and Design
+            Associate Faculty - Centre for Modelling Simulation and Design
           </Typography>
         </Grid>
         <Grid item xs={12} md={12} lg={4} className="hide-web">

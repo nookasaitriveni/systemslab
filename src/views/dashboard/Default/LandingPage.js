@@ -57,13 +57,14 @@ const LandingPage = () => {
           </Slider>
         </div>
       </Grid>
-      <Grid item xs={12} sm={12} md={6} style={{ margin: 'auto' }}>
+      <Grid item xs={12} sm={12} md={7} style={{ margin: 'auto' }}>
         <Grid container spacing={2} alignItems="center" justify="center">
-          <Grid item xs={12} sm={12} md={10}>
+          <Grid item xs={10} sm={10} md={10}>
             <div className="content-container">
               <Typography variant="h1" style={{ fontSize: isSmallScreen ? '30' : '46', color: '#800000' }}>
                 Welcome to Our Lab
               </Typography>
+              <br />
               <br />
               <Typography variant="p" style={{ fontSize: '17px' }}>
                 We are a team of passionate scientists dedicated to advancing knowledge and pushing the boundaries of scientific discovery.
@@ -146,16 +147,16 @@ const LandingPage = () => {
                   PhytCancer
                 </Button>
               </Box>
-              <Box mb={1}>
+              {/*<Box mb={1}>
                 <Button
                   variant="contained"
                   component={Link}
                   to="/healthsurf"
                   style={{ color: '#ffffff', border: '1px solid #000328', background: '#000328' }}
                 >
-                  Lifesystems
+                  HealthSuRF
                 </Button>
-              </Box>
+              </Box>*/}
             </div>
           </Grid>
         </Grid>
