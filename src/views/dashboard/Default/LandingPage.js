@@ -59,7 +59,7 @@ const LandingPage = () => {
       </Grid>
       <Grid item xs={12} sm={12} md={7} style={{ margin: 'auto' }}>
         <Grid container spacing={2} alignItems="center" justify="center">
-          <Grid item xs={10} sm={10} md={10}>
+          <Grid item xs={12} sm={12} md={10}>
             <div className="content-container">
               <Typography variant="h1" style={{ fontSize: isSmallScreen ? '30' : '46', color: '#800000' }}>
                 Welcome to Our Lab
