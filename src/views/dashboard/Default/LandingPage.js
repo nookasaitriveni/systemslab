@@ -58,7 +58,7 @@ const LandingPage = () => {
         </div>
       </Grid>
       <Grid item xs={12} sm={12} md={7} style={{ margin: 'auto' }}>
-        <Grid container spacing={3} alignItems="center" justify="center">
+        <Grid container spacing={2} alignItems="center" justify="center">
           <Grid item xs={12} sm={12} md={10}>
             <div className="content-container">
               <Typography variant="h1" style={{ fontSize: isSmallScreen ? '30' : '46', color: '#800000' }}>
@@ -66,7 +66,7 @@ const LandingPage = () => {
               </Typography>
               <br />
               <br />
-              <Typography variant="p" style={{ fontSize: '17px' }}>
+              <Typography variant="p" style={{ fontSize: '16px' }}>
                 We are a team of passionate researches dedicated to translational research in the domain of Systems Medicine and Therapeutic Engineering.
                 Our research interests are in applying systems engineering principles to biomedical systems for better health-care. Understanding the design principles of biological network can help in developing strategies to modify and reconstruct biological 
                 process with desired properties. Therefore, in our research approach, we treat a disease diagnosis problem analogous to a fault 

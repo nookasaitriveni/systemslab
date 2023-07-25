@@ -32,7 +32,6 @@ const AboutSection = () => {
             Technologist (R&D), Bio-Process Development, DSM Chemical Division, New Delhi, INDIA (Nov 2006- June 2009)<br />
             Project Scholar, Dept. Fermentation Tech. and Bio-Engineering, CFTRI Mysore, INDIA (May 2005-Oct 2006)<br />
             <br />
-            <br />
             Trainings
             <br />
             <br />
