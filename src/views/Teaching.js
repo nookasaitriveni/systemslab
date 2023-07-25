@@ -5,7 +5,7 @@ const Teaching = () => {
   const members = [
     {
       id: 1,
-      name: 'BT 6303 - Proteomics: Applications and Techniques [2 credits]',
+      name: 'BT 6303 - Computational Systems Biology [3 credits]',
       designation: 'Overview of contents',
       image: 'https://th.bing.com/th/id/OIP.E2QljuAsgLQm7EtSNvQjhAHaEs?w=294&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7', // Image file path or URL
       description:
@@ -13,7 +13,15 @@ const Teaching = () => {
     },
     {
       id: 2,
-      name: 'BT 6050 - Circadian Clocks: Mechanisms and Functions [2 credits]',
+      name: 'BT 6050 - Biosystems Modelling and Simulations [5 credits]',
+      designation: 'Overview of contents',
+      image: 'https://th.bing.com/th/id/R.f12913b3373d4506ac6ad0bad973087f?rik=q%2f4rj21eldL3sg&pid=ImgRaw&r=0',
+      description:
+        'Introduction to biological oscillators, A brief history of circadian timekeeping, Circadian clocks – the rhythms of life, Clock circuits in different organisms, Adaptive significance of rhythms, Molecular mechanisms of transcriptional and non-transcriptional circadian oscillations, Multidimensional regulation of the circadian rhythms, Master and peripheral clocks in mammalian systems, Metabolic oscillations, Timeseries analysis of rhythms - concepts and methods, Physiological functions and importance of time-keeping machinery, Circadian clocks and sleep, Circadian clocks in health and diseases, Human circadian disorders, Clock-infection biology, Chrononutrition- effects of diet on circadian rhythmicity, Chronomedicine, Modulation of daily rhythms for therapeutic benefit.'
+    },
+    {
+      id: 3,
+      name: 'BT 6050 - Systems and Computational Medicine [2 credits]',
       designation: 'Overview of contents',
       image: 'https://th.bing.com/th/id/R.f12913b3373d4506ac6ad0bad973087f?rik=q%2f4rj21eldL3sg&pid=ImgRaw&r=0',
       description:

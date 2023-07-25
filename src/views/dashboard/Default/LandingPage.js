@@ -151,7 +151,7 @@ const LandingPage = () => {
                   PhytCancer
                 </Button>
               </Box>
-              {/*<Box mb={1}>
+              <Box mb={1}>
                 <Button
                   variant="contained"
                   component={Link}
@@ -160,7 +160,7 @@ const LandingPage = () => {
                 >
                   HealthSuRF
                 </Button>
-              </Box>*/}
+              </Box>
             </div>
           </Grid>
         </Grid>
