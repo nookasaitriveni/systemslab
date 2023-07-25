@@ -67,7 +67,7 @@ const LandingPage = () => {
               <br />
               <br />
               <Typography variant="p" style={{ fontSize: '16px' }}>
-                We are a team of passionate researches dedicated to translational research in the domain of Systems Medicine and Therapeutic Engineering.
+                We are a team of passionate researches dedicated to translational research in Systems Medicine and Therapeutic Engineering.
                 Our research interests are in applying systems engineering principles to biomedical systems for better health-care. Understanding the design principles of biological network can help in developing strategies to modify and reconstruct biological 
                 process with desired properties. Therefore, in our research approach, we treat a disease diagnosis problem analogous to a fault 
                 diagnosis problem in engineering systems and develop tools to better inform treatment decisions and therapeutic strategies. 
