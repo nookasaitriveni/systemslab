@@ -31,7 +31,7 @@ const Teaching = () => {
 
   return (
     <div>
-      <h1 style={{ color: '#990000', display: 'flex', justifyContent: 'center' }}>Courses</h1>
+      <h1 style={{ color: '#800000', display: 'flex', justifyContent: 'center' }}>Courses</h1>
       <div
         style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', justifyContent: 'center', marginTop: '20px' }}
         container
@@ -48,7 +48,7 @@ const Teaching = () => {
               style={{ width: '100%', height: '160px', objectFit: 'cover', transform: 'scale(1.3)' }}
             />
             <div style={{ padding: '10px' }}>
-              <h3 style={{ color: '#990000' }}>{member.name}</h3>
+              <h3 style={{ color: '#800000' }}>{member.name}</h3>
               <p style={{ color: 'black' }}>{member.designation}</p>
               <p>{member.description}</p>
             </div>

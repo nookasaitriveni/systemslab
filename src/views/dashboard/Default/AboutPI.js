@@ -7,18 +7,18 @@ const AboutSection = () => {
     <div>
       <Card className="about-card">
         <Grid container spacing={2}>
-          <Grid item xs={0} sm={0} md={6} style={{ margin: 'auto' }} className="hide-mobile">
+          <Grid item xs={0} sm={0} md={5} style={{ margin: 'auto' }} className="hide-mobile">
             <Avatar alt="PI" src={prs} className="user-avatar" />
           </Grid>
           <Grid item xs={12} sm={12} md={7} className="about-content">
-            <Typography variant="h1" style={{ fontSize: '30px', color: '#990000', display: 'flex', justifyContent: 'center' }}>
+            <Typography variant="h1" style={{ fontSize: '30px', color: '#800000', display: 'flex', justifyContent: 'center' }}>
               About PI
             </Typography>
             <Grid item xs={12} sm={12} md={0} style={{ margin: 'auto' }} className="hide-web">
               <Avatar alt="PI" src={prs} className="user-avatar" />
             </Grid>
             <Typography variant="body2" style={{ fontSize: '17px' }}>
-            
+            <br />
             Experience
             <br />
             <br />
