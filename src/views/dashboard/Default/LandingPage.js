@@ -67,19 +67,21 @@ const LandingPage = () => {
               <br />
               <br />
               <Typography variant="p" style={{ fontSize: '17px' }}>
-                Our laboratory is dedicated to translational research in Systems Medicine and Therapeutic Engineering.
-                Our research interests are in applying systems engineering and computational biology principles to biomedical systems for better 
-                healthcare. Understanding the design principles of biological systems can help in developing strategies to modify and reconstruct 
-                biological processess with desired properties. Therefore, for the physiological systems, we treat a disease diagnosis problem analogous
-                to a fault diagnosis problem in engineering systems and develop tools to better inform treatment decisions and therapeutic strategies. 
+                Our laboratory is dedicated to translational research in Systems Medicine and Therapeutic Engineering.Our research interests are in applying 
+                systems engineering principles to biomedical systems for better healthcare. Understanding the design principles of biological systems can help 
+                in developing strategies to modify and reconstruct biological processess with desired properties. Therefore, for the physiological systems, 
+                we treat a disease diagnosis problem analogous to a fault diagnosis problem in engineering systems and develop tools to better inform treatment
+                decisions and therapeutic strategies. 
                 <br />
                 <br />
                 The broader areas of research include systems and computatioanl medicine with specific interests in identification of drug targets,
-                disease mechanisms, biomarkers, drug design, therapy design and chronotherapeutic drug delivery. We use mathematical modelling and Artificial intelligence
-                with Machine learning tools for devlopment of personalized medicine applications. We also work with animal models and human clinical research 
-                for discovery and validation of the compuattational models. Our specific areas of research application include metabolic syndrome, diabetes, 
-                hypertension, liver diseases, neurophysiology, circadian physiology, cancer and inflammatory disorders. Moreover we work on analyzing the issues 
-                related to public health and sustainabile development from systems perspective to deliver effective solutions for healthy and sustainale living.                             
+                disease mechanisms, biomarkers, drug design, therapy design and chronotherapeutic drug delivery. We apply systems and computational 
+                biology and quantitative systems pharmacology (QSP) framworks in our research. We use mathematical modelling and Artificial intelligence
+                with Machine learning tools for devlopment of personalized medicine applications. We also work with animal models and human clinical 
+                research for discovery and validation of the computational models. Our specific areas of research application include metabolic syndrome,
+                diabetes, hypertension, liver diseases, neurophysiology, circadian physiology, cancer and inflammatory disorders. Moreover we work on
+                analyzing the issues related to public health and sustainabile development from systems perspective to deliver effective solutions for 
+                healthy and sustainale living.                             
               </Typography>
             </div>
           </Grid>
