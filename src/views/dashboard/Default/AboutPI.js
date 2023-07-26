@@ -4,25 +4,24 @@ import './AboutSection.css';
 import prs from './PRS.jpg';
 const AboutSection = () => {
   return (
-    <div>
-      <Card className="about-card">
-        <Grid container spacing={2}>
-          <Grid item xs={0} sm={0} md={5} style={{ margin: 'auto' }} className="hide-mobile">
-            <Avatar alt="PI" src={prs} className="user-avatar" />
-          </Grid>
-          <Grid item xs={12} sm={12} md={7} className="about-content">
-            <Typography variant="h1" style={{ fontSize: '30px', color: '#800000', display: 'flex', justifyContent: 'center' }}>
-              About PI 
-              </Typography>
-            <Grid item xs={12} sm={12} md={0} style={{ margin: 'auto' }} className="hide-web">
-              <Avatar alt="PI" src={prs} className="user-avatar" />
-            </Grid>
-            <Typography variant="body2" style={{ fontSize: '17px' }}>
+    <Card className="about-card">
+      <Grid container spacing={2}>
+        <Grid item xs={0} sm={0} md={6} style={{ margin: 'auto' }} className="hide-mobile">
+          <h1 style={{ fontSize: '30px', color: '#990000', margin: 'auto', textAlign: 'center' }}>About PI</h1>
+          <Avatar alt="PI" src={prs} className="user-avatar" style={{ marginTop: '15px' }} />
+        </Grid>
+        <Grid item xs={12} sm={12} md={7} className="about-content">
+          <Grid item xs={12} sm={12} md={0} style={{ margin: 'auto' }} className="hide-web">
+            <h1 style={{ fontSize: '30px', color: '#990000', margin: 'auto', textAlign: 'center' }}>About PI</h1>
             <br />
-            <b>Dr. Pramod Rajaram Somvanshi</b>
+            <Avatar alt="PI" src={prs} className="user-avatar" mt={1} />
+          </Grid>
+          <Typography variant="body2" style={{ fontSize: '17px', textAlign: 'justify' }}>
+            <br />
+            <b style={{ color: '#990000' }} >Dr. Pramod Rajaram Somvanshi</b>
              <br />
              <br />
-            <b>Experience</b>
+            <b style={{ color: '#990000' }}>Experience</b>
             <br />
             <br />
             PI and Assistant Professor, Dept. of Systems and Computational Biology, University of Hyderabad, (Aug 2020 onwards)  <br />
@@ -35,7 +34,7 @@ const AboutSection = () => {
             Technologist (R&D), Bio-Process Development, DSM Chemical Division, New Delhi, INDIA (Nov 2006- June 2009)<br />
             Project Scholar, Dept. Fermentation Tech. and Bio-Engineering, CFTRI Mysore, INDIA (May 2005-Oct 2006)<br />
             <br />
-            <b>Trainings</b>
+            <b style={{ color: '#990000' }}>Trainings</b>
             <br />
             <br />
             Systems Biology and Chronotherapeutics, Harvard School of Engineering and Applied Sciences, Harvard University, USA.<br />
@@ -47,7 +46,7 @@ const AboutSection = () => {
             Epidemiological Research in Public Health, Imperial College of London, UK. <br />
             <br />
             <br />
-            <b>Memberships</b>
+            <b style={{ color: '#990000' }}>Memberships</b>
             <br />
             <br />
             FRSPH: Fellow of The Royal Society for Public Health (UK)<br />
@@ -58,7 +57,7 @@ const AboutSection = () => {
             Member of International Society for Evolution, Medicine and Public Health (ISEMPH)<br />
             <br />
             <br />
-            <b>Education</b>
+            <b style={{ color: '#990000' }}>Education</b>
             <br />
             <br />
             Ph.D, Biosystems Engineering, Dept. of Chemical Engg., IIT Bombay, INDIA, 2014.<br />
@@ -66,10 +65,9 @@ const AboutSection = () => {
             M.Tech, Chemical Technology (Food & Bioprocess Engg.), LIT Nagpur, INDIA, 2006.<br />
             B.Tech, Chemical Technology, UDCT Aurangabad, INDIA, 2004.
             </Typography>
-          </Grid>
         </Grid>
-      </Card>
-    </div>
+      </Grid>
+    </Card>
   );
 };
 
