@@ -19,7 +19,7 @@ const AboutSection = () => {
             </Grid>
             <Typography variant="body2" style={{ fontSize: '17px' }}>
             <br />
-            Experience
+            <b>Experience</b>
             <br />
             <br />
             PI and Assistant Professor, Dept. of Systems and Computational Biology, University of Hyderabad, (Aug 2020 onwards)  <br />
@@ -32,7 +32,7 @@ const AboutSection = () => {
             Technologist (R&D), Bio-Process Development, DSM Chemical Division, New Delhi, INDIA (Nov 2006- June 2009)<br />
             Project Scholar, Dept. Fermentation Tech. and Bio-Engineering, CFTRI Mysore, INDIA (May 2005-Oct 2006)<br />
             <br />
-            Trainings
+            <b>Trainings</b>
             <br />
             <br />
             Systems Biology and Chronotherapeutics, Harvard School of Engineering and Applied Sciences, Harvard University, USA.<br />
@@ -44,7 +44,7 @@ const AboutSection = () => {
             Epidemiological Research in Public Health, Imperial College of London, UK. <br />
             <br />
             <br />
-            Memberships
+            <b>Memberships</b>
             <br />
             <br />
             FRSPH: Fellow of The Royal Society for Public Health (UK)<br />
@@ -55,7 +55,7 @@ const AboutSection = () => {
             Member of International Society for Evolution, Medicine and Public Health (ISEMPH)<br />
             <br />
             <br />
-            Education
+            <b>Education</b>
             <br />
             <br />
             Ph.D, Biosystems Engineering, Dept. of Chemical Engg., IIT Bombay, INDIA, 2014.<br />
