@@ -82,8 +82,8 @@ const LandingPage = () => {
                 <br />
                 We also work with animal models and human clinical research for discovery and validation of the computational models. Our specific areas 
                 of research application include metabolic syndrome, diabetes, hypertension, liver diseases, neurophysiology, circadian physiology, cancer 
-                and inflammatory disorders. Moreover we work on analyzing the issues related to public health and sustainabile development from systems
-                perspective to deliver effective solutions for healthy and sustainale living.                             
+                and inflammatory disorders. Moreover we work on analyzing the issues related to public health and sustainable development from systems
+                perspective to deliver effective solutions for healthy and sustainable living.                             
               </Typography>
             </div>
           </Grid>
