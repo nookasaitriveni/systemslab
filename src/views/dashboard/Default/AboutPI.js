@@ -4,15 +4,15 @@ import './AboutSection.css';
 import prs from './PRS.jpg';
 const AboutSection = () => {
   return (
-    <Card className="about-card">
+    <Card style={{padding: '70px',  boxShadow: "3px 6px 9px 1px rgba(0, 0, 0, 0.2)"}}><h1 style={{ fontSize: '30px', color: '#990000',textAlign: 'center'}}>About PI</h1>
+    <div  className="about-card">
       <Grid container spacing={2}>
-        <Grid item xs={0} sm={0} md={6} style={{ margin: 'auto' }} className="hide-mobile">
-          <h1 style={{ fontSize: '30px', color: '#990000', margin: 'auto', textAlign: 'center' }}>About PI</h1>
+      
+        <Grid item xs={0} sm={0} md={5} style={{ margin: 'auto', marginTop:'0px' }} className="hide-mobile">
           <Avatar alt="PI" src={prs} className="user-avatar" style={{ marginTop: '15px' }} />
         </Grid>
         <Grid item xs={12} sm={12} md={7} className="about-content">
           <Grid item xs={12} sm={12} md={0} style={{ margin: 'auto' }} className="hide-web">
-            <h1 style={{ fontSize: '30px', color: '#990000', margin: 'auto', textAlign: 'center' }}>About PI</h1>
             <br />
             <Avatar alt="PI" src={prs} className="user-avatar" mt={1} />
           </Grid>
@@ -66,7 +66,7 @@ const AboutSection = () => {
             B.Tech, Chemical Technology, UDCT Aurangabad, INDIA, 2004.
             </Typography>
         </Grid>
-      </Grid>
+      </Grid></div>
     </Card>
   );
 };
