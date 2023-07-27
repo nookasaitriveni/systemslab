@@ -4,20 +4,20 @@ import './AboutSection.css';
 import prs from './PRS.jpg';
 const AboutSection = () => {
   return (
-    <Card style={{padding: '70px',  boxShadow: "3px 6px 9px 1px rgba(0, 0, 0, 0.2)"}}><h1 style={{ fontSize: '30px', color: '#990000',textAlign: 'center'}}>About PI</h1>
+    <Card style={{padding: '70px',  boxShadow: "3px 6px 9px 1px rgba(0, 0, 0, 0.2)"}}><h1 style={{ fontSize: '30px', color: '#800000',textAlign: 'center'}}>About PI</h1>
     <div  className="about-card">
       <Grid container spacing={2}>
-         <Grid item xs={0} sm={0} md={5} style={{ margin: 'auto', marginTop:'0px' }} className="hide-mobile">
+         <Grid item xs={0} sm={0} md={5.5} style={{ margin: 'auto', marginTop:'0px' }} className="hide-mobile">
           <Avatar alt="PI" src={prs} className="user-avatar" style={{ marginTop: '15px' }} />
         </Grid>
-        <Grid item xs={12} sm={12} md={7} className="about-content">
+        <Grid item xs={12} sm={12} md={6.5} className="about-content">
         <Grid item xs={12} sm={12} md={0} style={{ margin: 'auto' }} className="hide-web">
         <br />
           <Avatar alt="PI" src={prs} className="user-avatar" mt={1} />
           </Grid>
           <Typography variant="body2" style={{ fontSize: '17px', textAlign: 'justify' }}>
             <br />
-            <b style={{ color: '#800000' }} >Dr. Pramod Rajaram Somvanshi</b>
+            <b style={{ color: '#800000',fontSize: '24px' }} >Dr. Pramod Rajaram Somvanshi</b>
              <br />
              <br />
             <b style={{ color: '#800000' }}>Experience</b>
@@ -44,7 +44,6 @@ const AboutSection = () => {
             <b>Principal and Practice of Clinical Research</b>, National Institute of Health-NIH, USA.<br />
             <b>Epidemiological Research in Public Health</b>, Imperial College of London, UK. <br />
             <br />
-            <br />
             <b style={{ color: '#800000' }}>Memberships</b>
             <br />
             <br />
@@ -54,7 +53,6 @@ const AboutSection = () => {
             Member of the European Society for Preventive Medicine (UK)  <br />
             Life Member of The Indian Society for Chronomedicine (ISCM)<br />
             Member of International Society for Evolution, Medicine and Public Health (ISEMPH)<br />
-            <br />
             <br />
             <b style={{ color: '#800000' }}>Education</b>
             <br />
