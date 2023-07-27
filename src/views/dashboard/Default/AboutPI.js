@@ -25,13 +25,13 @@ const AboutSection = () => {
             <br />
             <b>PI and Assistant Professor </b>, Dept. of Systems and Computational Biology, University of Hyderabad, (Aug 2020 onwards)  <br />
             <b>Sr. Scientist</b>, Systems Biology and Metabolic Engg. Lab, Dept. of Chemical Engg., IIT Bombay, INDIA (April 2019- May 2020)<br />
-            <b>Harvard Associate</b>Harvard Associate, Bioengineering Div., Harvard School of Engineering and Applied Sciences, USA (April 2019-Mar 2021)  <br />                             
+            <b>Harvard Associate</b>, Harvard Associate, Bioengineering Div., Harvard School of Engineering and Applied Sciences, USA (April 2019-Mar 2021)  <br />                             
             <b>Research Associate</b>, Bioengineering Div., Harvard School of Engineering and Applied Sciences, USA (Aug 2018-Mar 2019)<br />
-            <b>Post-Doctoral Fellow</b>Post-Doctoral Fellow, Bioengineering Div., Harvard  School of Engineering and Applied Sciences,  USA (Aug 2015-Mar 2019)<br />
-            <b>Sr. Research Scientist</b>Sr. Research Scientist, Biosystems Engg. Lab, Dept. of Chemical Engg., IIT Bombay, INDIA (Jan 2015-July 2015)<br />
-            <b>Research Associate</b>Research Associate, Biosystems Engg. Lab, Dept. of Chemical Engg., IIT Bombay, INDIA (June 2014-Dec 2014)<br />
-            <b>Technologist (R&D)</b>Technologist (R&D), Bio-Process Development, DSM Chemical Division, New Delhi, INDIA (Nov 2006- June 2009)<br />
-            <b>Project Scholar</b>Project Scholar, Dept. Fermentation Tech. and Bio-Engineering, CFTRI Mysore, INDIA (May 2005-Oct 2006)<br />
+            <b>Post-Doctoral Fellow</b>, Post-Doctoral Fellow, Bioengineering Div., Harvard  School of Engineering and Applied Sciences,  USA (Aug 2015-Mar 2019)<br />
+            <b>Sr. Research Scientist</b>, Sr. Research Scientist, Biosystems Engg. Lab, Dept. of Chemical Engg., IIT Bombay, INDIA (Jan 2015-July 2015)<br />
+            <b>Research Associate</b>, Research Associate, Biosystems Engg. Lab, Dept. of Chemical Engg., IIT Bombay, INDIA (June 2014-Dec 2014)<br />
+            <b>Technologist (R&D)</b>, Technologist (R&D), Bio-Process Development, DSM Chemical Division, New Delhi, INDIA (Nov 2006- June 2009)<br />
+            <b>Project Scholar</b>, Project Scholar, Dept. Fermentation Tech. and Bio-Engineering, CFTRI Mysore, INDIA (May 2005-Oct 2006)<br />
             <br />
             <b style={{ color: '#800000' }}>Trainings</b>
             <br />
