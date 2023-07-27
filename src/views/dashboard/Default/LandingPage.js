@@ -68,13 +68,13 @@ const LandingPage = () => {
               <br />
               <Typography variant="p" style={{ fontSize: '17px' }}>
                 Our laboratory is dedicated to translational research in Systems Medicine and Therapeutic Engineering. We apply systems engineering 
-                principles to biomedical systems for development of better healthcare. Understanding the design principles of biological systems can 
+                principles to biomedical systems for development of better healthcare solutions. Understanding the design principles of biological systems can 
                 help in developing strategies to modify and reconstruct biological processess with desired properties. Therefore, for the physiological 
                 systems, we treat a disease diagnosis problem analogous to a fault diagnosis problem in engineering systems and develop tools to better 
                 inform treatment decisions and therapeutic strategies. 
                 <br />
                 <br />
-                The broader areas of research include systems and computatioanl medicine with specific interests in identification of drug targets,
+                The broader areas of research include systems and computational medicine with specific interests in identification of drug targets,
                 disease mechanisms, biomarkers, drug design, therapy design and chronotherapeutic drug delivery. We apply systems and computational 
                 biology and quantitative systems pharmacology (QSP) framworks with mathematical modelling and Artificial intelligence tools for devlopment
                 of personalized medicine applications. 
