@@ -4,34 +4,35 @@ import './AboutSection.css';
 import prs from './PRS.jpg';
 const AboutSection = () => {
   return (
-    <Card style={{padding: '70px',  boxShadow: "3px 6px 9px 1px rgba(0, 0, 0, 0.2)"}}><h1 style={{ fontSize: '30px', color: '#800000',textAlign: 'center'}}>About PI</h1>
+    <Card style={{padding: '70px',  boxShadow: "3px 6px 9px 1px rgba(0, 0, 0, 0.2)"}}>
+    <h1 style={{ fontSize: '30px', color: '#800000',textAlign: 'center'}}>About PI</h1>
     <div  className="about-card">
       <Grid container spacing={2}>
-         <Grid item xs={0} sm={0} md={5.5} style={{ margin: 'auto', marginTop:'0px' }} className="hide-mobile">
+         <Grid item xs={0} sm={0} md={5} style={{ margin: 'auto', marginTop:'0px' }} className="hide-mobile">
           <Avatar alt="PI" src={prs} className="user-avatar" style={{ marginTop: '15px' }} />
         </Grid>
-        <Grid item xs={12} sm={12} md={6.5} className="about-content">
+        <Grid item xs={12} sm={12} md={7} className="about-content">
         <Grid item xs={12} sm={12} md={0} style={{ margin: 'auto' }} className="hide-web">
         <br />
           <Avatar alt="PI" src={prs} className="user-avatar" mt={1} />
           </Grid>
-          <Typography variant="body2" style={{ fontSize: '17px', textAlign: 'justify' }}>
-            <br />
-            <b style={{ color: '#800000',fontSize: '24px' }} >Dr. Pramod Rajaram Somvanshi</b>
+          <br />
+          <br />
+          <b style={{ color: '#800000',fontSize: '24px',textAlign: 'center' }}>Dr. Pramod Rajaram Somvanshi</b>
+            <Typography variant="body2" style={{ fontSize: '17px', textAlign: 'justify' }}>
              <br />
-             <br />
-            <b style={{ color: '#800000' }}>Experience</b>
+             <b style={{ color: '#800000' }}>Experience</b>
             <br />
             <br />
             <b>PI and Assistant Professor </b>, Dept. of Systems and Computational Biology, University of Hyderabad, (Aug 2020 onwards)  <br />
             <b>Sr. Scientist</b>, Systems Biology and Metabolic Engg. Lab, Dept. of Chemical Engg., IIT Bombay, INDIA (April 2019- May 2020)<br />
-            <b>Harvard Associate</b>, Harvard Associate, Bioengineering Div., Harvard School of Engineering and Applied Sciences, USA (April 2019-Mar 2021)  <br />                             
+            <b>Harvard Associate</b>, Bioengineering Div., Harvard School of Engineering and Applied Sciences, USA (April 2019-Mar 2021)  <br />                             
             <b>Research Associate</b>, Bioengineering Div., Harvard School of Engineering and Applied Sciences, USA (Aug 2018-Mar 2019)<br />
-            <b>Post-Doctoral Fellow</b>, Post-Doctoral Fellow, Bioengineering Div., Harvard  School of Engineering and Applied Sciences,  USA (Aug 2015-Mar 2019)<br />
-            <b>Sr. Research Scientist</b>, Sr. Research Scientist, Biosystems Engg. Lab, Dept. of Chemical Engg., IIT Bombay, INDIA (Jan 2015-July 2015)<br />
-            <b>Research Associate</b>, Research Associate, Biosystems Engg. Lab, Dept. of Chemical Engg., IIT Bombay, INDIA (June 2014-Dec 2014)<br />
-            <b>Technologist (R&D)</b>, Technologist (R&D), Bio-Process Development, DSM Chemical Division, New Delhi, INDIA (Nov 2006- June 2009)<br />
-            <b>Project Scholar</b>, Project Scholar, Dept. Fermentation Tech. and Bio-Engineering, CFTRI Mysore, INDIA (May 2005-Oct 2006)<br />
+            <b>Post-Doctoral Fellow</b>, Bioengineering Div., Harvard  School of Engineering and Applied Sciences,  USA (Aug 2015-Mar 2019)<br />
+            <b>Sr. Research Scientist</b>, Biosystems Engg. Lab, Dept. of Chemical Engg., IIT Bombay, INDIA (Jan 2015-July 2015)<br />
+            <b>Research Associate</b>, Biosystems Engg. Lab, Dept. of Chemical Engg., IIT Bombay, INDIA (June 2014-Dec 2014)<br />
+            <b>Technologist (R&D)</b>, Bio-Process Development, DSM Chemical Division, New Delhi, INDIA (Nov 2006- June 2009)<br />
+            <b>Project Scholar</b>,  Dept. Fermentation Tech. and Bio-Engineering, CFTRI Mysore, INDIA (May 2005-Oct 2006)<br />
             <br />
             <b style={{ color: '#800000' }}>Trainings</b>
             <br />
