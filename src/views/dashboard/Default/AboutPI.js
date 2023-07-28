@@ -27,7 +27,7 @@ const AboutSection = () => {
             <b>PI and Assistant Professor </b>, Dept. of Systems and Computational Biology, University of Hyderabad, (Aug 2020 onwards)  <br />
             <b>Sr. Scientist</b>, Systems Biology and Metabolic Engg. Lab, Dept. of Chemical Engg., IIT Bombay, INDIA (April 2019- May 2020)<br />
             <b>Harvard Associate</b>, Bioengineering Div., Harvard School of Engineering and Applied Sciences, USA (April 2019-Mar 2021)  <br />                             
-            <b>Research Associate</b>, Bioengineering Div., Harvard School of Engineering and Applied Sciences, USA (Aug 2018-Mar 2019)<br />
+            <b>Sr. Research Associate</b>, Bioengineering Div., Harvard School of Engineering and Applied Sciences, USA (Aug 2018-Mar 2019)<br />
             <b>Post-Doctoral Fellow</b>, Bioengineering Div., Harvard  School of Engineering and Applied Sciences,  USA (Aug 2015-Mar 2019)<br />
             <b>Sr. Research Scientist</b>, Biosystems Engg. Lab, Dept. of Chemical Engg., IIT Bombay, INDIA (Jan 2015-July 2015)<br />
             <b>Research Associate</b>, Biosystems Engg. Lab, Dept. of Chemical Engg., IIT Bombay, INDIA (June 2014-Dec 2014)<br />
