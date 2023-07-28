@@ -19,7 +19,7 @@ const Research = () => {
             </Grid>
             <Grid item sx={12} sm={12} md={8}>
               <div style={{ padding: '20px' }}>
-                <h3 style={{ color: '#800000',textAlign: 'justify' }}>Systems & Computational Medicine:</h3>
+                <h3 style={{ color: '#800000' }}>Systems & Computational Medicine:</h3>
                 <p>
                   <span>
                     Development of <b>Human Metabolic Endocrine&nbsp;Simulator&nbsp;</b>(
@@ -64,7 +64,7 @@ const Research = () => {
             </Grid>
             <Grid item sx={12} sm={12} md={8}>
               <div style={{ padding: '20px' }}>
-                <h3 style={{ color: '#800000', textAlign: 'justify'}}>Biomedical and Clinical Informatics:</h3>
+                <h3 style={{ color: '#800000' }}>Biomedical and Clinical Informatics:</h3>
                 <p>
                   <span>
                     B
@@ -115,7 +115,7 @@ const Research = () => {
             </Grid>
             <Grid item md={8}>
               <div style={{ padding: '20px' }}>
-                <h3 style={{ color: '#800000',textAlign: 'justify' }}>Therapeutic Engineering:</h3>
+                <h3 style={{ color: '#800000' }}>Therapeutic Engineering:</h3>
                 <p>
                   <span>
                     Design of biomedical control system for <b>c</b>
@@ -158,7 +158,7 @@ const Research = () => {
             </Grid>
             <Grid item md={8}>
               <div style={{ padding: '20px' }}>
-                <h3 style={{ color: '#800000',textAlign: 'justify' }}>Life Systems Engineering:</h3>
+                <h3 style={{ color: '#800000' }}>Life Systems Engineering:</h3>
                 <p>
                   <span>Modelling and analysis of natural systems based on quantification of&nbsp;</span>
                   <span>living systems theory</span>
