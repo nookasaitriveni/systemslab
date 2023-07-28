@@ -21,7 +21,7 @@ const AboutSection = () => {
           <b style={{ color: '#800000',fontSize: '24px',textAlign: 'center' }}>Dr. Pramod Rajaram Somvanshi</b>
             <Typography variant="body2" style={{ fontSize: '17px', textAlign: 'justify' }}>
              <br />
-             <b style={{ color: '#800000' }}>Experience</b>
+             <b style={{ color: '#800000',fontSize: '20px' }}>Experience</b>
             <br />
             <br />
             <b>PI and Assistant Professor </b>, Dept. of Systems and Computational Biology, University of Hyderabad, (Aug 2020 onwards)  <br />
@@ -34,7 +34,7 @@ const AboutSection = () => {
             <b>Technologist (R&D)</b>, Bio-Process Development, DSM Chemical Division, New Delhi, INDIA (Nov 2006- June 2009)<br />
             <b>Project Scholar</b>,  Dept. Fermentation Tech. and Bio-Engineering, CFTRI Mysore, INDIA (May 2005-Oct 2006)<br />
             <br />
-            <b style={{ color: '#800000' }}>Trainings</b>
+            <b style={{ color: '#800000',fontSize: '20px' }}>Trainings</b>
             <br />
             <br />
             <b>Systems Biology and Chronotherapeutics</b>, Harvard School of Engineering and Applied Sciences, Harvard University, USA.<br />
@@ -45,7 +45,7 @@ const AboutSection = () => {
             <b>Principal and Practice of Clinical Research</b>, National Institute of Health-NIH, USA.<br />
             <b>Epidemiological Research in Public Health</b>, Imperial College of London, UK. <br />
             <br />
-            <b style={{ color: '#800000' }}>Memberships</b>
+            <b style={{ color: '#800000',fontSize: '20px' }}>Memberships</b>
             <br />
             <br />
             <b>FRSPH</b>: Fellow of The Royal Society for Public Health (UK)<br />
@@ -55,7 +55,7 @@ const AboutSection = () => {
             Life Member of The Indian Society for Chronomedicine (ISCM)<br />
             Member of International Society for Evolution, Medicine and Public Health (ISEMPH)<br />
             <br />
-            <b style={{ color: '#800000' }}>Education</b>
+            <b style={{ color: '#800000',fontSize: '20px' }}>Education</b>
             <br />
             <br />
             <b>Ph.D</b>, Biosystems Engineering, Dept. of Chemical Engg., IIT Bombay, INDIA, 2014.<br />
