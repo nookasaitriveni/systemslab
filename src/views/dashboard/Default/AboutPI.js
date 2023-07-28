@@ -24,7 +24,7 @@ const AboutSection = () => {
              <b style={{ color: '#800000',fontSize: '20px' }}>Experience</b>
             <br />
             <br />
-            <b>PI and Assistant Professor </b>, Dept. of Systems and Computational Biology, University of Hyderabad, (Aug 2020 onwards)  <br />
+            <b>PI and Assistant Professor</b>, Dept. of Systems and Computational Biology, University of Hyderabad, (Aug 2020 onwards)  <br />
             <b>Sr. Scientist</b>, Systems Biology and Metabolic Engg. Lab, Dept. of Chemical Engg., IIT Bombay, INDIA (April 2019- May 2020)<br />
             <b>Harvard Associate</b>, Bioengineering Div., Harvard School of Engineering and Applied Sciences, USA (April 2019-Mar 2021)  <br />                             
             <b>Research Associate</b>, Bioengineering Div., Harvard School of Engineering and Applied Sciences, USA (Aug 2018-Mar 2019)<br />
