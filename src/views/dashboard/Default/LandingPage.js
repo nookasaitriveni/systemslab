@@ -62,13 +62,13 @@ const LandingPage = () => {
           <Grid item xs={12} sm={12} md={10}>
             <div className="content-container">
               <Typography variant="h1" style={{ fontSize: isSmallScreen ? '30' : '46', color: '#800000' }}>
-                Welcome to Our Lab
+                Welcome to SysTEMs Lab
               </Typography>
               <br />
               <br />
               <Typography variant="p" style={{ fontSize: '17px',textAlign: 'justify' }}>
-                Our laboratory is dedicated to translational biomedical research spanning Systems and Computational Medicine, Biomedical and Clinical informatics
-                and Therapeutic Engineering. We apply systems engineering and informatics principles to biomedical systems for development of better healthcare
+                Our laboratory is dedicated to translational biomedical research through Systems and computational medicine, Biomedical and clinical informatics
+                and Therapeutic engineering. We apply principles of systems engineering, analytics and informatics to biomedical systems for development of better healthcare
                 solutions. Understanding the design principles of biological systems can help in developing strategies to modify and reconstruct biological 
                 processess with desired properties. Therefore, for the physiological systems, we treat a disease diagnosis problem analogous to a fault diagnosis 
                 problem in engineering systems and develop tools to better inform treatment decisions and therapeutic strategies. 
