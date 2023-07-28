@@ -19,7 +19,7 @@ const AboutSection = () => {
           <br />
           <br />
           <b style={{ color: '#800000',fontSize: '24px',textAlign: 'center' }}>Dr. Pramod Rajaram Somvanshi</b>
-            <Typography variant="body2" style={{ fontSize: '17px', textAlign: 'justify' }}>
+            <Typography variant="body2" style={{ fontSize: '17px' }}>
              <br />
              <b style={{ color: '#800000',fontSize: '20px' }}>Experience</b>
             <br />

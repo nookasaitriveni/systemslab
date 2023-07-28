@@ -33,7 +33,7 @@ const Research = () => {
                     targets and therapy design for&nbsp;
                   </span>
                   <span>systemic cardiometabolic,&nbsp;</span>
-                  <span>,neurological and circadian disorders.</span>
+                  <span>neurological and circadian disorders.</span>
                   <span>Computational phytochemical drug discovery for cancer</span>
                   <span>
                     (
