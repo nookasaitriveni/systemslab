@@ -71,7 +71,7 @@ const LandingPage = () => {
                 and Therapeutic engineering. We apply principles of systems engineering, analytics and informatics to biomedical systems for development of better healthcare
                 solutions. Understanding the design principles of physiological systems can help in developing strategies to modify and reconstruct biological 
                 processess with desired properties. Therefore, we treat the problem of a disease diagnosis and treatment analogous to a fault diagnosis and repair 
-                problem in engineering systems and develop tools to better inform treatment decisions and therapeutic strategies. 
+                in engineering systems and develop tools to better inform diagnostics, treatment decisions and therapeutic strategies. 
                 <br />
                 <br />
                 The broader areas of research include identification of drug targets, disease mechanisms, biomarkers, drug discovery, therapy design and 
