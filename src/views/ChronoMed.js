@@ -5,7 +5,7 @@ import { useLocation } from 'react-router-dom';
 const ChronoMed = () => {
   return (
     <div className="container" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-      <h1 style={{ color: '#990000', display: 'flex', justifyContent: 'center' }}>ChronoMed</h1>
+      <h1 style={{ color: '#800000', display: 'flex', justifyContent: 'center' }}>ChronoMed</h1>
       <div style={{ gap: '20px', width: '80%' }} spacing={2}>
         <MainCard key="4" style={{ boxShadow: '5px 2px 16px 0px rgba(0, 0, 0, 0.2)', padding: '0px', marginTop: '20px' }}>
           <Grid container spacing={2} style={{ padding: '0px' }}>
@@ -18,7 +18,7 @@ const ChronoMed = () => {
             </Grid>
             <Grid item md={8}>
               <div style={{ padding: '20px' }}>
-                <h3 style={{ color: '#990000' }}>Life Systems Engineering:</h3>
+                <h3 style={{ color: '#800000' }}>Chronotherapeutics:</h3>
                 <p>
                   <span>Modelling and analysis of natural systems based on quantification of&nbsp;</span>
                   <span>living systems theory</span>
