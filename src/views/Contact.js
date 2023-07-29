@@ -4,7 +4,7 @@ import './Contact.css';
 const Contact = () => {
   return (
     <div>
-      <Typography variant="h1" style={{ color: '#990000', display: 'flex', justifyContent: 'center' }}>
+      <Typography variant="h1" style={{ color: '#800000', display: 'flex', justifyContent: 'center' }}>
         Contact Us
       </Typography>
       <div
@@ -44,7 +44,7 @@ const Contact = () => {
                         <Grid item xs={12} className="text-center">
                           <Button
                             variant="contained"
-                            component={Link}
+                            component={"pramodrs@uohyd.ac.in"}
                             to="/your-link"
                             style={{ color: '#ffffff', border: '1px solid #990000', background: '#990000' }}
                           >
@@ -59,7 +59,9 @@ const Contact = () => {
                   <div className="single_address">
                     <i className="fa fa-map-marker"></i>
                     <Typography variant="h6">Our Address</Typography>
-                    <Typography variant="body1">F22 & G39, SysTEMs lab,Department of Systems and Computational Biology, SLS, University of Hyderabad.</Typography>
+                    <Typography variant="body1">F22 & G39, SysTEMs lab, <br />
+                    Department of Systems and Computational Biology,<br />
+                    SLS, University of Hyderabad.</Typography>
                   </div>
                   <div className="single_address">
                     <i className="fa fa-envelope"></i>
