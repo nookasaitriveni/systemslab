@@ -39,7 +39,8 @@ const AboutSection = () => {
             <br />
             <b>Systems Biology and Chronotherapeutics</b>, Harvard School of Engineering and Applied Sciences, Harvard University, USA.<br />
             <b>Biomedical Control Engineering</b>, Harvard School of Engineering and Applied Sciences, Harvard University, USA.<br />
-            <b>Network Medicine, Chrono-medicine, Sleep medicine </b>and Lifestyle Medicine, Harvard Medical School, USA.<br />
+            <b>Chrono-medicine and Sleep medicine </b>, Div. of Sleep and Circadian Medicine, Harvard Medical School, USA.<br />
+            <b>Lifestyle Medicine and Network Medicine </b>, Institute of Lifestyle Medicine, Harvard Medical School, USA.<br />
             <b>AI in Healthcare and Medicine</b>, Stanford University School of Medicine, Stanford University, USA.<br />
             <b>Biomedical Data Science</b>, Harvard School of Public Health, Harvard University, USA.<br />
             <b>Principal and Practice of Clinical Research</b>, National Institute of Health-NIH, USA.<br />
