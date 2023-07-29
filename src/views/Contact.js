@@ -44,7 +44,7 @@ const Contact = () => {
                         <Grid item xs={12} className="text-center">
                           <Button
                             variant="contained"
-                            component={"pramodrs@uohyd.ac.in"}
+                            component={Link}
                             to="/your-link"
                             style={{ color: '#ffffff', border: '1px solid #990000', background: '#990000' }}
                           >
