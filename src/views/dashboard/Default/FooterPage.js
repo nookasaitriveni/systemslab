@@ -78,9 +78,9 @@ const FooterPage = () => {
           <Link component={RouterLink} to="/uoh" underline="none" sx={{ mx: 1 }}>
             <img src={UOH} alt="UOH" style={{ height: '6.25vw' }} />
           </Link>
-          {/*<Link component={RouterLink} to="/ioe" underline="none" sx={{ mx: 1 }}>
-            <img src={DEP} alt="DEP" style={{ height: '6.5vw' }} />
-          </Link>*/}
+          <Link component={RouterLink} to="/ioe" underline="none" sx={{ mx: 1 }}>
+            <img src={IOE} alt="IOE" style={{ height: '6.5vw' }} />
+          </Link>
           <Link component={RouterLink} to="/ioe" underline="none" sx={{ mx: 1 }}>
             <img src={DEP} alt="DEP" style={{ height: '6.25vw' }} />
           </Link>
