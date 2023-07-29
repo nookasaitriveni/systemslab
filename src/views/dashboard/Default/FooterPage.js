@@ -33,15 +33,14 @@ const FooterPage = () => {
       <Grid container spacing={2}>
         <Grid item xs={0} md={4} lg={4} className="left-footer hide-mobile">
           <Link component={RouterLink} to="/uoh" underline="none" sx={{ mx: 1 }}>
-            <img src={UOH} alt="UOH" style={{ height: '6.5vw' }} />
+            <img src={UOH} alt="UOH" style={{ height: '6.25vw' }} />
           </Link>
           {/*<Link component={RouterLink} to="/ioe" underline="none" sx={{ mx: 1 }}>
             <img src={DEP} alt="DEP" style={{ height: '6.7vw' }} />
             </Link>*/}
         </Grid>
         <Grid item xs={12} md={4} lg={4} className="hide-mobile">
-           <br/> 
-          <Typography variant="body1" color="#ffffff" style={{ fontWeight: 'bold' }}>
+           <Typography variant="body1" color="#ffffff" style={{ fontWeight: 'bold' }}>
             Dr. Pramod Rajaram S.
           </Typography>
           <Typography variant="body2" color="#ffffff">
@@ -77,24 +76,23 @@ const FooterPage = () => {
         </Grid>
         <Grid item xs={12} md={0} lg={0} className="hide-web">
           <Link component={RouterLink} to="/uoh" underline="none" sx={{ mx: 1 }}>
-            <img src={UOH} alt="UOH" style={{ height: '6.5vw' }} />
+            <img src={UOH} alt="UOH" style={{ height: '6.0vw' }} />
           </Link>
           {/*<Link component={RouterLink} to="/ioe" underline="none" sx={{ mx: 1 }}>
             <img src={DEP} alt="DEP" style={{ height: '6.5vw' }} />
           </Link>*/}
           <Link component={RouterLink} to="/ioe" underline="none" sx={{ mx: 1 }}>
-            <img src={IOE} alt="DEP" style={{ height: '6.7vw' }} />
+            <img src={DEP} alt="DEP" style={{ height: '6.0vw' }} />
           </Link>
           <Link component={RouterLink} to="/ioe" underline="none" sx={{ mx: 1 }}>
-            <img src={MOE} alt="MOE" style={{ height: '6.5vw' }} />
+            <img src={MOE} alt="MOE" style={{ height: '6.0vw' }} />
           </Link>
         </Grid>
         <Grid item xs={0} md={4} lg={4} className="right-footer hide-mobile">
           <Link component={RouterLink} to="/ioe" underline="none" sx={{ mx: 1 }}>
-            <img src={DEP} alt="DEP" style={{ height: '6.7vw' }} />
-        </Link>
+            <img src={DEP} alt="DEP" style={{ height: '6.0vw' }} />        </Link>
           <Link component={RouterLink} to="/ioe" underline="none" sx={{ mx: 1 }}>
-            <img src={MOE} alt="MOE" style={{ height: '6.5vw' }} />
+            <img src={MOE} alt="MOE" style={{ height: '6.0vw' }} />
           </Link>
         </Grid>
       </Grid>
