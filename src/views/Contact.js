@@ -21,8 +21,7 @@ const Contact = () => {
               <div className="section-title text-center">
                 <Typography variant="h4">Get in Touch</Typography>
                 <Typography variant="body1">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis dignissim. Aenean vitae metus
-                  in augue pretium ultrices.
+                  If you are interested in our lab or need more information you can contact us using the form below.
                 </Typography>
               </div>
               <Grid container spacing={2}>
@@ -60,25 +59,25 @@ const Contact = () => {
                   <div className="single_address">
                     <i className="fa fa-map-marker"></i>
                     <Typography variant="h6">Our Address</Typography>
-                    <Typography variant="body1">3481 Melrose Place, Beverly Hills</Typography>
+                    <Typography variant="body1">F22 & G39, SysTEMs lab,Department of Systems and Computational Biology, SLS, University of Hyderabad.</Typography>
                   </div>
                   <div className="single_address">
                     <i className="fa fa-envelope"></i>
                     <Typography variant="h6">Send your message</Typography>
-                    <Typography variant="body1">Info@example.com</Typography>
+                    <Typography variant="body1">pramodrs@uohyd.ac.in</Typography>
                   </div>
                   <div className="single_address">
                     <i className="fa fa-phone"></i>
                     <Typography variant="h6">Call us on</Typography>
-                    <Typography variant="body1">(+1) 517 397 7100</Typography>
+                    <Typography variant="body1">(+91)1234567890</Typography>
                   </div>
                   <div className="single_address">
                     <i className="fa fa-clock-o"></i>
                     <Typography variant="h6">Work Time</Typography>
                     <Typography variant="body1">
-                      Mon - Fri: 08.00 - 16.00.
+                      Mon - Fri: 08.00 - 18.00.
                       <br />
-                      Sat: 10.00 - 14.00
+                      Sat: 10.00 - 18.00
                     </Typography>
                   </div>
                 </Grid>
