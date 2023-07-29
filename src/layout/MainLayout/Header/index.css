@@ -89,7 +89,7 @@
 }
 
 .links_section {
-      margin-top: -15px !important;
+      margin-top: 10px !important;
     }
 
 
@@ -251,3 +251,28 @@ background: white;
   left: 50%;
   transform: translate(-50%, -50%);
 } */
+
+@media (max-width: 1000px){
+.lang-box{
+margin: auto;
+    /* margin-right: -317px; */
+    width: 66%;
+}
+#google_translate_element{
+  height: 35px;
+    float: right;
+    margin-right: 37px;
+}
+.goog-te-gadget .goog-te-combo{
+  margin:0;
+}
+}
+@media (min-width: 1001px){
+.skiptranslate{
+  margin-top: -25px !important;
+}
+#google_translate_element {
+  margin-left: -30px !important;
+}
+
+}
