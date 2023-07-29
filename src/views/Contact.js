@@ -61,7 +61,7 @@ const Contact = () => {
                     <Typography variant="h6">Our Address</Typography>
                     <Typography variant="body1">F22 & G39, SysTEMs lab, <br />
                     Department of Systems and Computational Biology,<br />
-                    SLS, University of Hyderabad.</Typography>
+                    SLS, University of Hyderabad, 500046.</Typography>
                   </div>
                   <div className="single_address">
                     <i className="fa fa-envelope"></i>
