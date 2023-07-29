@@ -220,9 +220,9 @@ function Header(props) {
                 <Link component={RouterLink} to="/" underline="none" sx={{ mx: 1, display: 'flex', alignItems: 'center' }}>
                   <img src={SystemLab} alt="SystemLab" style={{ transform: 'scale(1.3)' }} className="logo_icon" />
                   {/* <Typography variant="h1" component="div" sx={{ ml: 3, fontSize: '15px', fontWeight: 'bold', color: 'white' }}> */}
-                    {/* <span style={{ whiteSpace: 'nowrap', color: 'white', fontSize: '2.5rem' }}>SysTEMs Lab</span> */}
-                    {/* <br /> */}
-                    {/* <span style={{ whiteSpace: 'nowrap', color: 'white', fontSize: '1.5rem' }}>Systems Medicine and Therapeutic Engineering</span> */}
+                  {/* <span style={{ whiteSpace: 'nowrap', color: 'white', fontSize: '2.5rem' }}>SysTEMs Lab</span> */}
+                  {/* <br /> */}
+                  {/* <span style={{ whiteSpace: 'nowrap', color: 'white', fontSize: '1.5rem' }}>Systems Medicine and Therapeutic Engineering</span> */}
                   {/* </Typography> */}
                 </Link>
               </Box>
@@ -244,6 +244,7 @@ function Header(props) {
               <br /> */}
 
               {/* {copiedData ? <div className="language_google" dangerouslySetInnerHTML={{ __html: copiedData }} /> : <p>Loading languages</p>} */}
+
               <Button>
                 <Link component={RouterLink} to="/" underline="none" sx={{ mx: 1 }}>
                   <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold', fontSize: '15px' }}>
@@ -315,7 +316,7 @@ function Header(props) {
                 </Link>
               </Button>
             </Box>
-            <Box>
+            <Box className="lang-box">
               <div id="google_translate_element" gt-trigger="selectLanguage"></div>
             </Box>
             <IconButton
