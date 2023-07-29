@@ -67,7 +67,7 @@ const LandingPage = () => {
               <br />
               <br />
               <Typography variant="p" style={{ fontSize: '17px',textAlign: 'justify' }}>
-                Our laboratory is dedicated to translational biomedical research through Systems and computational medicine, Biomedical and clinical informatics
+                SysTEMs laboratory is dedicated to translational biomedical research through Systems and computational medicine, Biomedical and clinical informatics
                 and Therapeutic engineering. We apply principles of systems engineering, analytics and informatics to biomedical systems for development of better healthcare
                 solutions. Understanding the design principles of physiological systems can help in developing strategies to modify and reconstruct biological 
                 processess with desired properties. Therefore, we treat the problem of a disease diagnosis and treatment analogous to a fault diagnosis and repair 
