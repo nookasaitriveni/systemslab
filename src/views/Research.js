@@ -6,7 +6,7 @@ import { Link as RouterLink } from 'react-router-dom';
 const Research = () => {
   return (
     <div className="container" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-      <h1 style={{ color: '#990000', display: 'flex', justifyContent: 'center' }}>Research</h1>
+      <h1 style={{ color: '#800000', display: 'flex', justifyContent: 'center' }}>Research</h1>
       <div style={{ gap: '20px', width: '80%' }} spacing={2}>
         <MainCard key="1" style={{ boxShadow: '5px 2px 16px 0px rgba(0, 0, 0, 0.2)', padding: '0px', marginTop: '20px' }}>
           <Grid container spacing={2} style={{ padding: '0px' }}>
@@ -19,7 +19,7 @@ const Research = () => {
             </Grid>
             <Grid item sx={12} sm={12} md={8}>
               <div style={{ padding: '20px' }}>
-                <h3 style={{ color: '#990000' }}>Systems & Computational Medicine:</h3>
+                <h3 style={{ color: '#800000' }}>Systems & Computational Medicine:</h3>
                 <p>
                   <span>
                     Development of <b>Human Metabolic Endocrine&nbsp;Simulator&nbsp;</b>(
@@ -33,7 +33,7 @@ const Research = () => {
                     targets and therapy design for&nbsp;
                   </span>
                   <span>systemic cardiometabolic,&nbsp;</span>
-                  <span>,neurological and circadian disorders.</span>
+                  <span>neurological and circadian disorders.</span>
                   <span>Computational phytochemical drug discovery for cancer</span>
                   <span>
                     (
@@ -64,7 +64,7 @@ const Research = () => {
             </Grid>
             <Grid item sx={12} sm={12} md={8}>
               <div style={{ padding: '20px' }}>
-                <h3 style={{ color: '#990000' }}>Biomedical and Clinical Informatics:</h3>
+                <h3 style={{ color: '#800000' }}>Biomedical and Clinical Informatics:</h3>
                 <p>
                   <span>
                     B
@@ -115,7 +115,7 @@ const Research = () => {
             </Grid>
             <Grid item md={8}>
               <div style={{ padding: '20px' }}>
-                <h3 style={{ color: '#990000' }}>Therapeutic Engineering:</h3>
+                <h3 style={{ color: '#800000' }}>Therapeutic Engineering:</h3>
                 <p>
                   <span>
                     Design of biomedical control system for <b>c</b>
@@ -158,7 +158,7 @@ const Research = () => {
             </Grid>
             <Grid item md={8}>
               <div style={{ padding: '20px' }}>
-                <h3 style={{ color: '#990000' }}>Life Systems Engineering:</h3>
+                <h3 style={{ color: '#800000' }}>Life Systems Engineering:</h3>
                 <p>
                   <span>Modelling and analysis of natural systems based on quantification of&nbsp;</span>
                   <span>living systems theory</span>

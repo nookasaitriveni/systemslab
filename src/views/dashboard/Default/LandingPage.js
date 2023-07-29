@@ -58,7 +58,7 @@ const LandingPage = () => {
         </div>
       </Grid>
       <Grid item xs={12} sm={12} md={7} style={{ margin: 'auto' }}>
-        <Grid container spacing={3} alignItems="center" justify="center">
+        <Grid container spacing={2} alignItems="center" justify="center">
           <Grid item xs={12} sm={12} md={10}>
             <div className="content-container">
               <Typography variant="h1" style={{ fontSize: isSmallScreen ? '30' : '46', color: '#800000' }}>
@@ -66,18 +66,21 @@ const LandingPage = () => {
               </Typography>
               <br />
               <br />
-              <Typography variant="p" style={{ fontSize: '17px' }}>
-                We are a team of passionate researches dedicated to translational research in the domain of Systems Medicine and Therapeutic Engineering.
-                Our research interests are in applying systems engineering principles to biomedical systems for better health-care. Understanding the design principles of biological network can help in developing strategies to modify and reconstruct biological 
-                process with desired properties. Therefore, in our research approach, we treat a disease diagnosis problem analogous to a fault 
-                diagnosis problem in engineering systems and develop tools to better inform treatment decisions and therapeutic strategies. 
+              <Typography variant="p" style={{ fontSize: '17px',textAlign: 'justify' }}>
+                SysTEMs laboratory is dedicated to translational biomedical research through Systems and computational medicine, Biomedical and clinical informatics
+                and Therapeutic engineering. We apply principles of systems engineering, analytics and informatics to biomedical systems for development of better healthcare
+                solutions. Understanding the design principles of physiological systems can help in developing strategies to modify and reconstruct biological 
+                processess with desired properties. Therefore, we treat the problem of a disease diagnosis and treatment analogous to a fault diagnosis and repair 
+                in engineering systems and develop tools to better inform diagnostics, treatment decisions and therapeutic strategies. 
                 <br />
                 <br />
-                The broader areas of research include systems and computatioanl medicine with specific interests in drug target identification,
-                disease mechanisms, biomarker identification, therapy design, and chronotherapeutic drug delivery. We use mathematical modelling and 
-                Artificial intelligence with Machine learning tools for devlopment of personalized medicine applications. We also work with animal models
-                and human clinical research for discovery and validation of the compuattational insights. Our specific areas of research application
-                include metabolic syndrome, diabetes and hypertension, neurophysiology, circadian physiology, cancer and inflammatory disorders.                               
+                The broader areas of research include identification of drug targets, disease mechanisms, biomarkers, drug discovery, therapy design and 
+                chronotherapeutic drug delivery. We apply systems and computational biology and quantitative systems pharmacology framworks with Mathematical 
+                modelling, Artificial intelligence and Machine learning tools for devlopment of personalized medicine applications. We work with animal models
+                and human clinical research for the validation of computational models and their insights. Our specific areas of research include metabolic 
+                syndrome, diabetes, hypertension, neurophysiology, liver diseases, circadian physiology, cancer and inflammatory disorders. Moreover we work 
+                on analyzing the issues related to public health and sustainable development from systems perspective to deliver effective solutions for healthy 
+                and sustainable living.                             
               </Typography>
             </div>
           </Grid>
@@ -151,7 +154,7 @@ const LandingPage = () => {
                   PhytCancer
                 </Button>
               </Box>
-              {/*<Box mb={1}>
+              <Box mb={1}>
                 <Button
                   variant="contained"
                   component={Link}
@@ -160,7 +163,7 @@ const LandingPage = () => {
                 >
                   HealthSuRF
                 </Button>
-              </Box>*/}
+             </Box>
             </div>
           </Grid>
         </Grid>
