@@ -69,18 +69,18 @@ const LandingPage = () => {
               <Typography variant="p" style={{ fontSize: '17px',textAlign: 'justify' }}>
                 SysTEMs laboratory is dedicated to translational biomedical research through Systems and computational medicine, Biomedical and clinical informatics
                 and Therapeutic engineering. We apply principles of systems engineering, analytics and informatics to biomedical systems for development of better healthcare
-                solutions. Understanding the design principles of physiological systems can help in developing strategies to modify and reconstruct biological 
-                processess with desired properties. Therefore, we treat the problem of a disease diagnosis and treatment analogous to a fault diagnosis and repair 
-                in engineering systems and develop tools to better inform diagnostics, treatment decisions and therapeutic strategies. 
+                solutions. Understanding the design principles of physiological systems can help in developing strategies to modify and reconstruct biological
+                processess with desired properties. Therefore, we treat the problem of a disease diagnosis and treatment analogous to a fault diagnosis and repair
+                in engineering systems and develop tools to better inform diagnostics, treatment decisions and therapeutic strategies.
                 <br />
                 <br />
-                The broader areas of research include identification of drug targets, disease mechanisms, biomarkers, drug discovery, therapy design and 
-                chronotherapeutic drug delivery. We apply systems and computational biology and quantitative systems pharmacology framworks with Mathematical 
+                The broader areas of research include identification of drug targets, disease mechanisms, biomarkers, drug discovery, therapy design and
+                chronotherapeutic drug delivery. We apply systems and computational biology and quantitative systems pharmacology framworks with Mathematical
                 modelling, Artificial intelligence and Machine learning tools for devlopment of personalized medicine applications. We work with animal models
-                and human clinical research for the validation of computational models and their insights. Our specific areas of research include metabolic 
-                syndrome, diabetes, hypertension, neurophysiology, liver diseases, circadian physiology, cancer and inflammatory disorders. Moreover we work 
-                on analyzing the issues related to public health and sustainable development from systems perspective to deliver effective solutions for healthy 
-                and sustainable living.                             
+                and human clinical research for the validation of computational models and their insights. Our specific areas of research include metabolic
+                syndrome, diabetes, hypertension, neurophysiology, liver diseases, circadian physiology, cancer and inflammatory disorders. Moreover we work
+                on analyzing the issues related to public health and sustainable development from systems perspective to deliver effective solutions for healthy
+                and sustainable living.
               </Typography>
             </div>
           </Grid>
@@ -131,7 +131,7 @@ const LandingPage = () => {
                   to="/thestrech"
                   style={{ color: '#ffffff', border: '1px solid #000328', background: '#000328' }}
                 >
-                  The StreCH
+                  The StrECH
                 </Button>
               </Box>
               <Box mb={1}>

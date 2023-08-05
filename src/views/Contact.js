@@ -1,7 +1,55 @@
-import React from 'react';
+import React, { useState } from 'react';
+import axios from 'axios';
 import { Card, CardContent, CardMedia, Typography, Button, Box, Grid, Paper, TextField, Link } from '@mui/material';
 import './Contact.css';
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    subject: '',
+    message: '',
+  });
+
+  // State variable to track form submission status
+  const [isSubmitted, setIsSubmitted] = useState(false);
+
+  const handleFormChange = (event) => {
+    const { name, value } = event.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    const postData = {
+      "Name": {
+        "value": formData.name,
+        "type": "text"
+      },
+      "Short answer email": {
+        "value": formData.email,
+        "type": "email"
+      },
+      "Subject": {
+        "value": formData.subject,
+        "type": "text"
+      },
+      "Paragraph": {
+        "value": formData.message,
+        "type": "text"
+      }
+    };
+
+    axios.post('https://backend.zyro.com/u1/data/v2/post/mjEPyMXy7aUKJMz5nGbpAEpGyb2m5N02', postData)
+      .then((response) => {
+        console.log('Contact form submitted successfully:', response.data);
+        setIsSubmitted(true); // Set the form submission status to true
+      })
+      .catch((error) => {
+        console.error('Error submitting contact form:', error);
+        // You can add error handling here if required
+      });
+  };
   return (
     <div>
       <Typography variant="h1" style={{ color: '#800000', display: 'flex', justifyContent: 'center' }}>
@@ -27,32 +75,74 @@ const Contact = () => {
               <Grid container spacing={2}>
                 <Grid item xs={12} lg={7}>
                   <div className="contact">
-                    <form className="form" name="enq" method="post" action="contact.php">
-                      <Grid container spacing={2}>
-                        <Grid item xs={12} sm={6}>
-                          <TextField type="text" name="name" variant="outlined" fullWidth placeholder="Name" required />
+                  {isSubmitted ? ( // Show the message if the form is submitted
+                      <Typography variant="h4" style={{ textAlign: 'center', marginTop: '20px' }}>
+                        Thanks for submitting the details!
+                      </Typography>
+                    ) : (
+                      <form className="form" onSubmit={handleSubmit}>
+                        <Grid container spacing={2}>
+                          <Grid item xs={12} sm={6}>
+                            <TextField
+                              type="text"
+                              name="name"
+                              value={formData.name}
+                              onChange={handleFormChange}
+                              variant="outlined"
+                              fullWidth
+                              placeholder="Name"
+                              required
+                            />
+                          </Grid>
+                          <Grid item xs={12} sm={6}>
+                            <TextField
+                              type="email"
+                              name="email"
+                              value={formData.email}
+                              onChange={handleFormChange}
+                              variant="outlined"
+                              fullWidth
+                              placeholder="Email"
+                              required
+                            />
+                          </Grid>
+                          <Grid item xs={12}>
+                            <TextField
+                              type="text"
+                              name="subject"
+                              value={formData.subject}
+                              onChange={handleFormChange}
+                              variant="outlined"
+                              fullWidth
+                              placeholder="Subject"
+                              required
+                            />
+                          </Grid>
+                          <Grid item xs={12}>
+                            <TextField
+                              rows={6}
+                              name="message"
+                              value={formData.message}
+                              onChange={handleFormChange}
+                              variant="outlined"
+                              fullWidth
+                              placeholder="Your Message"
+                              required
+                              multiline
+                            />
+                          </Grid>
+                          <Grid item xs={12} className="text-center">
+                            <Button
+                              type="submit"
+                              variant="contained"
+                              style={{ color: '#ffffff', border: '1px solid #990000', background: '#990000' }}
+                            >
+                              Send Message
+                            </Button>
+                          </Grid>
                         </Grid>
-                        <Grid item xs={12} sm={6}>
-                          <TextField type="email" name="email" variant="outlined" fullWidth placeholder="Email" required />
-                        </Grid>
-                        <Grid item xs={12}>
-                          <TextField type="text" name="subject" variant="outlined" fullWidth placeholder="Subject" required />
-                        </Grid>
-                        <Grid item xs={12}>
-                          <TextField rows={6} name="message" variant="outlined" fullWidth placeholder="Your Message" required multiline />
-                        </Grid>
-                        <Grid item xs={12} className="text-center">
-                          <Button
-                            variant="contained"
-                            component={Link}
-                            to="/your-link"
-                            style={{ color: '#ffffff', border: '1px solid #990000', background: '#990000' }}
-                          >
-                            Send Message
-                          </Button>
-                        </Grid>
-                      </Grid>
-                    </form>
+                      </form>
+                    )}
                   </div>
                 </Grid>
                 <Grid item xs={12} lg={5}>
