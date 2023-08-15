@@ -7,7 +7,12 @@ const Research = () => {
   return (
     <div className="container" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
       <h1 style={{ color: '#800000', display: 'flex', justifyContent: 'center' }}>Research</h1>
-      <div style={{ gap: '20px', width: '80%' }} spacing={2}>
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', justifyContent: 'center', marginTop: '20px' }}
+        container
+        direction="column"
+        alignItems="center"
+        justify="right"
+        spacing={2}>
         <MainCard key="1" style={{ boxShadow: '5px 2px 16px 0px rgba(0, 0, 0, 0.2)', padding: '0px', marginTop: '20px' }}>
           <Grid container spacing={2} style={{ padding: '0px' }}>
             <Grid item sx={12} sm={12} md={4} style={{ padding: '0px' }}>
@@ -49,7 +54,7 @@ const Research = () => {
               </div>
             </Grid>
             {/* <Grid item md={4}>
-          
+
         </Grid> */}
           </Grid>
         </MainCard>
@@ -100,7 +105,7 @@ const Research = () => {
               </div>
             </Grid>
             {/* <Grid item md={4}>
-          
+
         </Grid> */}
           </Grid>
         </MainCard>
@@ -143,7 +148,7 @@ const Research = () => {
               </div>
             </Grid>
             {/* <Grid item md={4}>
-          
+
         </Grid> */}
           </Grid>
         </MainCard>
@@ -185,7 +190,7 @@ const Research = () => {
               </div>
             </Grid>
             {/* <Grid item md={4}>
-          
+
         </Grid> */}
           </Grid>
         </MainCard>

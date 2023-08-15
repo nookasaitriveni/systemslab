@@ -10,6 +10,7 @@ import image2 from './LP1.png';
 import image3 from './LP2.png';
 import image4 from './LP3.png';
 import image1 from './LP5.png';
+import image5 from '../../PhytCancer.png'
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 const LandingPage = () => {
@@ -53,6 +54,9 @@ const LandingPage = () => {
             </div>
             <div>
               <img src={image1} alt="Image 1" className="slider-image" />
+            </div>
+            <div>
+              <img src={image5} alt="Image 5" className="slider-image" />
             </div>
           </Slider>
         </div>

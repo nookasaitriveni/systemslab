@@ -2,7 +2,7 @@ import React from 'react';
 import MainCard from '../ui-component/cards/MainCard';
 import keerthana from './keerthana.jpeg';
 import sreelekshmi from './srilakshmi.jpeg'
-import samay from './samay.jpeg'
+import samay from './samay.png'
 const Team = () => {
   // Sample data for members
   const members = [

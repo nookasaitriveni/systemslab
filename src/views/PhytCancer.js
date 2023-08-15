@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import MainCard from '../ui-component/cards/MainCard';
 import { Typography, Link, Grid } from '@mui/material';
+import PhytCancerimg from './PhytCancer.png';
 import { useLocation } from 'react-router-dom';
 const HumenSim = () => {
   return (
@@ -11,7 +12,7 @@ const HumenSim = () => {
           <Grid container spacing={2} style={{ padding: '0px' }}>
             <Grid item md={4} style={{ padding: '0px' }}>
               <img
-                src="https://www.industrialmarketingtoday.com/wp-content/uploads/2019/08/reserach-post.jpg"
+                src={PhytCancerimg}
                 alt="Life Systems Engineering"
                 style={{ width: '100%', objectFit: 'cover', height: '100%' }}
               />
@@ -39,7 +40,7 @@ const HumenSim = () => {
               </div>
             </Grid>
             {/* <Grid item md={4}>
-          
+
         </Grid> */}
           </Grid>
         </MainCard>
