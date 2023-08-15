@@ -10,7 +10,7 @@ import image2 from './LP1.png';
 import image3 from './LP2.png';
 import image4 from './LP3.png';
 import image1 from './LP5.png';
-import image5 from './LP7.png'
+import image5 from './LP7.png';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 const LandingPage = () => {
