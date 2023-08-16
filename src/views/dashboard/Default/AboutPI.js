@@ -4,7 +4,7 @@ import './AboutSection.css';
 import prs from './PRS.jpg';
 const AboutSection = () => {
   return (
-    <Card style={{ padding: '70px', boxShadow: '3px 6px 9px 1px rgba(0, 0, 0, 0.2)' }}>
+    <Card style={{ padding: '20px', boxShadow: '3px 6px 9px 1px rgba(0, 0, 0, 0.2)' }}>
       <h1 style={{ fontSize: '30px', color: '#800000', textAlign: 'center' }}>About PI</h1>
       <div className="about-card">
         <Grid container spacing={2}>
