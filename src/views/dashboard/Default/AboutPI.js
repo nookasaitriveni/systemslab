@@ -18,7 +18,7 @@ const AboutSection = () => {
             </Grid>
             <br />
             <br />
-            <b style={{ color: '#800000', fontSize: '24px', textAlign: 'center' }}>Dr. Pramod Rajaram Somvanshi</b>
+            <b style={{ color: '#800000', fontSize: '23px', textAlign: 'start' }}>Dr. Pramod Rajaram Somvanshi</b>
             <Typography variant="body2" style={{ fontSize: '17px' }}>
              <br />
              <b style={{ color: '#800000',fontSize: '20px' }}>Experience</b>

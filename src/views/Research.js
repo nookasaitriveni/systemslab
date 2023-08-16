@@ -23,7 +23,7 @@ const Research = () => {
               />
             </Grid>
             <Grid item sx={12} sm={12} md={8}>
-              <div style={{ padding: '20px' }}>
+              <div style={{ padding: '5px' }}>
                 <h3 style={{ color: '#800000' }}>Systems & Computational Medicine:</h3>
                 <p>
                   <span>
@@ -68,7 +68,7 @@ const Research = () => {
               />
             </Grid>
             <Grid item sx={12} sm={12} md={8}>
-              <div style={{ padding: '20px' }}>
+              <div style={{ padding: '5px' }}>
                 <h3 style={{ color: '#800000' }}>Biomedical and Clinical Informatics:</h3>
                 <p>
                   <span>
@@ -119,7 +119,7 @@ const Research = () => {
               />
             </Grid>
             <Grid item md={8}>
-              <div style={{ padding: '20px' }}>
+              <div style={{ padding: '5px' }}>
                 <h3 style={{ color: '#800000' }}>Therapeutic Engineering:</h3>
                 <p>
                   <span>
@@ -162,7 +162,7 @@ const Research = () => {
               />
             </Grid>
             <Grid item md={8}>
-              <div style={{ padding: '20px' }}>
+              <div style={{ padding: '5px' }}>
                 <h3 style={{ color: '#800000' }}>Life Systems Engineering:</h3>
                 <p>
                   <span>Modelling and analysis of natural systems based on quantification of&nbsp;</span>

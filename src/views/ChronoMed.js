@@ -18,7 +18,7 @@ const ChronoMed = () => {
               />
             </Grid>
             <Grid item md={8}>
-              <div style={{ padding: '20px' }}>
+              <div style={{ padding: '5px' }}>
                 <h3 style={{ color: '#800000' }}>Chronotherapeutics:</h3>
                 <p>
                   <span>Modelling and analysis of natural systems based on quantification of&nbsp;</span>

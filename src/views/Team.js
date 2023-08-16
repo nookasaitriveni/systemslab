@@ -21,7 +21,7 @@ const Team = () => {
       name: 'Samayaditya Singh',
       designation: 'Research Scholar',
       title_of_research: 'Computational modeling for chronotherapy by cortisol analogs',
-      work_experience: "Research Assistant (2017), Aakaar Biotechnologies Pvt. Ltd., UP and Project-JRF (2021), Topic: In-vivo validation of membrane acid phosphates as a vaccine candidate against leishmania parasite",
+      work_experience: "Research Assistant (2017), Aakaar Biotechnologies Pvt. Ltd., UP and Project-JRF (2021), UoH",
       education: "B.Tech in Biotechnology (2013-2017), Dr. A.P.J. Abdul Kalam Technical University, Uttar Pradesh <br/> M.Tech in Bioinformatics (2018-2020), University of Hyderabad",
       image: samay, // Image file path or URL,
       email: '21lsph05@uohyd.ac.in'

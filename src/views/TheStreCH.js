@@ -18,7 +18,7 @@ const TheStreCH = () => {
               />
             </Grid>
             <Grid item md={8}>
-              <div style={{ padding: '20px' }}>
+              <div style={{ padding: '5px' }}>
                 <h3 style={{ color: '#990000' }}>The Stress Epidemic and Cardiometabolic Health:</h3>
                 <p>
                 The current study aims to gather and evaluate human data for blood clinical analysis and psychological stress inventories in order to discover stress indicators in plasma and validate their involvement in determining resilience. In order to study the circadian behavior of stress physiology and its impact on hypertension, we intend to build and evaluate a computational model that incorporates the molecular pathways of the immune system, HPA axis, HPT axis, and circadian clock, which can guide the use of chronotherapy to treat hypertension. Furthermore, to find the diagnostic indicators for resilience or pathological variations of stress and to optimize the model parameters, machine learning techniques will be applied to the data from human and animal models. In general, this research will contribute to our knowledge of the early mediators of stress pathology and the best treatment approaches for them.

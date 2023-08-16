@@ -17,7 +17,7 @@ const T3Diabetes = () => {
               />
             </Grid>
             <Grid item md={8}>
-              <div style={{ padding: '20px' }}>
+              <div style={{ padding: '5px' }}>
                 <h3 style={{ color: '#990000' }}>Life Systems Engineering:</h3>
                 <p>
                   <span>Modelling and analysis of natural systems based on quantification of&nbsp;</span>
@@ -39,7 +39,7 @@ const T3Diabetes = () => {
               </div>
             </Grid>
             {/* <Grid item md={4}>
-          
+
         </Grid> */}
           </Grid>
         </MainCard>
