@@ -12,7 +12,7 @@ const Team = () => {
       designation: 'Research Scholar',
       title_of_research: 'Biomedical informatics studies for metabolic syndrome and psychosomatic disorder',
       work_experience: "Forensic Professional (2019-2021), Biology and DNA Divison, Central Forensic Science Laboratory (CFSL)- Hyderabad, DFSS, Ministry of Home Affairs, Government of India.",
-      education: "Masters in Zoology (2016-2018), Andhra University, Vizag, AP <br/> Bachelors in Chemistry, Botany and Zoology (2013-2016), Andhra University",
+      education: "M.Sc. in Zoology (2016-2018), Andhra University, <br/> B.Sc. with Chemistry, Botany and Zoology (2013-2016), Andhra University",
       image: keerthana, // Image file path or URL
       email: '20lsph03@uohyd.ac.in'
     },
