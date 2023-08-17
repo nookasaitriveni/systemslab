@@ -53,8 +53,7 @@ const Teaching = () => {
               style={{ width: '100%', height: '190px', objectFit: 'cover', transform: 'scale(1.3)' }}
             />
             <div style={{ padding: '20px 10px 10px 10px' }}>
-              <h3 style={{ color: '#800000' }}>SB 452 - Computationa
-              l Systems Biology [3 credits]</h3>
+              <h3 style={{ color: '#800000' }}>SB 452 - Computational Systems Biology [3 credits]</h3>
               <p style={{ color: 'black' }}>Overview of contents</p>
               <h3>Unit: 1</h3>
               <p>a Introduction to Computational Systems Biology, Types of data used in modeling
@@ -139,9 +138,9 @@ Win-stay-Lose-Shift (WSLS)<br/>
 b) Modeling Natural selection, Genetic drift and Mutation for finite and infinite populations.<br/>
 c) Epidemiological models, Infectious disease modelling,<br/>
 d) Ecological models, predator-prey models and its variants<br/>
-              e) Applications to human, animal and plant systems
+e) Applications to human, animal and plant systems
             </p>
-            <h3>Unit: 3</h3>
+             <h3>Unit: 3</h3>
             <p>
 Advanced Modeling and Bioengineering applications: 12 Hours<br/>
 a. Synthetic Biology: Parts, devices and systems, BioBricks and iGEM Modules, Toggle switch, repressilator and
