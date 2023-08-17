@@ -88,7 +88,7 @@ GENESIS</p>
               style={{ width: '100%', height: '190px', objectFit: 'cover', transform: 'scale(1.3)' }}
             />
             <div style={{ padding: '20px 10px 10px 10px' }}>
-              <h3 style={{ color: '#800000' }}>SB 501 - Biosystems Modelling and Simulations [2 credits]</h3>
+              <h3 style={{ color: '#800000' }}>SB 501 - Biosystems Modelling and Simulations [5 credits]</h3>
               <p style={{ color: 'black' }}>Overview of contents</p>
               <h3>Unit: 1</h3>
               <p>Modeling Molecular Biosystems: [12 hours]<br/>
