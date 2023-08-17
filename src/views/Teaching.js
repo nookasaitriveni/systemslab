@@ -53,7 +53,8 @@ const Teaching = () => {
               style={{ width: '100%', height: '190px', objectFit: 'cover', transform: 'scale(1.3)' }}
             />
             <div style={{ padding: '20px 10px 10px 10px' }}>
-              <h3 style={{ color: '#800000' }}>SB 452 - Computational Systems Biology [3 credits]</h3>
+              <h3 style={{ color: '#800000' }}>SB 452 - Computationa
+              l Systems Biology [3 credits]</h3>
               <p style={{ color: 'black' }}>Overview of contents</p>
               <h3>Unit: 1</h3>
               <p>a Introduction to Computational Systems Biology, Types of data used in modeling
@@ -80,6 +81,33 @@ e Tools and databases: SBML; Modeling tools- Gepasi, Virtual cell, Cell Designer
 GENESIS</p>
             </div>
         </MainCard>
+
+        <MainCard key='3' style={{ width: '650px', boxShadow: '5px 2px 16px 0px rgba(0, 0, 0, 0.2)' }}>
+            <img
+              src='https://ggnindia.dronacharya.info/blog/wp-content/uploads/2020/02/Compter-Technology-in-Medical-Application-768x461.jpg'
+              alt='2'
+              style={{ width: '100%', height: '190px', objectFit: 'cover', transform: 'scale(1.3)' }}
+            />
+            <div style={{ padding: '20px 10px 10px 10px' }}>
+              <h3 style={{ color: '#800000' }}>SB 472 - Systems and Computational Medicine [2 credits]</h3>
+              <p style={{ color: 'black' }}>Overview of contents</p>
+              <h3>Unit I: Systems Physiology (8 hours):</h3>
+              <p>
+Mathematical models and quantification of Core principles of physiology- pressure and flow, physical and electrical
+properties, circulatory system, heart & blood, respiratory system, Muscular system, endocrine system, renal
+              system, gastrointestinal system and nervous system</p>
+            <h3>
+Unit II: Systems Pharmacology (8 hours):</h3><p>
+Emergence of Quantitative Systems Pharmacology (QSP) modelling, modeling drug exposure and drug response
+at the systemic level, Engineering approach to physiologically based pharmacokinetic and pharmacodynamic (PBPKPD) modeling, Computational tools in the assistance of Personalized Healthcare, QSP in biomedical research,
+QSP on cancer drug delivery to target sites</p><h3>
+Unit III: Biomedical Informatics and data analytics (8 hours):</h3><p>
+Biomedical informatics pipeline, tools used in big data analytics in biomedical research, biostatistical modelling,
+Sample size and power estimation, statistical inference in clinical research: two or more samples, samples with
+correlations and associations, Causal inference in biomedical data, Integrative big data analysis- Multi-omic
+biomedical data analysis, Big data and drug discovery </p>
+            </div>
+          </MainCard>
 
         <MainCard key='2' style={{ width: '650px', boxShadow: '5px 2px 16px 0px rgba(0, 0, 0, 0.2)' }}>
             <img
@@ -125,34 +153,7 @@ d. Genetic engineering and metabolic engineering applications<br/>
 e. Biomedical engineering applications. </p>
             </div>
         </MainCard>
-
-
-         <MainCard key='3' style={{ width: '650px', boxShadow: '5px 2px 16px 0px rgba(0, 0, 0, 0.2)' }}>
-            <img
-              src='https://ggnindia.dronacharya.info/blog/wp-content/uploads/2020/02/Compter-Technology-in-Medical-Application-768x461.jpg'
-              alt='2'
-              style={{ width: '100%', height: '190px', objectFit: 'cover', transform: 'scale(1.3)' }}
-            />
-            <div style={{ padding: '20px 10px 10px 10px' }}>
-              <h3 style={{ color: '#800000' }}>SB 472 - Systems and Computational Medicine [2 credits]</h3>
-              <p style={{ color: 'black' }}>Overview of contents</p>
-              <h3>Unit I: Systems Physiology (8 hours):</h3>
-              <p>
-Mathematical models and quantification of Core principles of physiology- pressure and flow, physical and electrical
-properties, circulatory system, heart & blood, respiratory system, Muscular system, endocrine system, renal
-              system, gastrointestinal system and nervous system</p>
-            <h3>
-Unit II: Systems Pharmacology (8 hours):</h3><p>
-Emergence of Quantitative Systems Pharmacology (QSP) modelling, modeling drug exposure and drug response
-at the systemic level, Engineering approach to physiologically based pharmacokinetic and pharmacodynamic (PBPKPD) modeling, Computational tools in the assistance of Personalized Healthcare, QSP in biomedical research,
-QSP on cancer drug delivery to target sites</p><h3>
-Unit III: Biomedical Informatics and data analytics (8 hours):</h3><p>
-Biomedical informatics pipeline, tools used in big data analytics in biomedical research, biostatistical modelling,
-Sample size and power estimation, statistical inference in clinical research: two or more samples, samples with
-correlations and associations, Causal inference in biomedical data, Integrative big data analysis- Multi-omic
-biomedical data analysis, Big data and drug discovery </p>
-            </div>
-          </MainCard>
+     
       </div>
     </div>
   );
