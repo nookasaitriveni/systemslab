@@ -65,7 +65,7 @@ const LandingPage = () => {
         <Grid container spacing={2} alignItems="center" justify="center">
           <Grid item xs={12} sm={12} md={10}>
             <div className="content-container">
-              <Typography variant="h1" style={{ fontSize: isSmallScreen ? '30' : '46', color: '#800000' }}>
+              <Typography variant="h1" style={{ fontSize: isSmallScreen ? '30' : '46', color: '#800020' }}>
                 Welcome to Our Lab
               </Typography>
               <br />
@@ -157,7 +157,7 @@ const LandingPage = () => {
                 >
                   PhytCancer
                 </Button>
-              </Box>
+               </Box>
               <Box mb={1}>
                 <Button
                   variant="contained"

@@ -6,7 +6,7 @@ import { Link as RouterLink } from 'react-router-dom';
 const Research = () => {
   return (
     <div className="container" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-      <h1 style={{ color: '#800000', display: 'flex', justifyContent: 'center' }}>Research</h1>
+      <h1 style={{ color: '#800020', display: 'flex', justifyContent: 'center' }}>Research</h1>
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', justifyContent: 'center', marginTop: '20px' }}
         container
         direction="column"
@@ -24,7 +24,7 @@ const Research = () => {
             </Grid>
             <Grid item sx={12} sm={12} md={8}>
               <div style={{ padding: '5px' }}>
-                <h3 style={{ color: '#800000' }}>Systems & Computational Medicine:</h3>
+                <h3 style={{ color: '#800020' }}>Systems & Computational Medicine:</h3>
                 <p>
                   <span>
                     Development of <b>Human Metabolic Endocrine&nbsp;Simulator&nbsp;</b>(
@@ -69,7 +69,7 @@ const Research = () => {
             </Grid>
             <Grid item sx={12} sm={12} md={8}>
               <div style={{ padding: '5px' }}>
-                <h3 style={{ color: '#800000' }}>Biomedical and Clinical Informatics:</h3>
+                <h3 style={{ color: '#800020' }}>Biomedical and Clinical Informatics:</h3>
                 <p>
                   <span>
                     B
@@ -120,7 +120,7 @@ const Research = () => {
             </Grid>
             <Grid item md={8}>
               <div style={{ padding: '5px' }}>
-                <h3 style={{ color: '#800000' }}>Therapeutic Engineering:</h3>
+                <h3 style={{ color: '#800020' }}>Therapeutic Engineering:</h3>
                 <p>
                   <span>
                     Design of biomedical control system for <b>c</b>
@@ -163,7 +163,7 @@ const Research = () => {
             </Grid>
             <Grid item md={8}>
               <div style={{ padding: '5px' }}>
-                <h3 style={{ color: '#800000' }}>Life Systems Engineering:</h3>
+                <h3 style={{ color: '#800020' }}>Life Systems Engineering:</h3>
                 <p>
                   <span>Modelling and analysis of natural systems based on quantification of&nbsp;</span>
                   <span>living systems theory</span>

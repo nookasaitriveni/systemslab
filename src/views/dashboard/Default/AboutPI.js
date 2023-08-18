@@ -5,7 +5,7 @@ import prs from './PRS.jpg';
 const AboutSection = () => {
   return (
     <Card style={{ padding: '20px', boxShadow: '3px 6px 9px 1px rgba(0, 0, 0, 0.2)' }}>
-      <h1 style={{ fontSize: '30px', color: '#800000', textAlign: 'center' }}>About PI</h1>
+      <h1 style={{ fontSize: '30px', color: '#800020', textAlign: 'center' }}>About PI</h1>
       <div className="about-card">
         <Grid container spacing={2}>
           <Grid item xs={0} sm={0} md={5} style={{ margin: 'auto', marginTop: '0px' }} className="hide-mobile">
@@ -18,10 +18,10 @@ const AboutSection = () => {
             </Grid>
             <br />
             <br />
-            <b style={{ color: '#800000', fontSize: '23px', textAlign: 'start' }}>Dr. Pramod Rajaram Somvanshi</b>
+            <b style={{ color: '#800020', fontSize: '23px', textAlign: 'start' }}>Dr. Pramod Rajaram Somvanshi</b>
             <Typography variant="body2" style={{ fontSize: '17px' }}>
              <br />
-             <b style={{ color: '#800000',fontSize: '20px' }}>Experience</b>
+             <b style={{ color: '#800020',fontSize: '20px' }}>Experience</b>
             <br />
             <br />
             <b>PI and Assistant Professor</b>, Dept. of Systems and Computational Biology, University of Hyderabad, (Aug 2020 onwards)  <br />
@@ -34,7 +34,7 @@ const AboutSection = () => {
             <b>Technologist (R&D)</b>, Bio-Process Development, DSM Chemical Division, New Delhi, INDIA (Nov 2006- June 2009)<br />
             <b>Project Scholar</b>,  Dept. Fermentation Tech. and Bio-Engineering, CFTRI Mysore, INDIA (May 2005-Oct 2006)<br />
             <br />
-            <b style={{ color: '#800000',fontSize: '20px' }}>Trainings</b>
+            <b style={{ color: '#800020',fontSize: '20px' }}>Trainings</b>
             <br />
             <br />
             <b>Systems Biology and Chronotherapeutics</b>, Harvard School of Engineering and Applied Sciences, Harvard University, USA.<br/>
@@ -47,7 +47,7 @@ const AboutSection = () => {
             <b>Lifestyle Medicine</b>, Institute of Lifestyle Medicine, Harvard Medical School, USA.<br/>
             <b>Epidemiological Research in Public Health</b>, Imperial College of London, UK. <br />
             <br />
-            <b style={{ color: '#800000',fontSize: '20px' }}>Memberships</b>
+            <b style={{ color: '#800020',fontSize: '20px' }}>Memberships</b>
             <br />
             <br />
             <b>FRSPH</b>: Fellow of The Royal Society for Public Health (UK)<br />
@@ -56,7 +56,7 @@ const AboutSection = () => {
             Member of the European Society for Preventive Medicine (UK)  <br />
             Member of International Society for Evolution, Medicine and Public Health (ISEMPH, USA)<br />
             <br />
-            <b style={{ color: '#800000',fontSize: '20px' }}>Education</b>
+            <b style={{ color: '#800020',fontSize: '20px' }}>Education</b>
             <br />
             <br />
             <b>Ph.D</b>, Biosystems Engineering, Dept. of Chemical Engg., IIT Bombay, INDIA, 2014.<br />
