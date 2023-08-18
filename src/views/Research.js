@@ -180,9 +180,9 @@ const Research = () => {
                   <span>
                     . The{' '}
                     <b>
-                      <RouterLink className="route-link" to="/healthsurf">
+                      <a href='https://healthsurf.org/' target="_blank" className="route-link" >
                         HealthSurf
-                      </RouterLink>
+                      </a>
                     </b>{' '}
                     <b>project</b>.
                   </span>

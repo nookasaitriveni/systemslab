@@ -33,7 +33,7 @@ const HumenSim = () => {
                   </span>
                   <b>public health</b>
                   <span>
-                    . The <b>HealthSurf</b> <b>project</b>.
+                    . The <a href='https://healthsurf.org/' target="_blank"><b>HealthSurf</b></a> <b>project</b>.
                   </span>
                 </p>
               </div>
