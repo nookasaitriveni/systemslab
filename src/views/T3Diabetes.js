@@ -33,7 +33,7 @@ const T3Diabetes = () => {
                   </span>
                   <b>public health</b>
                   <span>
-                    . The <b>HealthSurf</b> <b>project</b>.
+                    . The <b><a href='https://healthsurf.org/' target="_blank">HealthSurf</a></b> <b>project</b>.
                   </span>
                 </p>
               </div>
