@@ -34,7 +34,7 @@ body {
     /* Apply styles for screens smaller than extra small (xs) */
     .drawer_content {
       display: block !important;
-      /* background-color:#800000; */
+      /* background-color:#800020; */
     }
 
   }

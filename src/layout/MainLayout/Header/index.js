@@ -204,7 +204,7 @@ function Header(props) {
           color="inherit"
           elevation={0}
           sx={{
-            bgcolor: '#800000', //theme.palette.background.default
+            bgcolor: '#800020', //theme.palette.background.default
             zIndex: 9999
           }}
         >
@@ -350,7 +350,7 @@ function Header(props) {
           // }}
           className="drawer_content"
           sx={{
-            '& .MuiDrawer-paper': { boxSizing: 'border-box', width: '100%', backgroundColor: '#800000', pt: 9 },
+            '& .MuiDrawer-paper': { boxSizing: 'border-box', width: '100%', backgroundColor: '#800020', pt: 9 },
             zIndex: theme.zIndex.appBar + 1
           }}
         >

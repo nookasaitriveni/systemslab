@@ -23,7 +23,7 @@ const Teaching = () => {
 
   return (
     <div>
-      <h1 style={{ color: '#800000', display: 'flex', justifyContent: 'center' }}>Courses</h1>
+      <h1 style={{ color: '#800020', display: 'flex', justifyContent: 'center' }}>Courses</h1>
       <div
         style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', justifyContent: 'center', marginTop: '20px' }}
         container
@@ -40,7 +40,7 @@ const Teaching = () => {
               style={{ width: '100%', height: '160px', objectFit: 'cover', transform: 'scale(1.3)' }}
             />
             <div style={{ padding: '10px' }}>
-              <h3 style={{ color: '#800000' }}>{member.name}</h3>
+              <h3 style={{ color: '#800020' }}>{member.name}</h3>
               <p style={{ color: 'black' }}>{member.designation}</p>
               <p>{member.description}</p>
             </div>
@@ -53,7 +53,7 @@ const Teaching = () => {
               style={{ width: '100%', height: '190px', objectFit: 'cover', transform: 'scale(1.3)' }}
             />
             <div style={{ padding: '20px 10px 10px 10px' }}>
-              <h3 style={{ color: '#800000' }}>SB 452 - Computational Systems Biology [3 credits]</h3>
+              <h3 style={{ color: '#800020' }}>SB 452 - Computational Systems Biology [3 credits]</h3>
               <p style={{ color: 'black' }}>Overview of contents</p>
               <h3>Unit: 1</h3>
               <p>a Introduction to Computational Systems Biology, Types of data used in modeling
@@ -88,7 +88,7 @@ GENESIS</p>
               style={{ width: '100%', height: '190px', objectFit: 'cover', transform: 'scale(1.3)' }}
             />
             <div style={{ padding: '20px 10px 10px 10px' }}>
-              <h3 style={{ color: '#800000' }}>SB 472 - Systems and Computational Medicine [2 credits]</h3>
+              <h3 style={{ color: '#800020' }}>SB 472 - Systems and Computational Medicine [2 credits]</h3>
               <p style={{ color: 'black' }}>Overview of contents</p>
               <h3>Unit I: Systems Physiology (8 hours):</h3>
               <p>
@@ -115,7 +115,7 @@ biomedical data analysis, Big data and drug discovery </p>
               style={{ width: '100%', height: '190px', objectFit: 'cover', transform: 'scale(1.3)' }}
             />
             <div style={{ padding: '20px 10px 10px 10px' }}>
-              <h3 style={{ color: '#800000' }}>SB 501 - Biosystems Modelling and Simulations [5 credits]</h3>
+              <h3 style={{ color: '#800020' }}>SB 501 - Biosystems Modelling and Simulations [5 credits]</h3>
               <p style={{ color: 'black' }}>Overview of contents</p>
               <h3>Unit: 1</h3>
               <p>Modeling Molecular Biosystems: [12 hours]<br/>
