@@ -84,7 +84,7 @@ const LandingPage = () => {
                 and human clinical research for the validation of computational models and their insights. Our specific areas of research include metabolic
                 syndrome, diabetes, hypertension, neurophysiology, liver diseases, circadian physiology, cancer and inflammatory disorders. Moreover we work
                 on analyzing the issues related to public health and sustainable development from systems perspective to deliver effective solutions for healthy
-                and sustainable living.
+                and sustainable living through our outreach activities.
               </Typography>
             </div>
           </Grid>
