@@ -23,7 +23,7 @@ const Teaching = () => {
 
   return (
     <div>
-      <h1 style={{ color: '#800020', display: 'flex', justifyContent: 'center' }}>Courses</h1>
+      <h1 style={{ color: '#800000', display: 'flex', justifyContent: 'center' }}>Courses</h1>
       <div
         style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', justifyContent: 'center', marginTop: '20px' }}
         container
@@ -40,7 +40,7 @@ const Teaching = () => {
               style={{ width: '100%', height: '160px', objectFit: 'cover', transform: 'scale(1.3)' }}
             />
             <div style={{ padding: '10px' }}>
-              <h3 style={{ color: '#800020' }}>{member.name}</h3>
+              <h3 style={{ color: '#800000' }}>{member.name}</h3>
               <p style={{ color: 'black' }}>{member.designation}</p>
               <p>{member.description}</p>
             </div>
@@ -53,9 +53,9 @@ const Teaching = () => {
               style={{ width: '100%', height: '190px', objectFit: 'cover', transform: 'scale(1.3)' }}
             />
             <div style={{ padding: '20px 10px 10px 10px' }}>
-              <h3 style={{ color: '#800020' }}>SB 452 - Computational Systems Biology [3 credits]</h3>
+              <h3 style={{ color: '#800000' }}>SB 452 - Computational Systems Biology [3 credits]</h3>
               <p style={{ color: 'black' }}>Overview of contents</p>
-              <h3>Unit: 1</h3>
+              <h3>Unit I: Introduction to Systems Biology and Mathematical Modelling</h3>
               <p>a Introduction to Computational Systems Biology, Types of data used in modeling
         Types of models (gene regulatory, metabolic, Signal pathway, disease, population)
         types of modeling frameworks (Deterministic vs Stochastic; Static vs. Dynamics
@@ -67,7 +67,7 @@ const Teaching = () => {
         ▪ Parameter estimation and validation – Data sources, Regression techniques
         (maximum likelihood, least squares methods), optimization algorithms<br/>
         ▪ Michaelis-Menten and Hill function</p>
-        <h3>Unit: 2</h3>
+        <h3>Unit II: Mathematical Modellimg of Biological pathways</h3>
         <p>a Logical modeling, Logic gates; Graph construction; Boolean networks<br/>
 b Metabolic control analysis (MCA), Control and elasticity coefficients; Summation
 theorems, connectivity relations theorems<br/>
@@ -88,7 +88,7 @@ GENESIS</p>
               style={{ width: '100%', height: '190px', objectFit: 'cover', transform: 'scale(1.3)' }}
             />
             <div style={{ padding: '20px 10px 10px 10px' }}>
-              <h3 style={{ color: '#800020' }}>SB 472 - Systems and Computational Medicine [2 credits]</h3>
+              <h3 style={{ color: '#800000' }}>SB 472 - Systems and Computational Medicine [2 credits]</h3>
               <p style={{ color: 'black' }}>Overview of contents</p>
               <h3>Unit I: Systems Physiology (8 hours):</h3>
               <p>
@@ -115,10 +115,10 @@ biomedical data analysis, Big data and drug discovery </p>
               style={{ width: '100%', height: '190px', objectFit: 'cover', transform: 'scale(1.3)' }}
             />
             <div style={{ padding: '20px 10px 10px 10px' }}>
-              <h3 style={{ color: '#800020' }}>SB 501 - Biosystems Modelling and Simulations [5 credits]</h3>
+              <h3 style={{ color: '#800000' }}>SB 501 - Biosystems Modelling and Simulations [5 credits]</h3>
               <p style={{ color: 'black' }}>Overview of contents</p>
-              <h3>Unit: 1</h3>
-              <p>Modeling Molecular Biosystems: [12 hours]<br/>
+              <h3>Unit I: Modeling Molecular Biosystems: [12 hours]</h3>
+              <p>
                 a) Circadian rhythms<br/>
                 b) Quorum sensing<br/>
                 c) Chemotaxis<br/>
@@ -128,9 +128,8 @@ biomedical data analysis, Big data and drug discovery </p>
                 g) The phage λ genetic switch<br/>
               h) Kinetic proofreading
             </p>
-<h3>Unit: 2</h3>
+<h3>Unit II: Modeling evolution and ecological processes: [12 hours]</h3>
             <p>
-Modeling evolution and ecological processes: [12 hours]<br/>
 a) Evolutionary Game Theory: Evolution, Game theory, Dominant and dominated strategies, Evolutionary Stable
 Strategy, Prisoners' Dilemma, Hawk and Dove game, Stag-hunt game, Chicken-out game, Tit-for-Tat game,
 Eusociality, kin-selection and Spatial games, Always defect (ALLD), Always cooperate (ALLC), Generous TFT,
@@ -140,9 +139,8 @@ c) Epidemiological models, Infectious disease modelling,<br/>
 d) Ecological models, predator-prey models and its variants<br/>
 e) Applications to human, animal and plant systems
             </p>
-             <h3>Unit: 3</h3>
+             <h3>Unit III: Advanced Modeling and Bioengineering applications: 12 Hours</h3>
             <p>
-Advanced Modeling and Bioengineering applications: 12 Hours<br/>
 a. Synthetic Biology: Parts, devices and systems, BioBricks and iGEM Modules, Toggle switch, repressilator and
 medical applications<br/>
 b. Neural Modeling: Hodgkin – Huxley Model, Markov Models, Action Potentials, Voltage – activated ion
