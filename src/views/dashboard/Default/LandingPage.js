@@ -79,12 +79,12 @@ const LandingPage = () => {
                 <br />
                 <br />
                 The broader areas of research include identification of drug targets, disease mechanisms, biomarkers, drug discovery, therapy design and
-                chronotherapeutic drug delivery. We apply systems and computational biology and quantitative systems pharmacology framworks with Mathematical
-                modelling, Artificial intelligence and Machine learning tools for devlopment of personalized medicine applications. We work with animal models
-                and human clinical research for the validation of computational models and their insights. Our specific areas of research include metabolic
-                syndrome, diabetes, hypertension, neurophysiology, liver diseases, circadian physiology, cancer and inflammatory disorders. Moreover we work
-                on analyzing the issues related to public health and sustainable development from systems perspective to deliver effective solutions for healthy
-                and sustainable living through our outreach activities.
+                chronotherapeutic drug delivery. We apply systems and computational biology and quantitative systems pharmacology frameworks with Mathematical
+                modelling, Data analytics, Causal inferences, Artificial intelligence and Machine learning tools for devlopment of personalized medicine 
+                applications. We work with animal models and human clinical research for the validation of computational models and their insights. Our 
+                specific areas of research include metabolic syndrome, diabetes, hypertension, neurophysiology, liver diseases, circadian physiology, cancer 
+                and inflammatory disorders. Moreover we work on analyzing the issues related to public health and sustainable development from systems 
+                perspective to deliver effective solutions for healthy and sustainable living through our outreach activities.
               </Typography>
             </div>
           </Grid>
