@@ -45,6 +45,7 @@ const AboutSection = () => {
             <b>Biomedical Data Science</b>, Harvard School of Public Health, Harvard University, USA.<br/>
             <b>Principal and Practice of Clinical Research</b>, National Institute of Health-NIH, USA.<br/>
             <b>Lifestyle Medicine</b>, Institute of Lifestyle Medicine, Harvard Medical School, USA.<br/>
+            <b>Causal Inference from epidemiological data</b>, University of Pennsylvania, USA. <br/>
             <b>Epidemiological Research in Public Health</b>, Imperial College of London, UK. <br />
             <br />
             <b style={{ color: '#800020',fontSize: '20px' }}>Memberships</b>
