@@ -41,11 +41,12 @@ const AboutSection = () => {
             <b>Network Medicine and Systems Pharmacology</b>, Harvard Catalyst, Harvard Medical School, Harvard University, USA.<br/>
             <b>Chronomedicine and Sleep medicine</b>, Division of Sleep Medicine, Harvard Medical School, Harvard University, USA.<br/>
             <b>Biomedical Control Engineering</b>, Harvard School of Engineering and Applied Sciences, Harvard University, USA.<br/>
+            <b>Biostatistics in Public Health</b>, Bloomberg School of Public Health, John Hopkins University, USA.<br/>
             <b>AI in Healthcare and Medicine</b>, Stanford University School of Medicine, Stanford University, USA.<br/>
-            <b>Biomedical Data Science</b>, Harvard School of Public Health, Harvard University, USA.<br/>
+            <b>Biomedical Data Science</b>, T. H. Chan Harvard School of Public Health, Harvard University, USA.<br/>
             <b>Principal and Practice of Clinical Research</b>, National Institute of Health-NIH, USA.<br/>
             <b>Lifestyle Medicine</b>, Institute of Lifestyle Medicine, Harvard Medical School, USA.<br/>
-            <b>Causal Inference from epidemiological data</b>, University of Pennsylvania, USA. <br/>
+            <b>Causal Inference from Epidemiological Data</b>, University of Pennsylvania, USA. <br/>
             <b>Epidemiological Research in Public Health</b>, Imperial College of London, UK. <br />
             <br />
             <b style={{ color: '#800020',fontSize: '20px' }}>Memberships</b>
