@@ -80,11 +80,11 @@ const LandingPage = () => {
                 <br />
                 The broader areas of research include identification of drug targets, disease mechanisms, biomarkers, drug discovery, therapy design and
                 chronotherapeutic drug delivery. We apply systems and computational biology and quantitative systems pharmacology frameworks with Mathematical
-                modelling, Data analytics, Causal inferences, Artificial intelligence and Machine learning tools for devlopment of personalized medicine 
+                modelling, Data analytics, Causal inferences, Artificial intelligence and Machine learning tools for development of personalized medicine 
                 applications. We work with animal models and human clinical research for the validation of computational models and their insights. Our 
-                specific areas of research include metabolic syndrome, diabetes, hypertension, neurophysiology, liver diseases, circadian physiology, cancer 
-                and inflammatory disorders. Moreover we work on analyzing the issues related to public health and sustainable development from systems 
-                perspective to deliver effective solutions for healthy and sustainable living through our outreach activities.
+                specific areas of research include metabolic syndrome, diabetes, hypertension, liver diseases, cardiovascular diseases, neurophysiology,
+                circadian disorders, cancer and inflammatory disorders. Moreover we work on analyzing the societal issues related to public health and 
+                sustainability from systems perspective to deliver effective solutions for healthy and sustainable living through our outreach activities.
               </Typography>
             </div>
           </Grid>
@@ -125,7 +125,7 @@ const LandingPage = () => {
                   to="/chronomed"
                   style={{ color: '#ffffff', border: '1px solid #000328', background: '#000328' }}
                 >
-                  ChronoMed
+                  Chrono-Med
                 </Button>
               </Box>
               <Box mb={1}>
@@ -135,7 +135,7 @@ const LandingPage = () => {
                   to="/thestrech"
                   style={{ color: '#ffffff', border: '1px solid #000328', background: '#000328' }}
                 >
-                  The StrECH
+                  StrECH-stD
                 </Button>
               </Box>
               <Box mb={1}>
