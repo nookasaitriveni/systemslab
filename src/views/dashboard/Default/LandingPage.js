@@ -155,7 +155,7 @@ const LandingPage = () => {
                   to="/phytcancer"
                   style={{ color: '#ffffff', border: '1px solid #000328', background: '#000328' }}
                 >
-                  PhytCancer
+                  Phyt-Cancer
                 </Button>
                </Box>
               <Box mb={1}>
