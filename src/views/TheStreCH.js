@@ -3,6 +3,7 @@ import MainCard from '../ui-component/cards/MainCard';
 import { Typography, Link, Grid } from '@mui/material';
 import { useLocation } from 'react-router-dom';
 import image3 from '../views/dashboard/Default/LP2.png';
+import flyer from './Flyer- StrECH Study.png';
 const TheStreCH = () => {
   return (
     <div className="container" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
@@ -29,7 +30,9 @@ const TheStreCH = () => {
 
         </Grid> */}
           </Grid>
+          <img src={flyer} style={{width: '100%', marginTop: '100px'}} />
         </MainCard>
+
       </div>
     </div>
   );
