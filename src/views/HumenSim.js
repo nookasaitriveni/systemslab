@@ -6,14 +6,14 @@ const HumenSim = () => {
   return (
     <div className="container" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
       <h1 style={{ color: '#990000', display: 'flex', justifyContent: 'center' }}>HumenSim</h1>
-      <div style={{ gap: '20px', width: '80%' }} spacing={2}>
+      <div style={{ gap: '20px', width: '95%' }} spacing={2}>
         <MainCard key="4" style={{ boxShadow: '5px 2px 16px 0px rgba(0, 0, 0, 0.2)', padding: '0px', marginTop: '20px' }}>
           <Grid container spacing={2} style={{ padding: '0px' }}>
             <Grid item md={4} style={{ padding: '0px' }}>
               <img
                 src="https://www.industrialmarketingtoday.com/wp-content/uploads/2019/08/reserach-post.jpg"
                 alt="Life Systems Engineering"
-                style={{ width: '100%', objectFit: 'cover', height: '100%' }}
+                style={{ width: '100%', objectFit: 'cover', height: '100%', padding: '10px;', borderRadius: '30px;' }}
               />
             </Grid>
             <Grid item md={8}>
