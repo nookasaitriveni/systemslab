@@ -14,6 +14,7 @@ import PrasadTammineni from './Collaborators_imgs/prasad_tammeni.jpg';
 import AnilKumarPasupulati from './Collaborators_imgs/Anil_Kumar_Pasupulati.jpg';
 import Vivek from './Collaborators_imgs/Vivek_thakur.jpg';
 import IrfanAhmadGhazi from './Collaborators_imgs/Irfan_A_ghazi.jpg';
+
 const Collaborations = () => {
   const members = [
     {
@@ -32,74 +33,76 @@ const Collaborations = () => {
     },
     {
       id: 3,
-      name: 'Dr. Leroy Hood',
-      designation: "Co-founder and Chief Strategy Officer, Institute for Systems Biology, USA",
-      title_of_research: 'Advisor: Proposed Phenome Health- Diabetes Project',
-      image: LeroyHood
-    },
-    {
-      id: 4,
       name: 'Prof. Francie J Doyle III',
       designation: "Dean, Harvard School of Engineering and Applied Sciences, Harvard University, USA",
       title_of_research: 'PI: PTSD Project',
       
     },
     {
+      id: 4,
+      name: 'Dr. Leroy Hood',
+      designation: "Co-founder and Chief Strategy Officer, Institute for Systems Biology, USA",
+      title_of_research: 'Advisor: Proposed Phenome Health- Diabetes Project',
+      image: LeroyHood
+    },
+    {
       id: 5,
-      name: 'Prof. Meena Hariharan',
-      designation: "Professor, Centre for Health Psychology, UoH",
-      title_of_research: 'Co-PI on The StrECH Study',
-      
+      name: 'Dr. Alvin C. Powers',
+      designation: "Director, Division of Diabetes and Endocrinology, Vanderbilt Diabetes Center, USA",
+      title_of_research: 'Co-PI: Proposed Wellcome Trust project on T3 Diabetes',
+      image: AlvinPowers
     },
     {
       id: 6,
-      name: 'Prof. Anupama Row',
-      designation: "Cheif Medical Officer, University Health Centre, UoH",
-      title_of_research: 'Co-PI on The StrECH Study',
-       
-    },
-    {
-      id: 7,
-      name: 'Prof. B.R. Shamanna',
-      designation: "Professor, School of Medical Sciences, UoH",
-      title_of_research: 'Advisor on The StrECH Study',
-      
-    },
-    {
-      id: 8,
-      name: 'Dr M. Sasikala',
-      designation: 'Director of Research, Asian Institute of Gastroenterology',
-      title_of_research: 'PI: Proposed Wellcome Trust and ICMR project on T3 Diabetes',
-      image: sasikala
-    },
-    {
-      id: 9,
-      name: 'Dr. Rupjyoti Talukdar',
-      designation: 'Director of Pancreatology, Asian Institute of Gastroenterology',
-      title_of_research: 'Co-PI: Proposed ICMR project on T3 Diabetes',
-      image: Rupjyoti
-    },
-    {
-      id: 10,
-      name: 'Dr. Anura V Kurpad',
-      designation: "Professor of Physiology, St. John's Medical College",
-      title_of_research: 'Co-PI: Proposed Wellcome Trust project on T3 Diabetes',
-      image: Anura
-    },
-    {
-      id: 11,
       name: 'Dr. K M Venkat Narayan',
       designation: "Director of Emory Global Diabetes Research Center",
       title_of_research: 'Co-PI: Proposed Wellcome Trust project on T3 Diabetes',
       image: VenkatNarayan
     },
     {
-      id: 12,
-      name: 'Dr. Alvin C. Powers',
-      designation: "Director, Division of Diabetes and Endocrinology, Vanderbilt Diabetes Center, USA",
-      title_of_research: 'Co-PI: Proposed Wellcome Trust project on T3 Diabetes',
-      image: AlvinPowers
+      id: 7,
+      name: 'Dr M. Sasikala',
+      designation: 'Director of Research, Asian Institute of Gastroenterology',
+      title_of_research: 'PI: Proposed Wellcome Trust and ICMR project on T3 Diabetes',
+      image: sasikala
     },
+    {
+      id: 8,
+      name: 'Dr. Rupjyoti Talukdar',
+      designation: 'Director of Pancreatology, Asian Institute of Gastroenterology',
+      title_of_research: 'Co-PI: Proposed ICMR project on T3 Diabetes',
+      image: Rupjyoti
+    },
+    {
+      id: 9,
+      name: 'Dr. Anura V Kurpad',
+      designation: "Professor of Physiology, St. John's Medical College",
+      title_of_research: 'Co-PI: Proposed Wellcome Trust project on T3 Diabetes',
+      image: Anura
+    },
+    
+    {
+      id: 10,
+      name: 'Prof. Meena Hariharan',
+      designation: "Professor, Centre for Health Psychology, UoH",
+      title_of_research: 'Co-PI on The StrECH Study',
+      
+    },
+    {
+      id: 11,
+      name: 'Prof. Anupama Row',
+      designation: "Cheif Medical Officer, University Health Centre, UoH",
+      title_of_research: 'Co-PI on The StrECH Study',
+       
+    },
+    {
+      id: 12,
+      name: 'Prof. B.R. Shamanna',
+      designation: "Professor, School of Medical Sciences, UoH",
+      title_of_research: 'Advisor on The StrECH Study',
+      
+    },
+           
     {
       id: 13,
       name: 'Dr. Ram Reddy',
