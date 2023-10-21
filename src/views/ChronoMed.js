@@ -26,7 +26,7 @@ const ChronoMed = () => {
                 affects homeostasis of various peripheral metabolic processes. That gives rise to the symptoms of different 
                 systemic diseases like hypertension,cardiovascular disease, diabetes, depression, PTSD, etc. Current treatments 
                 do not account for the circadian dynamics of the medications and its PK-PD thereby are associated with several 
-                side effects. The Chrono-Med study mainly focuses on developing a mathematical model for the SCN-HPA-Peripheral 
+                side effects. The Chrono-Med project mainly focuses on developing a mathematical model for the SCN-HPA-Peripheral 
                 circadian systems along with the physiological and pharmacological perturbation variables and parameters to 
                 determine the phase response in circadian dynamics to the time-dependent administration of cortisol analogues. 
                 These computational models are further optimized and recalibrated to the Rat-stress model using animal experiments
