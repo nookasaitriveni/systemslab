@@ -56,27 +56,27 @@ const Teaching = () => {
               <h3 style={{ color: '#800000' }}>SB 452 - Computational Systems Biology [3 credits]</h3>
               <p style={{ color: 'black' }}>Overview of contents</p>
               <h3>Unit I: Introduction to Systems Biology and Mathematical Modelling</h3>
-              <p>a Introduction to Computational Systems Biology, Types of data used in modeling
+              <p>a) Introduction to Computational Systems Biology, Types of data used in modeling:
         Types of models (gene regulatory, metabolic, Signal pathway, disease, population)
-        types of modeling frameworks (Deterministic vs Stochastic; Static vs. Dynamics
-        Robustness and Stability of systems<br/>
-        b. Methods used in systems biology (Ordinary differential equations (ODE) <br/>▪ Linear ODEs; Non-linear ODEs, steady states<br/>
-        ▪ Stability analysis - Linear systems; Non-linear systems; Phase plane
-        analysis; Stable and unstable limit cycles; Oscillations; Bistability; Positive
-        and negative feedback<br/>
-        ▪ Parameter estimation and validation – Data sources, Regression techniques
+        types of modeling frameworks (Deterministic vs Stochastic; Static vs. Dynamics)<br/>
+        b) Methods used in systems biology (ODEs: Ordinary differential equations) <br/>
+        Linear ODEs; Non-linear ODEs, Steady states, Robustness and Stability of systems<br/>
+        c) Stability analysis - Linear systems; Non-linear systems; Phase plane analysis;
+          Stable and unstable limit cycles; Oscillations; Bistability; <br/>
+        d) Network motifs; Positive and negative feedback loops <br/>
+        e) Parameter estimation and validation – Data sources, Regression techniques
         (maximum likelihood, least squares methods), optimization algorithms<br/>
-        ▪ Michaelis-Menten and Hill function</p>
-        <h3>Unit II: Mathematical Modellimg of Biological pathways</h3>
-        <p>a Logical modeling, Logic gates; Graph construction; Boolean networks<br/>
-b Metabolic control analysis (MCA), Control and elasticity coefficients; Summation
+        f) Michaelis-Menten and Hill function</p>
+        <h3>Unit II: Mathematical Modelling of Biological pathways</h3>
+        <p>a) Logical modeling, Logic gates; Graph construction; Boolean networks<br/>
+b) Metabolic control analysis (MCA), Control and elasticity coefficients; Summation
 theorems, connectivity relations theorems<br/>
-c Biochemical Systems Theory (BST), Power law representation; S-Systems and
+c) Biochemical Systems Theory (BST), Power law representation; S-Systems and
 General Mass Action; Comparison of MCA and BST modeling approaches<br/>
-d Mathematical representation of metabolism, Flux Balance Analysis (FBA): Linear
+d) Mathematical representation of metabolism, Flux Balance Analysis (FBA): Linear
 Programming; Constraints; Formulating an FBA problem, introducing constraints,
 optimization; Computational tools for FBA, examples of FBA using modelnetworks.<br/>
-e Tools and databases: SBML; Modeling tools- Gepasi, Virtual cell, Cell Designer,
+e) Tools and databases: SBML; Modeling tools- Gepasi, Virtual cell, Cell Designer,
 GENESIS</p>
             </div>
         </MainCard>
@@ -141,13 +141,13 @@ e) Applications to human, animal and plant systems
             </p>
              <h3>Unit III: Advanced Modeling and Bioengineering applications: 12 Hours</h3>
             <p>
-a. Synthetic Biology: Parts, devices and systems, BioBricks and iGEM Modules, Toggle switch, repressilator and
+a) Synthetic Biology: Parts, devices and systems, BioBricks and iGEM Modules, Toggle switch, repressilator and
 medical applications<br/>
-b. Neural Modeling: Hodgkin – Huxley Model, Markov Models, Action Potentials, Voltage – activated ion
+b) Neural Modeling: Hodgkin – Huxley Model, Markov Models, Action Potentials, Voltage – activated ion
 channels, Nernst equation, Electrical properties of neurons<br/>
-c. Stochastic modeling and simulations, Gillespie algorithm, Chemical master equation, Stochastic ODEs<br/>
-d. Genetic engineering and metabolic engineering applications<br/>
-e. Biomedical engineering applications. </p>
+c) Stochastic modeling and simulations, Gillespie algorithm, Chemical master equation, Stochastic ODEs<br/>
+d) Genetic engineering and metabolic engineering applications<br/>
+e) Biomedical engineering applications. </p>
             </div>
         </MainCard>
      
