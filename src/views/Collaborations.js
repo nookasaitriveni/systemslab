@@ -14,6 +14,12 @@ import PrasadTammineni from './Collaborators_imgs/prasad_tammeni.jpg';
 import AnilKumarPasupulati from './Collaborators_imgs/Anil_Kumar_Pasupulati.jpg';
 import Vivek from './Collaborators_imgs/Vivek_thakur.jpg';
 import IrfanAhmadGhazi from './Collaborators_imgs/Irfan_A_ghazi.jpg';
+import BR_Shamana from './Collaborators_imgs/BR_shamana.jpg';
+import Doyle_Francis from './Collaborators_imgs/Doyle_Francis.jpg';
+import Ram_Reddy from './Collaborators_imgs/Dr.-B.-Ram-Reddy.jpg';
+import Hampapathalu from './Collaborators_imgs/Hampapathalu-Nagarajaram.jpg';
+import meena from './Collaborators_imgs/Meena-Hariharan-300x238.jpeg';
+import kvventakatesh from './Collaborators_imgs/Prof_K_V_Venkatesh.jpg';
 
 const Collaborations = () => {
   const members = [
@@ -36,6 +42,7 @@ const Collaborations = () => {
       name: 'Prof. Francie J Doyle III',
       designation: "Dean, Harvard School of Engineering and Applied Sciences, Harvard University, USA",
       title_of_research: 'PI: PTSD Project',
+      image: Doyle_Francis
       
     },
     {
@@ -86,13 +93,14 @@ const Collaborations = () => {
       name: 'Prof. Meena Hariharan',
       designation: "Professor, Centre for Health Psychology, UoH",
       title_of_research: 'Co-PI on The StrECH Study',
+      image: meena
       
     },
     {
       id: 11,
       name: 'Prof. Anupama Row',
       designation: "Cheif Medical Officer, University Health Centre, UoH",
-      title_of_research: 'Co-PI on The StrECH Study',
+      title_of_research: 'Co-PI on The StrECH Study'
        
     },
     {
@@ -100,7 +108,7 @@ const Collaborations = () => {
       name: 'Prof. B.R. Shamanna',
       designation: "Professor, School of Medical Sciences, UoH",
       title_of_research: 'Advisor on The StrECH Study',
-      
+      image: BR_Shamana
     },
            
     {
@@ -108,14 +116,14 @@ const Collaborations = () => {
       name: 'Dr. Ram Reddy',
       designation: "HoD & Professor of Physiology, Apollo Institute of Medical Sciences & Research",
       title_of_research: 'Biomedical Engineering for Hypertension and Diabetes',
-      
+      image: Ram_Reddy
     },
     {
       id: 14,
       name: 'Prof.K.V. Venkatesh',
       designation: "Professor, Systems Biology and Metabolic Engineering Lab, IIT Bombay",
       title_of_research: 'Modelling physiological systems',
-      
+      image:kvventakatesh
     },
     {
       id: 15,
@@ -136,6 +144,7 @@ const Collaborations = () => {
       name: 'Prof. H.A. Nagarajaram',
       designation: "HoD & Professor, Dept. Systems and Computational Biology, UoH",
       title_of_research: 'Mathematical modelling of Cell Signalling',
+      image: Hampapathalu
      
     },
     {
