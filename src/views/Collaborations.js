@@ -14,90 +14,142 @@ import PrasadTammineni from './Collaborators_imgs/prasad_tammeni.jpg';
 import AnilKumarPasupulati from './Collaborators_imgs/Anil_Kumar_Pasupulati.jpg';
 import Vivek from './Collaborators_imgs/Vivek_thakur.jpg';
 import IrfanAhmadGhazi from './Collaborators_imgs/Irfan_A_ghazi.jpg';
+
 const Collaborations = () => {
   const members = [
     {
       id: 1,
-      name: 'Dr M. Sasikala',
-      designation: 'Head (Research), AIG',
-      title_of_research: 'ICMR project on T3 Diabetes',
-      image: sasikala
+      name: 'Dr. Owen M. Wolkowitz',
+      designation: "Professor of Psychiatry, UCSF Weill Institute for Neuroscience, USA",
+      title_of_research: 'Advisor on The StrECH Study',
+      image: OwenWolkowitz
     },
     {
       id: 2,
-      name: 'Dr. Rupjyoti Talukdar',
-      designation: 'Director of Pancreatology, AIG',
-      title_of_research: 'ICMR project on T3 Diabetes',
-      image: Rupjyoti
+      name: 'Dr. Synthia Mellon',
+      designation: "Professor Obs/Gyn, Psychoneuroendocrinology Lab, UCSF, USA",
+      title_of_research: 'Advisor on The StrECH Study',
+      image: SynthiaMellon
     },
     {
       id: 3,
-      name: 'Dr. Anura V Kurpad',
-      designation: "Professor of Physiology, St. John's Medical College",
-      title_of_research: 'Wellcome Trust project on T3 Diabetes',
-      image: Anura
+      name: 'Prof. Francie J Doyle III',
+      designation: "Dean, Harvard School of Engineering and Applied Sciences, Harvard University, USA",
+      title_of_research: 'PI: PTSD Project',
+      
     },
     {
       id: 4,
-      name: 'Dr. K M Venkat Narayan',
-      designation: "Director of Emory Global Diabetes Research Center",
-      title_of_research: 'Wellcome Trust project on T3 Diabetes',
-      image: VenkatNarayan
+      name: 'Dr. Leroy Hood',
+      designation: "Co-founder and Chief Strategy Officer, Institute for Systems Biology, USA",
+      title_of_research: 'Advisor: Proposed Phenome Health- Diabetes Project',
+      image: LeroyHood
     },
     {
       id: 5,
-      name: 'Alvin C. Powers',
-      designation: "M.D.",
-      title_of_research: 'IOE project on StrECH Study',
+      name: 'Dr. Alvin C. Powers',
+      designation: "Director, Division of Diabetes and Endocrinology, Vanderbilt Diabetes Center, USA",
+      title_of_research: 'Co-PI: Proposed Wellcome Trust project on T3 Diabetes',
       image: AlvinPowers
     },
     {
       id: 6,
-      name: 'Dr. Synthia Mellon',
-      designation: "Professor, UCSF",
-      title_of_research: 'IOE project on StrECH Study',
-      image: SynthiaMellon
+      name: 'Dr. K M Venkat Narayan',
+      designation: "Director of Emory Global Diabetes Research Center",
+      title_of_research: 'Co-PI: Proposed Wellcome Trust project on T3 Diabetes',
+      image: VenkatNarayan
     },
     {
       id: 7,
-      name: 'Dr. Owen M. Wolkowitz',
-      designation: "Professor of Psychiatry, UCSF Weill Institute for Neuroscience",
-      title_of_research: 'IOE project on StrECH Study',
-      image: OwenWolkowitz
+      name: 'Dr M. Sasikala',
+      designation: 'Director of Research, Asian Institute of Gastroenterology',
+      title_of_research: 'PI: Proposed Wellcome Trust and ICMR project on T3 Diabetes',
+      image: sasikala
     },
     {
       id: 8,
-      name: 'Dr. Leroy Hood',
-      designation: "Co-founder, Professor and Chief Strategy Officer, ISB",
-      title_of_research: 'Wellcome Trust project on T3 Diabetes',
-      image: LeroyHood
+      name: 'Dr. Rupjyoti Talukdar',
+      designation: 'Director of Pancreatology, Asian Institute of Gastroenterology',
+      title_of_research: 'Co-PI: Proposed ICMR project on T3 Diabetes',
+      image: Rupjyoti
     },
     {
       id: 9,
+      name: 'Dr. Anura V Kurpad',
+      designation: "Professor of Physiology, St. John's Medical College",
+      title_of_research: 'Co-PI: Proposed Wellcome Trust project on T3 Diabetes',
+      image: Anura
+    },
+    
+    {
+      id: 10,
+      name: 'Prof. Meena Hariharan',
+      designation: "Professor, Centre for Health Psychology, UoH",
+      title_of_research: 'Co-PI on The StrECH Study',
+      
+    },
+    {
+      id: 11,
+      name: 'Prof. Anupama Row',
+      designation: "Cheif Medical Officer, University Health Centre, UoH",
+      title_of_research: 'Co-PI on The StrECH Study',
+       
+    },
+    {
+      id: 12,
+      name: 'Prof. B.R. Shamanna',
+      designation: "Professor, School of Medical Sciences, UoH",
+      title_of_research: 'Advisor on The StrECH Study',
+      
+    },
+           
+    {
+      id: 13,
+      name: 'Dr. Ram Reddy',
+      designation: "HoD & Professor of Physiology, Apollo Institute of Medical Sciences & Research",
+      title_of_research: 'Biomedical Engineering for Hypertension and Diabetes',
+      
+    },
+    {
+      id: 14,
+      name: 'Prof.K.V. Venkatesh',
+      designation: "Professor, Systems Biology and Metabolic Engineering Lab, IIT Bombay",
+      title_of_research: 'Modelling physiological systems',
+      
+    },
+    {
+      id: 15,
       name: 'Dr. Prasad Tammineni',
       designation: "Assistant Professor, Dept. Animal Biology, UoH",
       title_of_research: 'Neurodegenerative disease',
       image: PrasadTammineni
     },
     {
-      id: 10,
+      id: 16,
       name: 'Dr. Anil Kumar Pasupulati',
       designation: "Professor, Dept. Biochemistry, UoH",
       title_of_research: 'Renal disease',
       image: AnilKumarPasupulati
     },
     {
-      id: 11,
-      name: 'Dr. Vivek',
+      id: 17,
+      name: 'Prof. H.A. Nagarajaram',
+      designation: "HoD & Professor, Dept. Systems and Computational Biology, UoH",
+      title_of_research: 'Mathematical modelling of Cell Signalling',
+     
+    },
+    {
+      id: 18,
+      name: 'Dr. Vivek Thakur',
       designation: "Assistant Professor, Dept. Systems and Computational Biology, UoH",
-      title_of_research: 'Microbiome',
+      title_of_research: 'Gut Microbiome',
       image: Vivek
     },
     {
-      id: 12,
+      id: 19,
       name: 'Dr. Irfan Ahmad Ghazi',
       designation: "Professor, Dept. Plant Sciences, UoH",
-      title_of_research: 'Phytochemicals for Rice blight disease',
+      title_of_research: 'Antimicrobial Phytochemicals',
       image: IrfanAhmadGhazi
     }
 
