@@ -7,6 +7,7 @@ import { Grid } from '@mui/material';
 import LandingPage from './LandingPage';
 
 import AboutPI from './AboutPI';
+import Collaborationslogos from 'views/Collaborationslogos';
 
 // ==============================|| DEFAULT DASHBOARD ||============================== //
 
@@ -19,6 +20,7 @@ const Dashboard = () => {
   return (
     <Grid container>
       <LandingPage isLoading={isLoading} />
+      <Collaborationslogos isLoading={isLoading} />
       {/* <AboutPI /> */}
     </Grid>
   );
