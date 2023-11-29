@@ -20,7 +20,7 @@ import Ram_Reddy from './Collaborators_imgs/Dr.-B.-Ram-Reddy.jpg';
 import Hampapathalu from './Collaborators_imgs/Hampapathalu-Nagarajaram.jpg';
 import meena from './Collaborators_imgs/Meena-Hariharan-300x238.jpeg';
 import kvventakatesh from './Collaborators_imgs/Prof_K_V_Venkatesh.jpg';
-
+import AnupamaRow from './Collaborators_imgs/anupamarow.jpeg';
 const Collaborations = () => {
   const members = [
     {
@@ -100,7 +100,8 @@ const Collaborations = () => {
       id: 11,
       name: 'Prof. Anupama Row',
       designation: "Cheif Medical Officer, University Health Centre, UoH",
-      title_of_research: 'Co-PI on The StrECH Study'
+      title_of_research: 'Co-PI on The StrECH Study',
+      image: AnupamaRow
        
     },
     {

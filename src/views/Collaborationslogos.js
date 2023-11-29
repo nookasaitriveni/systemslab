@@ -14,25 +14,41 @@ import Johns_Medical_College_logo from './Collaborations_logos/St._Johns_Medical
 import UCSF_PNE from './Collaborations_logos/UCSF_PNE Logo.png';
 import UCSF_WIN_Logo from './Collaborations_logos/UCSF_WIN_Logo.png';
 import VanderBilt from './Collaborations_logos/VanderBilt.png';
+
+import { Typography, Grid, Card, CardContent, Avatar, Button } from '@mui/material';
 export default class Collaborationslogos extends Component {
   render() {
-    return (
+    return (<div>
+      <br/>
+      <Typography variant="h2" sx={{ color: '#990000', display: 'flex', justifyContent: 'left' }}>
+          Collaborations: -
+        </Typography>
+        <br/>
         <div className="logo-container">
+          
+        <div>
+          <img src={harvard_school_engineering_and_applied_sciences_logo} alt="Logo 1" className="logo" />
+          <img src={logo_UCSF_signature_0} alt="Logo 1" className="logo" />
+          <img src={ISB_logo_lt} alt="Logo 1" className="logo" />
+          <img src={EMORY_logo} alt="Logo 1" className="logo" />
+          <img src={VanderBilt} alt="Logo 1" className="logo" />
+          <img src={Indian_Institute_of_Technology_Bombay_Logo} alt="Logo 1" className="logo" />
             <img src={AIG_logo2} alt="Logo 1" className="logo" />
+
             <img src={Apolo_IMSR} alt="Logo 2" className="logo" />
             <img src={Apolo_IMSR2} alt="Logo 3" className="logo" />
             <img src={Asian_health_care_foundation} alt="Logo 1" className="logo" />
-            <img src={EMORY_logo} alt="Logo 1" className="logo" />
-            <img src={harvard_school_engineering_and_applied_sciences_logo} alt="Logo 1" className="logo" />
-            <img src={IIT_Hyderabad_Insignia} alt="Logo 1" className="logo" />
-            <img src={Indian_Institute_of_Technology_Bombay_Logo} alt="Logo 1" className="logo" />
-            <img src={logo_UCSF_signature_0} alt="Logo 1" className="logo" />
             <img src={Johns_Medical_College_logo} alt="Logo 1" className="logo" />
-            <img src={ISB_logo_lt} alt="Logo 1" className="logo" />
+            </div>
+            {/* <img src={IIT_Hyderabad_Insignia} alt="Logo 1" className="logo" />
+            
+            
+           
+  
             <img src={UCSF_PNE} alt="Logo 1" className="logo" />
-            <img src={UCSF_WIN_Logo} alt="Logo 1" className="logo" />
-            <img src={VanderBilt} alt="Logo 1" className="logo" />
-        </div>
+            <img src={UCSF_WIN_Logo} alt="Logo 1" className="logo" /> */}
+            
+        </div></div>
     )
   }
 }
