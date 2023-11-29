@@ -21,7 +21,7 @@ export default class Collaborationslogos extends Component {
     return (<div>
       <br/>
       <Typography variant="h2" sx={{ color: '#990000', display: 'flex', justifyContent: 'left' }}>
-          Collaborations: -
+      Our Collaborations: -
         </Typography>
         <br/>
         <div className="logo-container">
