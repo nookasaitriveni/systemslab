@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Collaborationslogo.css';
 import AIG_logo2 from './Collaborations_logos/AIG_logo2.png';
-import Apolo_IMSR from './Collaborations_logos/Apolo_IMSR-logo-rev.png';
+import Apolo_IMSR from './Collaborations_logos/Apollo_IMSR-logo.jpg';
 import Apolo_IMSR2 from './Collaborations_logos/Apolo_IMSR-logo-rev2.png';
 import Asian_health_care_foundation from './Collaborations_logos/Asian_health_care_foundation.png';
 import EMORY_logo from './Collaborations_logos/Emory_logo.png';
