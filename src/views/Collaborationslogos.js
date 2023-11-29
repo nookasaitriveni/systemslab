@@ -22,11 +22,11 @@ import { Typography, Grid, Card, CardContent, Avatar, Button } from '@mui/materi
 export default class Collaborationslogos extends Component {
   render() {
     return (<div>
-      <br/>
-      <Typography variant="h2" sx={{ color: '#990000', display: 'flex', justifyContent: 'left' }}>
+      
+      <Typography variant="h2" sx={{ color: '#800000', display: 'flex', justifyContent: 'left' }}>
           Our Collaborations
         </Typography>
-        <br/>
+        
         <div className="logo-container">
           
         <div>
@@ -41,7 +41,7 @@ export default class Collaborationslogos extends Component {
             <img src={Johns_Medical_College_logo} alt="Logo 1" className="logo" />
             <img src={Apolo_IMSR} alt="Logo 2" className="logo" />
             <img src={Indian_Institute_of_Technology_Bombay_Logo} alt="Logo 1" className="logo" />
-                        <img src={IIPH} alt="Logo 1" className="logo" />
+            <img src={IIPH} alt="Logo 1" className="logo" />
             {/* <img src={Apolo_IMSR2} alt="Logo 3" className="logo" /> */}
             {/* <img src={Asian_health_care_foundation} alt="Logo 1" className="logo" /> */}
             
