@@ -53,7 +53,7 @@ const AboutSection = () => {
             <br />
             <br />
             <b>FRSPH</b>: Fellow of The Royal Society for Public Health (UK)<br />
-            <b>FISC</b>:  Fellow of The Indian Society for Chronomedicine<br />
+            <b>FISCM</b>:  Fellow of The Indian Society for Chronomedicine<br />
             Member of The Physiological Society (UK) <br />
             Member of the European Society for Preventive Medicine (UK)  <br />
             Member of International Society for Evolution, Medicine and Public Health (ISEMPH, USA)<br />
