@@ -19,7 +19,7 @@ const HumenSim = () => {
             </Grid>
             <Grid item md={8}>
               <div style={{ padding: '5px' }}>
-                <h3 style={{ color: '#800000' }}>Drug Discovery & Delivery for Cancer</h3>
+                <h3 style={{ color: '#800000' }}>Drug Discovery & Delivery for Cancer:</h3>
                 <p>
                 In view of the surge in occurence of cancers, the poor efficacy of cancer therapies and exceeding costs of treatments, 
                 particularly for the later stages of cancer, better cancer therapies with lesser side-effects are the need of the hour. 
