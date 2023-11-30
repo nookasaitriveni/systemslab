@@ -24,10 +24,10 @@ export default class Collaborationslogos extends Component {
     return (<div>
       
       <Typography variant="h2" sx={{ color: '#800000', display: 'flex', justifyContent: 'left' }}>
+      <br/>
           Our Collaborations
         </Typography>
-        
-        <div className="logo-container">
+         <div className="logo-container">
           
         <div>
           <img src={harvard_school_engineering_and_applied_sciences_logo} alt="Logo 1" className="logo" />
