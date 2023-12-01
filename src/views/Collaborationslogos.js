@@ -36,7 +36,7 @@ export default class Collaborationslogos extends Component {
           <img src={HMS1} alt="Logo 1" className="logo" /> 
           <img src={logo_UCSF_signature_0} alt="Logo 1" className="logo" />
           <img src={ISB_logo_lt} alt="Logo 1" className="logo" />
-          <img src={Phenome} alt="Logo 1" className="logo" />
+          {/*<img src={Phenome} alt="Logo 1" className="logo" />*/}
           <img src={EMORY_logo} alt="Logo 1" className="logo" />
           <img src={VanderBilt} alt="Logo 1" className="logo" />
             <img src={AIG_logo2} alt="Logo 1" className="logo" />
