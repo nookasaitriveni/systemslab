@@ -135,7 +135,7 @@ const LandingPage = () => {
                   to="/thestrech"
                   style={{ color: '#ffffff', border: '1px solid #000328', background: '#000328' }}
                 >
-                  StrECH-stD
+                  StrECH-Study
                 </Button>
               </Box>
               <Box mb={1}>
@@ -167,7 +167,7 @@ const LandingPage = () => {
                   // <a href='https://healthsurf.org/' target="_blank"></a>
                   style={{ color: '#ffffff', border: '1px solid #000328', background: '#000328' }}
                 >
-                  Life-SuRF
+                  HealthSuRF
                 </Button>
              </Box>
             </div>
