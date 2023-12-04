@@ -7,7 +7,7 @@ import { useLocation } from 'react-router-dom';
 const HumenSim = () => {
   return (
     <div className="container" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-      <h1 style={{ color: '#990000', display: 'flex', justifyContent: 'center' }}>HuMEn-Sim</h1>
+      <h1 style={{ color: '#990000', display: 'flex', justifyContent: 'center' }}>HuMEnS Project</h1>
       <div style={{ gap: '20px', width: '95%' }} spacing={2}>
         <MainCard key="4" style={{ boxShadow: '5px 2px 16px 0px rgba(0, 0, 0, 0.2)', padding: '0px', marginTop: '20px' }}>
           <Grid container spacing={2} style={{ padding: '0px' }}>
