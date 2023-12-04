@@ -48,17 +48,18 @@ export default class Collaborationslogos extends Component {
             <img src={Apolo_IMSR} alt="Logo 2" className="logo" />
             <img src={Indian_Institute_of_Technology_Bombay_Logo} alt="Logo 1" className="logo" />
             <img src={IITD_Logo} alt="Logo 1" className="logo" />
+            <img src={IIT_Hyderabad_Insignia} alt="Logo 1" className="logo" />
             <img src={IIPH} alt="Logo 1" className="logo" />
             {/* <img src={Apolo_IMSR2} alt="Logo 3" className="logo" /> */}
             {/* <img src={Asian_health_care_foundation} alt="Logo 1" className="logo" /> */}
             
             </div>
-            {/* <img src={IIT_Hyderabad_Insignia} alt="Logo 1" className="logo" />
+            
             
             
            
   
-            <img src={UCSF_PNE} alt="Logo 1" className="logo" />
+           {/*} <img src={UCSF_PNE} alt="Logo 1" className="logo" />
             <img src={UCSF_WIN_Logo} alt="Logo 1" className="logo" /> */}
             
         </div></div>
