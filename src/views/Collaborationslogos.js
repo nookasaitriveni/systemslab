@@ -15,6 +15,8 @@ import Indian_Institute_of_Technology_Bombay_Logo from './Collaborations_logos/I
 import IITD_Logo from './Collaborations_logos/IITD_logo1.jpg';
 import ISB_logo_lt from './Collaborations_logos/ISB_logo_lt-1.png';
 import logo_UCSF_signature_0 from './Collaborations_logos/UCSF_logo.jpg';
+import logo_UCSF_Med from './Collaborations_logos/UCSF_Med_logo.jpg';
+import logo_UCSF_Neuro from './Collaborations_logos/UCSF_WIN-logo.png';
 import Johns_Medical_College_logo from './Collaborations_logos/St._Johns_Medical_College_logo.png';
 import UCSF_PNE from './Collaborations_logos/UCSF_PNE Logo.png';
 import UCSF_WIN_Logo from './Collaborations_logos/UCSF_WIN_Logo.png';
@@ -34,7 +36,8 @@ export default class Collaborationslogos extends Component {
         <div>
           <img src={Harvard_logo} alt="Logo 1" className="logo" />
           <img src={HMS1} alt="Logo 1" className="logo" /> 
-          <img src={logo_UCSF_signature_0} alt="Logo 1" className="logo" />
+          <img src={logo_UCSF_Med} alt="Logo 1" className="logo" />
+          <img src={logo_UCSF_Neuro} alt="Logo 1" className="logo" />
           <img src={ISB_logo_lt} alt="Logo 1" className="logo" />
           <img src={Phenome} alt="Logo 1" className="logo" />
           <img src={EMORY_logo} alt="Logo 1" className="logo" />
