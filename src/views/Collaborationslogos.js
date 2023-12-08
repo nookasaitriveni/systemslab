@@ -23,6 +23,7 @@ import UCSF_WIN_Logo from './Collaborations_logos/UCSF_WIN_Logo.png';
 import VanderBilt from './Collaborations_logos/VanderBilt.png';
 import Phenome from './Collaborations_logos/Phenome-Health.png';
 import NIN from './Collaborations_logos/NIN_logo.jpg';
+import IIITH from './Collaborations_logos/IIITH_logo.jpeg';
 import { Typography, Grid, Card, CardContent, Avatar, Button } from '@mui/material';
 export default class Collaborationslogos extends Component {
   render() {
@@ -52,6 +53,7 @@ export default class Collaborationslogos extends Component {
             <img src={IIT_Hyderabad_Insignia} alt="Logo 1" className="logo" />
             <img src={IIPH} alt="Logo 1" className="logo" />
             <img src={NIN} alt="Logo 1" className="logo" />
+            <img src={IIITH} alt="Logo 1" className="logo" />
             {/* <img src={Apolo_IMSR2} alt="Logo 3" className="logo" /> */}
             {/* <img src={Asian_health_care_foundation} alt="Logo 1" className="logo" /> */}
             
