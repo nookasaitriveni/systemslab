@@ -17,12 +17,12 @@ import ISB_logo_lt from './Collaborations_logos/ISB_logo_lt-1.png';
 import logo_UCSF_signature_0 from './Collaborations_logos/UCSF_logo.jpg';
 import logo_UCSF_Med from './Collaborations_logos/UCSF_Med_logo.jpg';
 import logo_UCSF_Neuro from './Collaborations_logos/UCSF_WIN_Logo.png';
-import Johns_Medical_College_logo from './Collaborations_logos/St._Johns_Medical_College_logo.png';
+import Johns_Medical_College_logo from './Collaborations_logos/St._Johns_Res_logo.png';
 import UCSF_PNE from './Collaborations_logos/UCSF_PNE Logo.png';
 import UCSF_WIN_Logo from './Collaborations_logos/UCSF_WIN_Logo.png';
-import VanderBilt from './Collaborations_logos/VanderBilt.png';
+import VanderBilt from './Collaborations_logos/Vanderbilt_University_Medical_Center.jpg';
 import Phenome from './Collaborations_logos/Phenome-Health.png';
-import NIN from './Collaborations_logos/NIN_logo.jpg';
+import NIN from './Collaborations_logos/NIN_logo1.jpg';
 import IIITH from './Collaborations_logos/IIITH_logo.jpeg';
 import { Typography, Grid, Card, CardContent, Avatar, Button } from '@mui/material';
 export default class Collaborationslogos extends Component {
