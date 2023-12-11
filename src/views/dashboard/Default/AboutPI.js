@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardContent, Typography, Grid, Avatar } from '@mui/material';
 import './AboutSection.css';
-import prs from './PRS.jpg';
+import prs from './PRS1.jpg';
 const AboutSection = () => {
   return (
     <Card style={{ padding: '20px', boxShadow: '3px 6px 9px 1px rgba(0, 0, 0, 0.2)' }}>

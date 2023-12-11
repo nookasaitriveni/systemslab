@@ -21,6 +21,10 @@ import Hampapathalu from './Collaborators_imgs/Hampapathalu-Nagarajaram.jpg';
 import meena from './Collaborators_imgs/Meena-Hariharan-300x238.jpeg';
 import kvventakatesh from './Collaborators_imgs/Prof_K_V_Venkatesh.jpg';
 import AnupamaRow from './Collaborators_imgs/anupamarow.jpeg';
+import Aravind from './Collaborators_imgs/Aravind-Kumar-Rengan.jpg';
+import Hari from './Collaborators_imgs/HariprasadKodamana.jpeg';
+import Vinod from './Collaborators_imgs/Vinod_new.jpg';
+
 const Collaborations = () => {
   const members = [
     {
@@ -128,20 +132,27 @@ const Collaborations = () => {
     },
     {
       id: 15,
+      name: 'Dr.A.K. Rengan',
+      designation: "Asst. Professor, P-NAS Lab, Dept. of Biomedical Engineering, IIT Hyderabad",
+      title_of_research: 'Modelling Nano-medicine drug delivery',
+      image:Aravind
+    },
+    {
+      id: 16,
       name: 'Dr. Prasad Tammineni',
       designation: "Assistant Professor, Dept. Animal Biology, UoH",
       title_of_research: 'Neurodegenerative disease',
       image: PrasadTammineni
     },
     {
-      id: 16,
+      id: 17,
       name: 'Dr. Anil Kumar Pasupulati',
       designation: "Professor, Dept. Biochemistry, UoH",
       title_of_research: 'Renal disease',
       image: AnilKumarPasupulati
     },
     {
-      id: 17,
+      id: 18,
       name: 'Prof. H.A. Nagarajaram',
       designation: "HoD & Professor, Dept. Systems and Computational Biology, UoH",
       title_of_research: 'Mathematical modelling of Cell Signalling',
@@ -149,14 +160,14 @@ const Collaborations = () => {
      
     },
     {
-      id: 18,
+      id: 19,
       name: 'Dr. Vivek Thakur',
       designation: "Assistant Professor, Dept. Systems and Computational Biology, UoH",
       title_of_research: 'Gut Microbiome',
       image: Vivek
     },
     {
-      id: 19,
+      id: 20,
       name: 'Dr. Irfan Ahmad Ghazi',
       designation: "Professor, Dept. Plant Sciences, UoH",
       title_of_research: 'Antimicrobial Phytochemicals',
