@@ -139,20 +139,27 @@ const Collaborations = () => {
     },
     {
       id: 16,
+      name: 'Dr.Hariprasad Kodamana',
+      designation: "Associate Professor, CAPS Lab, Dept. of Chemical Engineering and Artificial Intelligence, IIT Delhi",
+      title_of_research: 'Model predictive control for Chronotherapeutic drug delivery',
+      image:Hari
+    },
+    {
+      id: 17,
       name: 'Dr. Prasad Tammineni',
       designation: "Assistant Professor, Dept. Animal Biology, UoH",
       title_of_research: 'Neurodegenerative disease',
       image: PrasadTammineni
     },
     {
-      id: 17,
+      id: 18,
       name: 'Dr. Anil Kumar Pasupulati',
       designation: "Professor, Dept. Biochemistry, UoH",
       title_of_research: 'Renal disease',
       image: AnilKumarPasupulati
     },
     {
-      id: 18,
+      id: 19,
       name: 'Prof. H.A. Nagarajaram',
       designation: "HoD & Professor, Dept. Systems and Computational Biology, UoH",
       title_of_research: 'Mathematical modelling of Cell Signalling',
@@ -160,14 +167,14 @@ const Collaborations = () => {
      
     },
     {
-      id: 19,
+      id: 20,
       name: 'Dr. Vivek Thakur',
       designation: "Assistant Professor, Dept. Systems and Computational Biology, UoH",
       title_of_research: 'Gut Microbiome',
       image: Vivek
     },
     {
-      id: 20,
+      id: 21,
       name: 'Dr. Irfan Ahmad Ghazi',
       designation: "Professor, Dept. Plant Sciences, UoH",
       title_of_research: 'Antimicrobial Phytochemicals',
