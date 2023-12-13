@@ -125,9 +125,11 @@ const Research = () => {
             {/* <Grid item md={4}>
 
         </Grid> */}
-          </Grid>
+         
+           
+        </Grid>
         </MainCard>
-        <MainCard key="4" style={{ boxShadow: '5px 2px 16px 0px rgba(0, 0, 0, 0.2)', padding: '0px', marginTop: '20px' }}>
+        <MainCard key="5" style={{ boxShadow: '5px 2px 16px 0px rgba(0, 0, 0, 0.2)', padding: '0px', marginTop: '20px' }}>
           <Grid container spacing={2} style={{ padding: '0px' }}>
             <Grid item md={4} style={{ padding: '0px' }}>
               {/*"https://www.industrialmarketingtoday.com/wp-content/uploads/2019/08/reserach-post.jpg"*/}
@@ -155,9 +157,36 @@ const Research = () => {
                 </p>
               </div>
             </Grid>
-            {/* <Grid item md={4}>
+            </Grid>
+        </MainCard>
+        <MainCard key="4" style={{ boxShadow: '5px 2px 16px 0px rgba(0, 0, 0, 0.2)', padding: '0px', marginTop: '20px' }}>
+          <Grid container spacing={2} style={{ padding: '0px' }}>
+            <Grid item md={4} style={{ padding: '0px' }}>
+              {/*"https://www.industrialmarketingtoday.com/wp-content/uploads/2019/08/reserach-post.jpg"*/}
+              <img
+                src= "https://www.industrialmarketingtoday.com/wp-content/uploads/2019/08/reserach-post.jpg"
+                alt="Systems & Computational Medicine"
+                style={{ width: '100%', objectFit: 'cover', height: '100%' }}
+              />
+            </Grid>
+            <Grid item md={7}>
+              <div style={{ padding: '5px' }}>
+                <h3 style={{ color: '#800020' }}>Diabtes Systems Biology</h3>
+                <p>
+                 The project is carried in collaboration with AIG Hospitals & Asian Healthcare Foundation along with International partners from 
+                 Emory university, Vanderbilt University and Phenome Health (ISB-USA). It involves deep phenotyping of diabetes patients with Type 2 
+                 and Type 3 diabetes along with multi-omic characterization. Our role is to provide computational and systems biological support for
+                 projects to develop computational models for understanding disease mechanisms and prognostic biomarkers. The objectives of the projects
+                 are to understand Islet systems biology, endocrine function and disease transition in chronic pancreatitis to T3 diabetes. We are also 
+                 working towards a large sample study on Diabetes Phenome for Indian sample. We use extensive computational modelling along with Artificial
+                 Intelligence and Machine learning approches for multi-omic data analytics.
+                 </p>
+              </div>
+            </Grid>
+             {/* <Grid item md={4}>
 
         </Grid> */}
+
           </Grid>
         </MainCard>
       </div>
