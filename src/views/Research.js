@@ -95,7 +95,7 @@ const Research = () => {
                 <p>
                 - Computational model and Chronotherapeutics for Hypertension</p> 
                 <p>
-                - Chronotherapeutic drug delivery systems
+                - Computational models for Chronotherapeutic drug delivery systems
                 </p>
               </div>
             </Grid>
@@ -118,6 +118,14 @@ const Research = () => {
               <div style={{ padding: '5px' }}>
                 <h3 style={{ color: '#800020' }}>StrECH Study: Stress Epidemic and Cardio-Metabolic Health</h3>
                 <p>
+                Currently there is limited understanding of the aetiology of the cardio-metabolic dysfunction. There are
+                limited studies on characterization of stress (psychological aspects) and its clinico-pathological markers.
+                A strong association between stress and cardiovascular disease is indicated; however, how psychological 
+                stress contributes to sustained hypertension and CVD is not well understood. Although evolutionarily stress
+                is supportive for survival under adverse conditions, it is not clear how sustained mild stress analogous to 
+                daily work stress transits to pathological effects. Our objectives is to understand neurophysiology of stress
+                and its psychosoamtic effects</p>
+                <p>
                 The current study aims to gather and evaluate human data for blood clinical analysis and psychological stress 
                 inventories in order to discover stress indicators in plasma and validate their involvement in determining 
                 resilience. In order to study the circadian behavior of stress physiology and its impact on hypertension, we 
@@ -126,8 +134,8 @@ const Research = () => {
                 Furthermore, to find the diagnostic indicators for resilience or pathological variations of stress and to
                 optimize the model parameters, machine learning techniques will be applied to the data from human and animal
                 models. In general, this research will contribute to our knowledge of the early mediators of stress pathology 
-                and the best treatment approaches for them. The project is funded by the Institute of Eminence grant.
-                </p>
+                and the best treatment approaches for them. The project is funded by the Institute of Eminence grant.</p>
+                
               </div>
             </Grid>
             {/* <Grid item md={4}>
