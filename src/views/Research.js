@@ -87,7 +87,12 @@ const Research = () => {
                 for chronotherapeutics. The Chrono-Med approach provides insight into the phase/ amplitude and period of various
                 circadian, inflammatory and HPA variables in response to drug administration, which helps in determining optimal
                 dose and timing for various cortisol analogues. The work would provide the foundation for developing chronotherapeutic
-                drug delivery systems for inflammatory and metabolic disorders. This work is funded by DST-SERB, Govt. of India.
+                drug delivery systems for inflammatory and metabolic disorders. This work is funded by DST-SERB, Govt. of India.</p> 
+                <p>
+                Additional areas of research on circadian physiology and chronomedicine:
+                - Chrono-Nutrition : Timing the diet and optimal calories for treating chronic diseases
+                - Computational model and Chronotherapeutics for Hypertension
+                - Chronotherapeutic drug delivery systems
                 </p>
               </div>
             </Grid>
@@ -141,7 +146,7 @@ const Research = () => {
             </Grid>
             <Grid item md={7}>
               <div style={{ padding: '5px' }}>
-                <h3 style={{ color: '#800020' }}>Phyt-Cancer: Phyto-pharmaceutical Drug Discovery & Delivery for Cancer</h3>
+                <h3 style={{ color: '#800020' }}> Phyto-pharmaceutical Drug Discovery & Delivery for Cancer</h3>
                 <p>
                 In view of the surge in occurence of cancers, the poor efficacy of cancer therapies and exceeding costs of treatments, 
                 particularly for the later stages of cancer, better cancer therapies with lesser side-effects are the need of the hour. 
@@ -171,7 +176,7 @@ const Research = () => {
             </Grid>
             <Grid item md={7}>
               <div style={{ padding: '5px' }}>
-                <h3 style={{ color: '#800020' }}>Diabtes Systems Biology</h3>
+                <h3 style={{ color: '#800020' }}>Systems Medicine for Diabetes </h3>
                 <p>
                  The project is carried in collaboration with AIG Hospitals & Asian Healthcare Foundation along with International partners from 
                  Emory university, Vanderbilt University and Phenome Health (ISB-USA). It involves deep phenotyping of diabetes patients with Type 2 
