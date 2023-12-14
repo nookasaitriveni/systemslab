@@ -89,9 +89,12 @@ const Research = () => {
                 dose and timing for various cortisol analogues. The work would provide the foundation for developing chronotherapeutic
                 drug delivery systems for inflammatory and metabolic disorders. This work is funded by DST-SERB, Govt. of India.</p> 
                 <p>
-                Additional areas of research on circadian physiology and chronomedicine:
-                - Chrono-Nutrition : Timing the diet and optimal calories for treating chronic diseases
-                - Computational model and Chronotherapeutics for Hypertension
+                Additional areas of research on circadian physiology and chronomedicine:</p> 
+                <p>
+                - Chrono-Nutrition : Timing the diet and optimal calories for treating chronic diseases</p> 
+                <p>
+                - Computational model and Chronotherapeutics for Hypertension</p> 
+                <p>
                 - Chronotherapeutic drug delivery systems
                 </p>
               </div>
