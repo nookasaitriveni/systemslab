@@ -26,7 +26,8 @@ const T3Diabetes = () => {
                  projects to develop computational models for understanding disease mechanisms and prognostic biomarkers. The objectives of the projects
                  are to understand Islet systems biology, endocrine function and disease transition in chronic pancreatitis to T3 diabetes. We are also 
                  working towards a large sample study on Diabetes Phenome for Indian sample. We use extensive computational modelling along with Artificial
-                 Intelligence and Machine learning approches for multi-omic data analytics.
+                 Intelligence and Machine learning approches for multi-omic data analytics.The project is supported under the Centre for Translational Research 
+                 for Endocrine pancrease and Diabetes funded by Wellcome Trust-DBT India Alliance.
                  </p>
               </div>
             </Grid>
