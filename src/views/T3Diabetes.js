@@ -18,7 +18,7 @@ const T3Diabetes = () => {
             </Grid>
             <Grid item md={8}>
               <div style={{ padding: '5px' }}>
-                <h3 style={{ color: '#990000' }}>Diabetes Systems biology </h3>
+                <h3 style={{ color: '#990000' }}>Diabetomics: Diabetes Systems biology </h3>
                 <p>
                  The project is carried in collaboration with AIG Hospitals & Asian Healthcare Foundation along with International partners from 
                  Emory university, Vanderbilt University and Phenome Health (ISB-USA). It involves deep phenotyping of diabetes patients with Type 2 

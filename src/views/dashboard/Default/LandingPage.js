@@ -145,7 +145,7 @@ const LandingPage = () => {
                   to="/t3diabetes"
                   style={{ color: '#ffffff', border: '1px solid #000328', background: '#000328' }}
                 >
-                T3Diabetes   
+                Diabetomics   
                 </Button>
               </Box>
               <Box mb={1}>
