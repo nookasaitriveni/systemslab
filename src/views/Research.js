@@ -6,6 +6,7 @@ import Humansimimg from './Humansim1.png';
 import PhytCancerimg from './PhytCancer.png';
 import StrECH from '../views/dashboard/Default/LP2.png';
 import Chrono from '../views/dashboard/Default/LP3.png';
+import Diabetomics from '../views/dashboard/Default/Diabetomics_IR.png';
 import { Link as RouterLink } from 'react-router-dom';
 const Research = () => {
   return (
@@ -141,9 +142,7 @@ const Research = () => {
             {/* <Grid item md={4}>
 
         </Grid> */}
-         
-           
-       
+                          
             </Grid>
         </MainCard>
         <MainCard key="4" style={{ boxShadow: '5px 2px 16px 0px rgba(0, 0, 0, 0.2)', padding: '0px', marginTop: '20px' }}>
@@ -151,7 +150,7 @@ const Research = () => {
             <Grid item md={4} style={{ padding: '0px' }}>
               {/*"https://www.industrialmarketingtoday.com/wp-content/uploads/2019/08/reserach-post.jpg"*/}
               <img
-                src= "https://www.industrialmarketingtoday.com/wp-content/uploads/2019/08/reserach-post.jpg"
+                src= {Diabetomics}
                 alt="Systems & Computational Medicine"
                 style={{ width: '100%', objectFit: 'cover', height: '100%' }}
               />
