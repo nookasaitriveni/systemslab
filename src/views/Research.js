@@ -143,36 +143,7 @@ const Research = () => {
         </Grid> */}
          
            
-        </Grid>
-        </MainCard>
-        <MainCard key="5" style={{ boxShadow: '5px 2px 16px 0px rgba(0, 0, 0, 0.2)', padding: '0px', marginTop: '20px' }}>
-          <Grid container spacing={2} style={{ padding: '0px' }}>
-            <Grid item md={4} style={{ padding: '0px' }}>
-              {/*"https://www.industrialmarketingtoday.com/wp-content/uploads/2019/08/reserach-post.jpg"*/}
-              <img
-                src={PhytCancerimg}
-                alt="Systems & Computational Medicine"
-                style={{ width: '100%', objectFit: 'cover', height: '100%' }}
-              />
-            </Grid>
-            <Grid item md={7}>
-              <div style={{ padding: '5px' }}>
-                <h3 style={{ color: '#800020' }}> Phyto-pharmaceutical Drug Discovery & Delivery for Cancer</h3>
-                <p>
-                In view of the surge in occurence of cancers, the poor efficacy of cancer therapies and exceeding costs of treatments, 
-                particularly for the later stages of cancer, better cancer therapies with lesser side-effects are the need of the hour. 
-                Phytochemicals are reported to have fewer side effects and may be cost effective for cancer treatment. These would provide 
-                better potential for identifying new drugs using the current repositories of phytochemical compounds. The current scenario 
-                needs a better filtering protocol to screen out the potential hits from these repositories against various targets of 
-                cancer. PhytCancer project focuses on the identification of novel anticancer phytochemical targets and their leads by 
-                implementing the target-lead search, molecular docking and dynamics analysis as a primary screening of leads. The project
-                further includes a comparative analysis of the Phytochemical Library with FDA approved drugs based on structure and
-                pharmacophore data, to filter out those phytochemicals that have properties like potential cancer drugs. The filtered hits
-                and their targets will be further validated based on in vitro & in vivo analysis. Moreover, the novel drug delivery methods 
-                based on the biophysical characterizations will be dsigned and tested using computational models.
-                </p>
-              </div>
-            </Grid>
+       
             </Grid>
         </MainCard>
         <MainCard key="4" style={{ boxShadow: '5px 2px 16px 0px rgba(0, 0, 0, 0.2)', padding: '0px', marginTop: '20px' }}>
@@ -203,6 +174,36 @@ const Research = () => {
              {/* <Grid item md={4}>
 
         </Grid> */}
+         </Grid>
+        </MainCard>
+        <MainCard key="5" style={{ boxShadow: '5px 2px 16px 0px rgba(0, 0, 0, 0.2)', padding: '0px', marginTop: '20px' }}>
+          <Grid container spacing={2} style={{ padding: '0px' }}>
+            <Grid item md={4} style={{ padding: '0px' }}>
+              {/*"https://www.industrialmarketingtoday.com/wp-content/uploads/2019/08/reserach-post.jpg"*/}
+              <img
+                src={PhytCancerimg}
+                alt="Systems & Computational Medicine"
+                style={{ width: '100%', objectFit: 'cover', height: '100%' }}
+              />
+            </Grid>
+            <Grid item md={7}>
+              <div style={{ padding: '5px' }}>
+                <h3 style={{ color: '#800020' }}> Phyto-pharmaceutical Drug Discovery & Delivery for Cancer</h3>
+                <p>
+                In view of the surge in occurence of cancers, the poor efficacy of cancer therapies and exceeding costs of treatments, 
+                particularly for the later stages of cancer, better cancer therapies with lesser side-effects are the need of the hour. 
+                Phytochemicals are reported to have fewer side effects and may be cost effective for cancer treatment. These would provide 
+                better potential for identifying new drugs using the current repositories of phytochemical compounds. The current scenario 
+                needs a better filtering protocol to screen out the potential hits from these repositories against various targets of 
+                cancer. PhytCancer project focuses on the identification of novel anticancer phytochemical targets and their leads by 
+                implementing the target-lead search, molecular docking and dynamics analysis as a primary screening of leads. The project
+                further includes a comparative analysis of the Phytochemical Library with FDA approved drugs based on structure and
+                pharmacophore data, to filter out those phytochemicals that have properties like potential cancer drugs. The filtered hits
+                and their targets will be further validated based on in vitro & in vivo analysis. Moreover, the novel drug delivery methods 
+                based on the biophysical characterizations will be dsigned and tested using computational models.
+                </p>
+              </div>
+            </Grid>
 
           </Grid>
         </MainCard>
