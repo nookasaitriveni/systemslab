@@ -30,7 +30,7 @@ const Research = () => {
             </Grid>
             <Grid item sx={12} sm={12} md={7}>
               <div style={{ padding: '5px' }}>
-                <h3 style={{ color: '#800020' }}>Human Metabolic Endocrine Simulator</h3>
+                <h3 style={{ color: '#800020' }}>HuMEnS: Human Metabolic Endocrine Simulator</h3>
                 <p>
                 Human physiology is an ensemble of various biological processes spanning from intracellular molecular interactions 
                 to the whole body phenotypic response. Systems biology endures to decipher these multi-scale biological networks and 
@@ -74,7 +74,7 @@ const Research = () => {
             </Grid>
             <Grid item sx={12} sm={12} md={7}>
               <div style={{ padding: '5px' }}>
-                <h3 style={{ color: '#800020' }}>Chronomedicine and Chronotherapeutic Engineering</h3>
+                <h3 style={{ color: '#800020' }}>Chrono-Med: Chronomedicine and Chronotherapeutic Engineering</h3>
                 <p>
                 The human peripheral circadian rhythm is entrained to the day-night phase of the SCN with the help of cortisol. 
                 An unnatural lifestyle perturbations in eating habits, abnormal exposure to light-dark cycle, and work stress 
@@ -187,7 +187,7 @@ const Research = () => {
             </Grid>
             <Grid item md={7}>
               <div style={{ padding: '5px' }}>
-                <h3 style={{ color: '#800020' }}> Phyto-pharmaceutical Drug Discovery & Delivery for Cancer</h3>
+                <h3 style={{ color: '#800020' }}> Phyt-Cancer: Phyto-pharmaceutical Drug Discovery & Delivery for Cancer</h3>
                 <p>
                 In view of the surge in occurence of cancers, the poor efficacy of cancer therapies and exceeding costs of treatments, 
                 particularly for the later stages of cancer, better cancer therapies with lesser side-effects are the need of the hour. 
