@@ -150,7 +150,7 @@ const Research = () => {
             <Grid item md={4} style={{ padding: '0px' }}>
               {/*"https://www.industrialmarketingtoday.com/wp-content/uploads/2019/08/reserach-post.jpg"*/}
               <img
-                src= {Diabetomics}
+                src={Diabetomics}
                 alt="Systems & Computational Medicine"
                 style={{ width: '100%', objectFit: 'cover', height: '100%' }}
               />
