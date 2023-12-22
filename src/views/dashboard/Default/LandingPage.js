@@ -79,12 +79,13 @@ const LandingPage = () => {
                 <br />
                 <br />
                 The broader areas of research include identification of drug targets, disease mechanisms, biomarkers, drug discovery, therapy design and
-                chronotherapeutic drug delivery. We apply systems and computational biology and quantitative systems pharmacology frameworks with Mathematical
-                modelling, Data analytics, Causal inferences, Artificial intelligence and Machine learning tools for development of personalized medicine 
-                applications. We work with animal models and human clinical research for the validation of computational models and their insights. Our 
-                specific areas of research include metabolic syndrome, diabetes, hypertension, liver diseases, cardiovascular diseases, neurophysiology,
-                circadian disorders, cancer and inflammatory disorders. Moreover we work on analyzing the societal issues related to public health and 
-                sustainability from systems perspective to deliver effective solutions for healthy and sustainable living through our research and outreach activities.
+                chronotherapeutic drug delivery. We apply systems and computational biology using quantitative systems physiology and pharmacology frameworks 
+                including Mathematical modelling, Artificial intelligence and Machine learning tools, Data analytics and Causal inferences for development of 
+                personalized and precision medicine applications. We work with animal models and human clinical research for the validation of computational 
+                models and their insights. Our specific areas of research include metabolic syndrome, diabetes, hypertension, liver diseases, cardiovascular 
+                diseases, neurophysiology and psychiatry, circadian disorders, cancer and inflammatory disorders. Moreover we work on analyzing the societal
+                issues related to public health and sustainability from systems perspective to deliver effective solutions for healthy and sustainable living 
+                through our research and outreach activities.
               </Typography>
             </div>
           </Grid>
