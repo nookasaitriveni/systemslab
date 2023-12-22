@@ -56,7 +56,7 @@ const FooterPage = () => {
             Associate Faculty - Centre for Modelling Simulation and Design
           </Typography>
         </Grid>
-        <Grid item xs={12} md={12} lg={4} className="hide-web">
+        <Grid item xs={12} md={12} lg={5} className="hide-web">
           {/* <br/> */}
           <Typography variant="body1" color="#ffffff" style={{ fontWeight: 'bold' }}>
             Dr. Pramod Rajaram S.
