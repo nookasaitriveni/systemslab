@@ -74,7 +74,7 @@ const Research = () => {
             </Grid>
             <Grid item sx={12} sm={12} md={7}>
               <div style={{ padding: '5px' }}>
-                <h3 style={{ color: '#800020' }}>Chrono-Med: Chronomedicine and Chronotherapeutic Engineering</h3>
+                <h3 style={{ color: '#800020' }}>ChronoMed: Chronomedicine and Chronotherapeutic Engineering</h3>
                 <p>
                 The human peripheral circadian rhythm is entrained to the day-night phase of the SCN with the help of cortisol. 
                 An unnatural lifestyle perturbations in eating habits, abnormal exposure to light-dark cycle, and work stress 
