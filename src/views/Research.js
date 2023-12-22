@@ -204,7 +204,7 @@ const Research = () => {
 
                 Additional research on cancer includes:</p>
                 <p>
-                - Computational models for drug delivery for nanomedicine</p>
+                - Computational models for nanomedicine drug delivery</p>
                 <p>
                 - Development of targetted drug delivery systems</p>
                 <p>
