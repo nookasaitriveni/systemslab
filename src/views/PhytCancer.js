@@ -31,7 +31,17 @@ const HumenSim = () => {
                 further includes a comparative analysis of the Phytochemical Library with FDA approved drugs based on structure and
                 pharmacophore data, to filter out those phytochemicals that have properties like potential cancer drugs. The filtered hits
                 and their targets will be further validated based on in vitro & in vivo analysis. Moreover, the novel drug delivery methods 
-                based on the biophysical characterizations will be dsigned and tested using computational models.
+                based on the biophysical characterizations will be dsigned and tested using computational models.</p>
+                <p>
+                Additional research on cancer includes:</p>
+                <p>
+                - Computational models for drug delivery for nanomedicine</p>
+                <p>
+                - Development of targetted drug delivery systems</p>
+                <p>
+                - Identification of diagnostic biomarkers for early cancer detection</p>
+                <p>
+                - Preventive therapeutics for cancer 
                 </p>
               </div>
             </Grid>

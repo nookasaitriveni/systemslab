@@ -187,7 +187,7 @@ const Research = () => {
             </Grid>
             <Grid item md={7}>
               <div style={{ padding: '5px' }}>
-                <h3 style={{ color: '#800020' }}> Phyt-Cancer: Phyto-pharmaceutical Drug Discovery & Delivery for Cancer</h3>
+                <h3 style={{ color: '#800020' }}> Phyt-Cancer: Phytochemical Drug Discovery, Delivery and Diagnostics for Cancer</h3>
                 <p>
                 In view of the surge in occurence of cancers, the poor efficacy of cancer therapies and exceeding costs of treatments, 
                 particularly for the later stages of cancer, better cancer therapies with lesser side-effects are the need of the hour. 
@@ -199,7 +199,19 @@ const Research = () => {
                 further includes a comparative analysis of the Phytochemical Library with FDA approved drugs based on structure and
                 pharmacophore data, to filter out those phytochemicals that have properties like potential cancer drugs. The filtered hits
                 and their targets will be further validated based on in vitro & in vivo analysis. Moreover, the novel drug delivery methods 
-                based on the biophysical characterizations will be dsigned and tested using computational models.
+                based on the biophysical characterizations will be dsigned and tested using computational models.</p>
+                <p>
+
+                Additional research on cancer includes:</p>
+                <p>
+                - Computational models for drug delivery for nanomedicine</p>
+                <p>
+                - Development of targetted drug delivery systems</p>
+                <p>
+                - Identification of diagnostic biomarkers for early cancer detection</p>
+                <p>
+                - Preventive therapeutics for cancer 
+          
                 </p>
               </div>
             </Grid>
