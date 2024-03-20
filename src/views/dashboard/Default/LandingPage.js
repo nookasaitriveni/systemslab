@@ -71,7 +71,7 @@ const LandingPage = () => {
               <br />
               <br />
               <Typography variant="p" style={{ fontSize: '17px',textAlign: 'justify' }}>
-                SysTEMs (Systems Medicine and Therapeutic Engineering) laboratory is dedicated to translational biomedical research through systems and computational
+                PhySioME (Physiological Systems Medicine and Engineering) laboratory is dedicated to translational biomedical research through systems and computational
                 medicine, biomedical informatics and therapeutic engineering. We apply principles of systems engineering, informatics and data analytics to biomedical
                 systems for development of better healthcare solutions. Understanding the design principles of physiological systems can help in developing strategies 
                 to modify and reconstruct biological processess with desired properties. Therefore, we treat the problem of a disease diagnosis and treatment analogous
@@ -81,11 +81,14 @@ const LandingPage = () => {
                 The broader areas of research include identification of drug targets, disease mechanisms, biomarkers, drug discovery, therapy design and
                 chronotherapeutic drug delivery. We apply systems and computational biology using quantitative systems physiology and pharmacology frameworks 
                 including Mathematical modelling, Artificial intelligence and Machine learning tools, Data analytics and Causal inferences for development of 
-                personalized and precision medicine applications. We work with animal models and human clinical research for the validation of computational 
-                models and their insights. Our specific areas of research include metabolic syndrome, diabetes, hypertension, liver diseases, cardiovascular 
-                diseases, neurophysiology and psychiatry, circadian disorders, cancer and inflammatory disorders. Moreover we work on analyzing the societal
-                issues related to public health and sustainability from systems perspective to deliver effective solutions for healthy and sustainable living 
-                through our research and outreach activities.
+                personalized and precision medicine applications using physiomic and phenomics data. We work with animal models and human clinical research 
+                for the validation of computational models and their insights. Our specific areas of research include metabolic syndrome, diabetes, hypertension,
+                liver diseases, cardiovascular diseases, neurophysiology and psychiatry, circadian disorders, cancer and inflammatory disorders.
+                <br />
+                <br />
+                Moreover we work on analyzing the societal issues related to public health and sustainability from systems perspective to deliver effective 
+                solutions for healthy and sustainable living. We extensively work on world population dyanmics and its association to human behaviour and health
+                to address the root causes of societal issues through our research and outreach activities.
               </Typography>
             </div>
           </Grid>
