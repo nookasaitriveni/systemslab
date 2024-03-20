@@ -22,7 +22,7 @@ import { Link as RouterLink } from 'react-router-dom';
 import Fab from '@mui/material/Fab';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import Fade from '@mui/material/Fade';
-import SystemLab from './Syslab723.png';
+import SystemLab from './Phylab1.png';
 import './index.css';
 import Container from '@mui/material/Container';
 const drawerWidth = 300;
