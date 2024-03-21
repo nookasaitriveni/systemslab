@@ -19,7 +19,7 @@ const ChronoMed = () => {
             </Grid>
             <Grid item md={8}>
               <div style={{ padding: '5px' }}>
-                <h3 style={{ color: '#800020' }}>Chronotherapeutics:</h3>
+                <h3 style={{ color: '#800020' }}>Chronotherapeutics</h3>
                 <p>
                 The human peripheral circadian rhythm is entrained to the day-night phase of the SCN with the help of cortisol. 
                 An unnatural lifestyle perturbations in eating habits, abnormal exposure to light-dark cycle, and work stress 
