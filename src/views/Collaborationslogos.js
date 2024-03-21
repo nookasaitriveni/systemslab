@@ -22,6 +22,8 @@ import UCSF_PNE from './Collaborations_logos/UCSF_PNE Logo.png';
 import UCSF_WIN_Logo from './Collaborations_logos/UCSF_WIN_Logo.png';
 import VanderBilt from './Collaborations_logos/Vanderbilt_University_Medical_Center.jpg';
 import Phenome from './Collaborations_logos/Phenome-Health.png';
+import ISM from './Collaborations_logos/IchanSM.png';
+
 import NIN from './Collaborations_logos/NIN_logo1.jpg';
 import IIITH from './Collaborations_logos/IIITH_logo.jpeg';
 import { Typography, Grid, Card, CardContent, Avatar, Button } from '@mui/material';
@@ -39,6 +41,7 @@ export default class Collaborationslogos extends Component {
           <img src={Harvard_logo} alt="Logo 1" className="logo" />
           <img src={HMS1} alt="Logo 1" className="logo" /> 
           <img src={logo_UCSF_Med} alt="Logo 1" className="logo" />
+          <img src={ISM} alt="Logo 1" className="logo" />
           {/*<img src={logo_UCSF_Neuro} alt="Logo 1" className="logo" />*/}
           {/*<img src={Phenome} alt="Logo 1" className="logo" />*/}
           <img src={EMORY_logo} alt="Logo 1" className="logo" />
@@ -52,7 +55,6 @@ export default class Collaborationslogos extends Component {
             <img src={IITD_Logo} alt="Logo 1" className="logo" />
             <img src={IIT_Hyderabad_Insignia} alt="Logo 1" className="logo" />
             <img src={IIPH} alt="Logo 1" className="logo" />
-            <img src={NIN} alt="Logo 1" className="logo" />
             <img src={IIITH} alt="Logo 1" className="logo" />
             {/* <img src={Apolo_IMSR2} alt="Logo 3" className="logo" /> */}
             {/* <img src={Asian_health_care_foundation} alt="Logo 1" className="logo" /> */}
