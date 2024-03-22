@@ -81,9 +81,12 @@ const LandingPage = () => {
                 The broader areas of research include identification of drug targets, disease mechanisms, biomarkers, drug discovery, therapy design and
                 chronotherapeutic drug delivery. We apply systems and computational biology using quantitative systems physiology and pharmacology frameworks 
                 including Mathematical modelling, Artificial intelligence and Machine learning tools, Data analytics and Causal inferences for development of 
-                personalized and precision medicine applications using physiomic and phenomics data. We work with animal models and human clinical research 
-                for the validation of computational models and their insights. Our specific areas of research include metabolic syndrome, diabetes, hypertension,
-                liver diseases, cardiovascular diseases, neurophysiology and psychiatry, circadian disorders, cancer and inflammatory disorders.
+                personalized and precision medicine applications using physiomic and phenomics data. 
+                <br />
+                <br />
+                We work with animal models and human clinical research for the validation of computational models and their insights. Our specific areas
+                of research include metabolic syndrome, diabetes, hypertension, hepatic diseases, cardiovascular diseases, kidney diseases, neurophysiology
+                and psychiatry, circadian disorders and chronotherapeutics, cancer therapeutics and systemic inflammation.
                 <br />
                 <br />
                 Moreover we work on analyzing the societal issues related to public health and sustainability from systems perspective to deliver effective 
