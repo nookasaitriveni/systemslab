@@ -79,7 +79,7 @@ const FooterPage = () => {
           <Typography variant="body2" color="#ffffff">
             Associate Faculty - Department of Biotechnology and Bioinformatics
           </Typography>
-        </Grid>
+          </Grid>
         <Grid item xs={12} md={0} lg={0} className="hide-web">
           <Link component={RouterLink} to="/uoh" underline="none" sx={{ mx: 1 }}>
             <img src={UOH} alt="UOH" style={{ height: '6.25vw' }} />
