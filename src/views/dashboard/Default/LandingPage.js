@@ -84,9 +84,9 @@ const LandingPage = () => {
                 personalized and precision medicine applications using physiomic and phenomics data. 
                 <br />
                 <br />
-                We work with animal models and human clinical research for the validation of computational models and their insights. Our specific areas
-                of research include metabolic syndrome, diabetes, hypertension, hepatic diseases, cardiovascular diseases, kidney diseases, neurophysiology
-                and psychiatry, circadian disorders and chronotherapeutics, cancer therapeutics and systemic inflammation.
+                We work with animal models and human clinical research for the generation and validation of computational models and their insights. Our specific areas
+                of research include metabolic syndrome, diabetes, hypertension,  cardiovascular diseases, neurophysiology and psychiatry, circadian disorders  and
+                 chronotherapeutics, hepatic diseases, kidney diseases, cancer therapeutics and systemic inflammation.
                 <br />
                 <br />
                 Moreover we work on analyzing the societal issues related to public health and sustainability from systems perspective to deliver effective 
