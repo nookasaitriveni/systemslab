@@ -41,7 +41,7 @@ const Team = () => {
       id: 4,
       name: 'Kata Krishna Prasad',
       designation: 'Research Scholar',
-      reasearch_intrests: 'Computational modelling for systems physiology of hypertension and its therapeutics',
+      title_of_research: 'Computational modelling for systems physiology of hypertension and its therapeutics',
       work_experience: "Production Specialist in Dr. Reddy’s Laboratories (2019-20)",
       education: "B.Tech in Biotechnology (2015-2019), Chaitanya Bharathi Institute of Technology, Hyderbad, Telangana. <br/> M.Tech in Bioinformatics (2021-2023), School of Life Sciences, University of Hyderabad",
       image: kp, // Image file path or URL
