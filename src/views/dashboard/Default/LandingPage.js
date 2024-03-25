@@ -74,8 +74,8 @@ const LandingPage = () => {
                 PhySioME (Physiomic Systems Medicine & Engineering) laboratory is dedicated to translational biomedical research through systems and computational
                 medicine, biomedical informatics and therapeutic engineering. We apply principles of systems engineering and informatics to biomedical
                 systems for development of better healthcare solutions. Understanding the design principles of physiological systems can help in developing strategies 
-                to modify and reconstruct biological processess with desired properties. Therefore, we treat the problem of a disease diagnosis and treatment analogous
-                to a fault diagnosis and repair in engineering systems and develop tools to better inform diagnostics, treatment decisions and therapeutic strategies.
+                to modify and reconstruct biological processess with desired properties. Therefore, we treat a problem of disease diagnosis and treatment analogous
+                to a fault diagnosis and repair in engineering systems and develop tools to better inform diagnostics, prevention and therapeutic strategies.
                 <br />
                 <br />
                 The broader areas of research include identification of drug targets, disease mechanisms, biomarkers, drug discovery, therapy design and
