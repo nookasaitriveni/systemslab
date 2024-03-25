@@ -3,6 +3,7 @@ import MainCard from '../ui-component/cards/MainCard';
 import keerthana from './keerthana.jpeg';
 import sreelekshmi from './srilakshmi.jpeg'
 import samay from './samay.png'
+import kp from './kppic500kb.jpg'
 const Team = () => {
   // Sample data for members
   const members = [
@@ -35,6 +36,16 @@ const Team = () => {
       education: "Integrated MSc in Systems Biology, University of Hyderabad.",
       image: sreelekshmi, // Image file path or URL
       email: 'sreelekshmi.r073@gmail.com'
+    },
+    {
+      id: 4,
+      name: 'Kata Krishna Prasad',
+      designation: 'Research Scholar',
+      title_of_research: 'Computational modelling for systems physiology of hypertension and its therapeutics',
+      work_experience: "Production Specialist in Dr. Reddy’s Laboratories (2019-20)",
+      education: "B.Tech in Biotechnology (2015-2019), Chaitanya Bharathi Institute of Technology, Hyderbad, Telangana. <br/> M.Tech in Bioinformatics (2021-2023), School of Life Sciences, University of Hyderabad",
+      image: kp, // Image file path or URL
+      email: '23lsph02@uohyd.ac.in'
     },
     // {
     //   id: 2,
