@@ -124,7 +124,7 @@ function Header(props) {
             Home
           </Typography>
         </Link>
-        <Link component={RouterLink} to="/about" color="white " underline="none" sx={{ mx: 1 }}>
+        <Link component={RouterLink} to="/about PI" color="white " underline="none" sx={{ mx: 1 }}>
           <Typography variant="body1" style={{ color: 'white ', fontWeight: 'bold' }}>
             About PI
           </Typography>
