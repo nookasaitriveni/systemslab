@@ -81,7 +81,7 @@ const LandingPage = () => {
                 The broader areas of research include identification of drug targets, disease mechanisms, biomarkers, drug discovery, therapy design and
                 chronotherapeutic drug delivery. We apply systems and computational biological methodologies to physiomic and phenomics data using quantitative 
                 systems physiology and pharmacology frameworks including mathematical modelling and Big-data analytics: artificial intelligence, machine learning
-                 and causal inferences for development of personalized and precision medicine applications using . 
+                 and causal inferences for development of personalized and precision medicine applications. 
                 <br />
                 <br />
                 We work with animal models and human clinical research for the generation and validation of computational models and their insights. Our specific areas
