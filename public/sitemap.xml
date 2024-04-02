@@ -4,40 +4,40 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
    <url>
-      <loc>https://systemslab.co.in/</loc>
+      <loc>https://physiomelab.com/</loc>
       <changefreq>daily</changefreq>
       <priority>1.0</priority>
    </url>
    <url>
-      <loc>https://systemslab.co.in/about</loc>
+      <loc>https://physiomelab.com/about</loc>
       <changefreq>weekly</changefreq>
    </url>
    <url>
-      <loc>https://systemslab.co.in/research</loc>
+      <loc>https://physiomelab.com/research</loc>
       <changefreq>weekly</changefreq>
    </url>
    <url>
-      <loc>https://systemslab.co.in/team</loc>
+      <loc>https://physiomelab.com/team</loc>
       <changefreq>weekly</changefreq>
    </url>
    <url>
-      <loc>https://systemslab.co.in/teaching</loc>
+      <loc>https://physiomelab.com/teaching</loc>
       <changefreq>weekly</changefreq>
    </url>
    <url>
-      <loc>https://systemslab.co.in/publications</loc>
+      <loc>https://physiomelab.com/publications</loc>
       <changefreq>weekly</changefreq>
    </url>
    <url>
-      <loc>https://systemslab.co.in/collaborations</loc>
+      <loc>https://physiomelab.com/collaborations</loc>
       <changefreq>weekly</changefreq>
    </url>
    <url>
-      <loc>https://systemslab.co.in/gallery</loc>
+      <loc>https://physiomelab.com/gallery</loc>
       <changefreq>weekly</changefreq>
    </url>
    <url>
-      <loc>https://systemslab.co.in/contact</loc>
+      <loc>https://physiomelab.com/contact</loc>
       <changefreq>weekly</changefreq>
    </url>
 </urlset>
