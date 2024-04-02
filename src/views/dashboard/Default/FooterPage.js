@@ -56,7 +56,7 @@ const FooterPage = () => {
             Associate Faculty - Centre for Modelling Simulation and Design
           </Typography>
           <Typography variant="body2" color="#ffffff">
-            Associate Faculty - Department of Biotechnology and Bioinformatics
+            Faculty - Asian Centre for Endocrine Pancrease and Diabetes Research, AIG 
           </Typography>
         </Grid>
         <Grid item xs={12} md={12} lg={4} className="hide-web">
@@ -77,7 +77,7 @@ const FooterPage = () => {
             Associate Faculty - Centre for Modelling Simulation and Design
           </Typography>
           <Typography variant="body2" color="#ffffff">
-            Associate Faculty - Department of Biotechnology and Bioinformatics
+            Faculty - Asian Centre for Endocrine Pancrease and Diabetes Research, AIG 
           </Typography>
           </Grid>
         <Grid item xs={12} md={0} lg={0} className="hide-web">
