@@ -8,6 +8,7 @@ import LandingPage from './LandingPage';
 
 import AboutPI from './AboutPI';
 import Collaborationslogos from 'views/Collaborationslogos';
+import Fundinglogos from 'views/Fundinglogos';
 
 // ==============================|| DEFAULT DASHBOARD ||============================== //
 
@@ -21,6 +22,8 @@ const Dashboard = () => {
     <Grid container>
       <LandingPage isLoading={isLoading} />
       <Collaborationslogos isLoading={isLoading} />
+      <Fundinglogos isLoading={isLoading} />
+      
       {/* <AboutPI /> */}
     </Grid>
   );
