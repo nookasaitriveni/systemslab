@@ -59,7 +59,7 @@ const Contact = () => {
                   <div className="single_address">
                     <i className="fa fa-map-marker"></i>
                     <Typography variant="h6">Our Address</Typography>
-                    <Typography variant="body1">F22 & G39, SysTEMs Lab, <br />
+                    <Typography variant="body1">F22/G39, PhySioME Lab, <br />
                     Department of Systems and Computational Biology,<br />
                     SLS, University of Hyderabad, 500046.</Typography>
                   </div>
@@ -71,7 +71,7 @@ const Contact = () => {
                   <div className="single_address">
                     <i className="fa fa-phone"></i>
                     <Typography variant="h6">Call us on</Typography>
-                    <Typography variant="body1">(+91)1234567890</Typography>
+                    <Typography variant="body1">(+91)9075169791</Typography>
                   </div>
                   <div className="single_address">
                     <i className="fa fa-clock-o"></i>
