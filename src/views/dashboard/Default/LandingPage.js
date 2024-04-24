@@ -75,6 +75,7 @@ const LandingPage = () => {
                 medicine, biomedical informatics and therapeutic engineering. We apply principles of systems engineering and informatics to biomedical
                 systems for development of better healthcare solutions to inform diagnostics,therapeutics and prevention.
                 <br />
+                <br />
                 The broader areas of research include identification of drug targets, disease mechanisms, biomarkers, drug discovery, therapy design and
                 chronotherapeutic drug delivery. We apply systems and computational biological methodologies to physiomic and phenomics data using quantitative 
                 systems physiology and pharmacology frameworks including mathematical modelling and Big-data analytics: artificial intelligence, machine learning
