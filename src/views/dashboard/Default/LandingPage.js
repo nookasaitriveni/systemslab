@@ -71,7 +71,7 @@ const LandingPage = () => {
               <br />
               <br />
               <Typography variant="p" style={{ fontSize: '17px',textAlign: 'justify' }}>
-                PhySioME (Physiological Engineering & Systems Medicine) laboratory is dedicated to translational biomedical research through systems and computational
+                PhySioME (Physio-Systems Medicine & Engineering ) laboratory is dedicated to translational biomedical research through systems and computational
                 medicine, biomedical informatics and therapeutic engineering. We apply principles of systems engineering and informatics to biomedical
                 systems for development of better healthcare solutions to inform diagnostics, therapeutics and prevention.
                 <br />
