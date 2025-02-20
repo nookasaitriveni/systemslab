@@ -53,9 +53,6 @@ const FooterPage = () => {
             Department of Systems and Computational Biology
           </Typography>
           <Typography variant="body2" color="#ffffff">
-            Associate Faculty - Centre for Modelling Simulation and Design
-          </Typography>
-          <Typography variant="body2" color="#ffffff">
             CoPI - Asian Centre for Endocrine Pancrease and Diabetes Research, AIG 
           </Typography>
         </Grid>
