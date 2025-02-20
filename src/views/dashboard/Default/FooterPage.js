@@ -73,7 +73,7 @@ const FooterPage = () => {
             Department of Systems and Computational Biology
           </Typography>
           <Typography variant="body2" color="#ffffff">
-           CoPI - Asian Centre for Endocrine Pancrease and Diabetes Research, AIG 
+           CoPI - Asian Centre for Endocrine Pancrease and Diabetes Research, AIG Hospitals
           </Typography>
           </Grid>
         <Grid item xs={12} md={0} lg={0} className="hide-web">
