@@ -40,6 +40,7 @@ const FooterPage = () => {
             </Link>
         </Grid>
         <Grid item xs={12} md={4} lg={4} className="hide-mobile">
+        <br />
            <Typography variant="body1" color="#ffffff" style={{ fontWeight: 'bold' }}>
             Dr. Pramod Rajaram S.
           </Typography>
