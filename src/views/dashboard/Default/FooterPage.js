@@ -56,8 +56,9 @@ const FooterPage = () => {
           <Typography variant="body2" color="#ffffff">
             CoPI - Asian Centre for Endocrine Pancrease and Diabetes Research, AIG 
           </Typography>
+          <br />
         </Grid>
-        <Grid item xs={12} md={12} lg={4} className="hide-web">
+              <Grid item xs={12} md={12} lg={4} className="hide-web">
           {/* <br/> */}
           <Typography variant="body1" color="#ffffff" style={{ fontWeight: 'bold' }}>
             Dr. Pramod Rajaram S.
