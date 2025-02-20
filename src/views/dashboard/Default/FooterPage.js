@@ -51,7 +51,7 @@ const FooterPage = () => {
             Asst. Professor and Principal Investigator
           </Typography>
           <Typography variant="body2" color="#ffffff">
-            Department of Systems and Computational Biology
+            Department of Systems and Computational Biology, UoH
           </Typography>
           <Typography variant="body2" color="#ffffff">
             CoPI - Asian Centre for Endocrine Pancrease and Diabetes Research, AIG Hospitals 
@@ -70,7 +70,7 @@ const FooterPage = () => {
             Asst. Professor and Principal Investigator
           </Typography>
           <Typography variant="body2" color="#ffffff">
-            Department of Systems and Computational Biology
+            Department of Systems and Computational Biology, UoH
           </Typography>
           <Typography variant="body2" color="#ffffff">
            CoPI - Asian Centre for Endocrine Pancrease and Diabetes Research, AIG Hospitals
