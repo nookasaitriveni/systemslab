@@ -166,13 +166,13 @@ const LandingPage = () => {
               <Box mb={1}>
                 <Button
                   variant="contained"
-                  href="https://healthsurf.org/"
+                  href="https://lifesurf.org/"
                   component="a"
                   target="_blank"
                   // <a href='https://healthsurf.org/' target="_blank"></a>
                   style={{ color: '#ffffff', border: '1px solid #000328', background: '#000328' }}
                 >
-                  HealthSuRF
+                  Life-SuRF
                 </Button>
              </Box>
             </div>
