@@ -5,6 +5,16 @@ const Publications = () => {
   const publications = [
     {
       heading: 'Publication 1',
+            authors: ['Zachary N. Blalock, Gwyneth W. Y Wu, Daniel Lindqvist, Caroline Trumpff, Janine D. Flory, Jue Lin, Victor I. Reus, Ryan Rampersaud, Rasha Hammamieh, Aarti Gautam, SBPBC-Pramod R. Somvanshi, Francis J. Doyle III, Charles R. Marmar, Marti Jett, Rachel Yehuda, Owen M. Wolkowitz & Synthia H. Mellon '],
+      year: 2024,
+      journal: 'Translational Psychiatry',
+      title:
+        'Circulating cell-free mitochondrial DNA levels and glucocorticoid sensitivity in a cohort of male veterans with and without combat-related PTSD',
+      //   image: 'https://example.com/publication1.jpg',
+      learnMoreLink: 'https://doi.org/10.1038/s41398-023-02721-x'
+    },
+    {
+      heading: 'Publication 2',
             authors: ['Anusruti Sabui, Mitali Biswas, Pramod Rajaram Somvanshi, Madhavi Gorla, Fareed Mohammed and Prasad Tammineni'],
       year: 2022,
       journal: 'Frontiers in Molecular Neuroscience, Brain Disease Mechanisms',
@@ -14,7 +24,7 @@ const Publications = () => {
       learnMoreLink: 'https://doi.org/10.3389/fnmol.2022.927195'
     },
     {
-      heading: 'Publication 2',
+      heading: 'Publication 3',
       authors: ['Swapnali S Chaudhari and Pramod R Somvanshi'],
       year: 2022,
       journal: 'Journal of Ayurveda and Integrative Medicine',
@@ -23,7 +33,7 @@ const Publications = () => {
       learnMoreLink: 'https://doi.org/10.1016/j.jaim.2022.100631'
     },
     {
-      heading: 'Publication 3',
+      heading: 'Publication 4',
       authors: ['Manu Tomar, Pramod R Somvanshi and K.V.Venkatesh'],
       year: 2022,
       journal: 'Molecular Biology Reports',
@@ -32,7 +42,7 @@ const Publications = () => {
       learnMoreLink: 'https://doi.org//10.1007/s11033-022-07175-w'
     },
     {
-      heading: 'Publication 4',
+      heading: 'Publication 5',
       authors: [' Rohit Rao, Pramod R Somvanshi, Elizabeth Klerman and Francis J. Doyle III'],
       year: 2021,
       journal: 'MDPI Metabolites',
@@ -42,7 +52,7 @@ const Publications = () => {
       learnMoreLink: 'https://doi.org/10.3390/metabo11080483'
     },
     {
-      heading: 'Publication 5',
+      heading: 'Publication 6',
       authors: [
         'Gwyneth WY Wu, Owen M Wolkowitz, Victor I Reus, Jee In Kang, Mathea Elnar, Reuben Sarwal, Janine D Flory, Duna Abu-Amara, Rasha Hammanieh, Aarti Gautam, Francis J Doyle III, Rachel Yehuda, Charles R Marmar, Marti Jett, Synthia H Mellon, Kerry J Ressler, Ruoting Yang, Seid Muhie, Bernie J Daigle Jr, Linda M Bierer, Leroy Hood, Kai Wang, Inyoul Lee, Kelsey R Dean, Pramod R Somvanshi'
       ],
@@ -54,7 +64,7 @@ const Publications = () => {
       learnMoreLink: 'https://doi.org/10.1016/j.psyneuen.2021.105360'
     },
     {
-      heading: 'Publication 6',
+      heading: 'Publication 7',
       authors: ['Mahesh S Iyer, Ankita Pal, Sumana Srinivasan, Pramod R Somvanshi, Kareenhalli V Venkatesh'],
       year: 2021,
       journal: 'mSystems',
@@ -64,7 +74,7 @@ const Publications = () => {
       learnMoreLink: 'https://doi.org/10.1128/mSystems.00001-21'
     },
     {
-      heading: 'Publication 7',
+      heading: 'Publication 8',
       authors: [
         'Jee In Kang, Susanne G Mueller, Gwyneth WY Wu, Jue Lin, Peter Ng, Rachel Yehuda, Janine D Flory, Duna Abu-Amara, Victor I Reus, Aarti Gautam, Leroy Hood, Kerry J Ressler, Daniel Lindqvist, Ji Hoon Cho, Michelle Coy, Frank Desarnaud, Saverio Bersani, …Carole Siegel, Pramod R Somvanshi, Gunjan S Thakur, Young Zhou, Ruoting Yang, Rasha Hammamieh, Francis J Doyle III, Marti Jett, Charles R Marmar, Synthia H Mellon, Owen M Wolkowitz'
       ],
@@ -75,7 +85,7 @@ const Publications = () => {
       learnMoreLink: 'https://doi.org/10.1016/j.bpsc.2020.03.007'
     },
     {
-      heading: 'Publication 8',
+      heading: 'Publication 9',
       authors: [
         'Somvanshi P.R., Synthia H. Mellon, Rachel Yehuda , Janine D. Flory, Linda Bierer, Iouri Makotkine, Charles Marmar, Marti Jett and Francis J. Doyle III'
       ],
@@ -87,7 +97,7 @@ const Publications = () => {
       learnMoreLink: 'https://doi.org/10.1152/ajpendo.00398.2019'
     },
     {
-      heading: 'Publication 9',
+      heading: 'Publication 10',
       title: 'Multi-omic biomarker identification for diagnosing warzone-related Post-traumatic stress disorder',
       authors: [
         'Kelsey Dean, Rasha Hammamieh, Synthia Mellon, Duna Abu-Amara, Janine Flory, Guia Guffanti, Kai Wang, Bernie Daigle, Aarti Gautam, Inyoul Lee, Ruoting yang, Lynn Almli, Francesco Saverio Bersani, Nabarun chakraborty, Duncan Donohue, Kimberly Kerley, Taek-Kyun Kim, Eugene Laska, Min Young Lee, Daniel Lindqvist, Adriana Lori, Liangqun Lu, Burook Misganaw, Seid Muhie, Jennifer Newman, Nathan Price, Shizhen Qin, V. Reus, Carole Siegel, Pramod R. Somvanshi, Gunjan Thakur, PTSD systems biology consortium, Leroy Hood, Kerry Ressler, Owen Wolkowitz, Rachel Yehuda, Marti Jett, Francis Doyle III and Charles Marmar'
@@ -99,7 +109,7 @@ const Publications = () => {
       learnMoreLink: 'https://doi.org/10.1038/s41380-019-0496-z'
     },
     {
-      heading: 'Publication 10',
+      heading: 'Publication 11',
       title:
         'Mechanistic insights on metabolic dysfunction in PTSD from an integrated model and multi-omic analysis: Role of glucocorticoid receptor sensitivity',
       authors: [
@@ -112,7 +122,7 @@ const Publications = () => {
       learnMoreLink: 'https://doi.org/10.1152/ajpendo.00065.2019'
     },
     {
-      heading: 'Publication 11',
+      heading: 'Publication 12',
       title:
         'Computational analysis of insulin-glucagon signaling network: Implications of bistability in metabolic homeostasis and disease state',
       authors: ['Somvanshi P. R., Manu Tomar and Venkatesh K.V'],
@@ -123,7 +133,7 @@ const Publications = () => {
       learnMoreLink: 'https://doi.org/10.1038/s41598-019-50889-4'
     },
     {
-      heading: 'Publication 12',
+      heading: 'Publication 13',
       title:
         'Novel pharmacological targets of combat related PTSD: Metabolism, inflammation, the gut microbiome and mitochondrial dysfunction',
       authors: [
@@ -136,7 +146,7 @@ const Publications = () => {
       learnMoreLink: 'https://doi.org/10.1093/milmed/usz260'
     },
     {
-      heading: 'Publication 13',
+      heading: 'Publication 14',
       title: 'Transcranial Direct Current Stimulation for Opioid use disorder: Protocol for a pilot randomized controlled trial',
       authors: ['Swapnali Chaudhari, Pramod Somvanshi and Felipe Fregni'],
       journal: 'Principles and practice of Clinical Research',
@@ -146,7 +156,7 @@ const Publications = () => {
       learnMoreLink: 'https://doi.org/10.21801/ppcrj.2019.52.3'
     },
     {
-      heading: 'Publication 14',
+      heading: 'Publication 15',
       title:
         'Influence of plasma macronutrient levels on hepatic metabolism: Role of regulatory networks in homeostasis and disease states',
       authors: ['Pramod R. Somvanshi, Patel A. K., Sharad Bhartiya and Venkatesh K.V'],
@@ -157,7 +167,7 @@ const Publications = () => {
       learnMoreLink: 'https://doi.org/10.1039/C5RA18128C'
     },
     {
-      heading: 'Publication 15',
+      heading: 'Publication 16',
       title: 'Implementation of integral feedback control in biological systems',
       authors: ['Somvanshi P. R., Patel A. K., Sharad Bhartiya and Venkatesh K.V'],
       journal: 'WIREs Systems Biology and Medicine',
@@ -167,7 +177,7 @@ const Publications = () => {
       learnMoreLink: 'https://doi.org/10.1002/wsbm.1307'
     },
     {
-      heading: 'Publication 16',
+      heading: 'Publication 17',
       title: 'Control of cholesterol homeostasis by entero-hepatic bile transport System: Role of feedback mechanisms',
       authors: ['Shekhar Mishra*, Pramod R. Somvanshi* and Venkatesh K.V'],
       journal: 'RSC Advances',
@@ -177,7 +187,7 @@ const Publications = () => {
       learnMoreLink: 'https://doi.org/10.1039/c4ra09397f'
     },
     {
-      heading: 'Publication 17',
+      heading: 'Publication 18',
       title: 'A conceptual review on systems biology in health and disease: From biological networks to modern therapeutics',
       authors: ['Pramod R. Somvanshi and Venkatesh K.V'],
       journal: 'Systems and Synthetic Biology',
@@ -187,7 +197,7 @@ const Publications = () => {
       learnMoreLink: 'https://doi.org/10.1007/s11693-013-9125-3'
     },
     {
-      heading: 'Publication 18',
+      heading: 'Publication 19',
       title: 'Analysis of integrated insulin mTOR signaling network: Diabetes perspective',
       authors: ['Pramod R. Somvanshi, Patel A. K., Sharad Bhartiya and Venkatesh K.V'],
       journal: 'Proceedings of International Federation of Automatic Control',
@@ -197,7 +207,7 @@ const Publications = () => {
       learnMoreLink: 'https://doi.org/10.3182/20131216-3-IN-2044.00039'
     },
     {
-      heading: 'Publication 19',
+      heading: 'Publication 20',
       title:
         'Validation of a multi-omic biomarker panel and analysis of disease progression trajectories in a novel longitudinal PTSD cohort',
       authors: ['Rohit Rao, Kelsey Dean, Burook Misgnaw, Pramod R Somvanshi and Francis Doyle'],
@@ -208,7 +218,7 @@ const Publications = () => {
       learnMoreLink: 'https://doi.org/10.1016/j.biopsych.2019.03.245'
     },
     {
-      heading: 'Publication 20',
+      heading: 'Publication 21',
       title: 'Multi-scaled structured model for analyzing disease states in metabolic syndrome',
       authors: ['Somvanshi P. R. and Venkatesh K.V'],
       journal: 'Presentation and extended abstract in Indian Journal of Physiology and Pharmacology',
