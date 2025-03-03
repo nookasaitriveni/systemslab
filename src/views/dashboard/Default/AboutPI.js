@@ -24,8 +24,8 @@ const AboutSection = () => {
              <b style={{ color: '#800020',fontSize: '20px' }}>Experience</b>
             <br />
             <br />
-            <b>PI and Assistant Professor</b>, Dept. of Systems and Computational Biology, University of Hyderabad, India (Aug 2020 onwards) <br />
-            <b>CoPI and Faculty</b>, DBT/Wellcome Trust India Alliance-Asian Centre for Endocrine Pancreas Research, India (Mar 2024 onwards) <br /> 
+            <b>PI and Asst. Professor</b>, Dept. of Systems and Computational Biology, University of Hyderabad, India (Aug 2020 onwards) <br />
+            <b>Faculty & CoPI  </b>, Centre for Translational Research on Endocrine Pancreas & Diabetes in Inida, India (Mar 2024 onwards) <br /> 
             <b>Sr. Scientist</b>, Systems Biology and Metabolic Engg. Lab, Dept. of Chemical Engg., IIT Bombay, India (April 2019- May 2020)<br />
             <b>Harvard Associate</b>, Bioengineering Div., Harvard School of Engineering and Applied Sciences, USA (April 2019-Mar 2021)  <br />
             <b>Research Associate</b>, Bioengineering Div., Harvard School of Engineering and Applied Sciences, USA (Aug 2018-Mar 2019)<br />
