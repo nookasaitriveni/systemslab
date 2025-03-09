@@ -48,7 +48,7 @@ const FooterPage = () => {
             MTech, PhD (Engg), FISCM, FRSPH
           </Typography>
           <Typography variant="body2" color="#ffffff">
-            Asst. Professor and Principal Investigator
+            Principal Investigator and Asst. Professor  
           </Typography>
           <Typography variant="body2" color="#ffffff">
             Department of Systems and Computational Biology, UoH
