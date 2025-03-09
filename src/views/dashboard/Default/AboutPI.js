@@ -24,9 +24,9 @@ const AboutSection = () => {
              <b style={{ color: '#800020',fontSize: '20px' }}>Experience</b>
             <br />
             <br />
-            <b>Principal Invesitigator and Asst. Professor</b>, Dept. of Systems and Computational Biology, University of Hyderabad, India (Aug 2020 onwards) <br />
+            <b>Principal Invesitigator and Asst. Professor</b>, Dept. of Systems and Computational Biology, University of Hyderabad, India (Aug 2020 onwards)<br />
+            <b>Faculty & Co-PI</b>, Centre for Translational Research on Endocrine Pancreas & Diabetes, AHF-AIG Hospitals, Inida (Mar 2024 onwards)<br /> 
             <b>Faculty</b>, Dept. of Biotechnology and Bioinformatics, School of Life Sciences, University of Hyderabad, India (Aug 2020 onwards) <br />
-            <b>Faculty & Co-PI</b>, Centre for Translational Research on Endocrine Pancreas & Diabetes, AHF-AIG Hospitals, Inida (Mar 2024 onwards) <br /> 
             <b>Senior Scientist</b>, Systems Biology and Metabolic Engg. Lab, Dept. of Chemical Engg., IIT Bombay, India (April 2019- May 2020)<br />
             <b>Harvard Associate</b>, Bioengineering Div., Harvard School of Engineering and Applied Sciences, USA (April 2019-Mar 2021) <br />
             <b>Sr. Research Associate</b>, Bioengineering Div., Harvard School of Engineering and Applied Sciences, USA (Aug 2018-Mar 2019)<br />
