@@ -54,12 +54,12 @@ const AboutSection = () => {
             <b style={{ color: '#800020',fontSize: '20px' }}>Memberships</b>
             <br />
             <br />
-            <b>FRSPH</b>: Fellow of The Royal Society for Public Health (UK)<br />
-            <b>FISCM</b>: Fellow of The Indian Society for Chronomedicine<br />
-            <b>FISDS</b>: Fellow of The International Society for Development and Sustainability<br />
+            <b>FRSPH</b>: Fellow of the Royal Society for Public Health (UK)<br />
+            <b>FISCM</b>: Fellow of the Indian Society for Chronomedicine (IND)<br />
+            <b>FISDS</b>: Fellow of the International Society for Development and Sustainability (JPN)<br />
             Member of The Physiological Society (UK) <br />
             Member of the European Society for Preventive Medicine (UK)  <br />
-            Member of International Society for Evolution, Medicine and Public Health (ISEMPH, USA)<br />
+            Member of International Society for Evolution, Medicine and Public Health (USA)<br />
             <br />
             <b style={{ color: '#800020',fontSize: '20px' }}>Education</b>
             <br />
