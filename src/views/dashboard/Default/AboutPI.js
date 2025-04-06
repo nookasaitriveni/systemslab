@@ -65,7 +65,7 @@ const AboutSection = () => {
             <br />
             <br />
             <b>Ph.D</b>, Biosystems Engineering, Dept. of Chemical Engg., IIT Bombay, India, 2014.<br />
-            <b>M.B.A</b>, Professional with Operations and Projects Management, NIBM, India, 2009.<br />
+            <b>M.B.A</b>, Professional - Operations and Projects Management, NIBM, India, 2009.<br />
             <b>M.Tech</b>, Chemical Technology (Food & Bioprocess Engg.), LIT Nagpur, India, 2006.<br />
             <b>B.Tech</b>, Chemical Technology, UDCT Aurangabad, Maharashtra, India, 2004.
             </Typography>
