@@ -45,7 +45,7 @@ const FooterPage = () => {
             Dr. Pramod Rajaram S.
           </Typography>
           <Typography variant="body2" color="#ffffff">
-            MTech, PhD (Engg), FISCM, FRSPH
+            MTech, PhD, FISCM, FISDS, FRSPH
           </Typography>
           <Typography variant="body2" color="#ffffff">
             Principal Investigator and Asst. Professor  
